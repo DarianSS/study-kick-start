@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8FA1B121-3125-4337-9616-1DB70DD21F6D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Study Kick Start</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3BD4571A55A06B5C01DDC893D6F121AA8FE8EB6D</key>
+		<string>https://github.com/DarianSS/study-kick-start.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/Study Kick Start.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3BD4571A55A06B5C01DDC893D6F121AA8FE8EB6D</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DarianSS/study-kick-start.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3BD4571A55A06B5C01DDC893D6F121AA8FE8EB6D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3BD4571A55A06B5C01DDC893D6F121AA8FE8EB6D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>study-kick-start</string>
+		</dict>
+	</array>
+</dict>
+</plist>

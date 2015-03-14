@@ -40,6 +40,7 @@
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		58E734CEFC4B4FB7B026EB8B /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEEF6F89614BBAB4D396DB /* CDVStatusBar.m */; };
+		0A3CAE0AE034420B90C6C1A0 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 614589EEB23C4967920BF7C0 /* CDVSplashScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,8 @@
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Study Kick Start/config.xml"; sourceTree = "<group>"; };
 		95AEEF6F89614BBAB4D396DB /* CDVStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVStatusBar.m"; path = "org.apache.cordova.statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		079DF5619B034FFABB2FC64D /* CDVStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVStatusBar.h"; path = "org.apache.cordova.statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		614589EEB23C4967920BF7C0 /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		2DED81E351BB4F5BAFB0CAA8 /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +210,8 @@
 			children = (
 				95AEEF6F89614BBAB4D396DB /* CDVStatusBar.m */,
 				079DF5619B034FFABB2FC64D /* CDVStatusBar.h */,
+				614589EEB23C4967920BF7C0 /* CDVSplashScreen.m */,
+				2DED81E351BB4F5BAFB0CAA8 /* CDVSplashScreen.h */,
 			);
 			name = Plugins;
 			path = "Study Kick Start/Plugins";
@@ -392,6 +397,7 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				58E734CEFC4B4FB7B026EB8B /* CDVStatusBar.m in Sources */,
+				0A3CAE0AE034420B90C6C1A0 /* CDVSplashScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

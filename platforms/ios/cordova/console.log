@@ -26,3 +26,1031 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 
 2015-03-05 18:08:42.467 Study Kick Start[7774:476109] Resetting plugins due to page load.
 2015-03-05 18:08:42.697 Study Kick Start[7774:476109] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/45ECF7AC-1575-49A6-92DD-EA2C1D751A85/data/Containers/Bundle/Application/B2397131-07F0-4E8E-96BC-223EB7F9DD12/Study%20Kick%20Start.app/www/index.html
+2015-03-14 13:15:20.701 Study Kick Start[6616:384378] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/F8AE5509-ACDC-4F72-A30C-BE36AD3CB10B/Library/Cookies/Cookies.binarycookies
+2015-03-14 13:15:21.152 Study Kick Start[6616:384378] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 13:15:21.152 Study Kick Start[6616:384378] Multi-tasking -> Device: YES, App: YES
+2015-03-14 13:15:21.174 Study Kick Start[6616:384378] Unlimited access to network resources
+2015-03-14 13:15:21.183 Study Kick Start[6616:384378] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 13:15:21.671 Study Kick Start[6616:384378] [CDVTimer][statusbar] 158.857048ms
+2015-03-14 13:15:21.671 Study Kick Start[6616:384378] [CDVTimer][TotalPluginStartup] 158.998966ms
+2015-03-14 13:15:21.796 Study Kick Start[6616:384378] Resetting plugins due to page load.
+2015-03-14 13:15:21.925 Study Kick Start[6616:384378] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/B05D0364-8013-438B-844F-CB2B596CB54B/Study%20Kick%20Start.app/www/index.html
+2015-03-14 13:16:38.325 Study Kick Start[6770:386378] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/3443F626-32DB-43A9-A610-5740BC68363A/Library/Cookies/Cookies.binarycookies
+2015-03-14 13:16:38.402 Study Kick Start[6770:386378] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 13:16:38.402 Study Kick Start[6770:386378] Multi-tasking -> Device: YES, App: YES
+2015-03-14 13:16:38.404 Study Kick Start[6770:386378] Unlimited access to network resources
+2015-03-14 13:16:38.406 Study Kick Start[6770:386378] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 13:16:38.515 Study Kick Start[6770:386378] [CDVTimer][statusbar] 41.176975ms
+2015-03-14 13:16:38.515 Study Kick Start[6770:386378] [CDVTimer][TotalPluginStartup] 41.396976ms
+2015-03-14 13:16:38.605 Study Kick Start[6770:386378] Resetting plugins due to page load.
+2015-03-14 13:16:38.655 Study Kick Start[6770:386378] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/D70AF504-8E55-4465-958B-410E7F4A42D7/Study%20Kick%20Start.app/www/index.html
+2015-03-14 13:18:59.981 Study Kick Start[6911:388945] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/34DB3305-0ABC-4308-80DD-527865668C4A/Library/Cookies/Cookies.binarycookies
+2015-03-14 13:19:00.089 Study Kick Start[6911:388945] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 13:19:00.089 Study Kick Start[6911:388945] Multi-tasking -> Device: YES, App: YES
+2015-03-14 13:19:00.092 Study Kick Start[6911:388945] Unlimited access to network resources
+2015-03-14 13:19:00.094 Study Kick Start[6911:388945] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 13:19:00.208 Study Kick Start[6911:388945] [CDVTimer][statusbar] 38.024962ms
+2015-03-14 13:19:00.208 Study Kick Start[6911:388945] [CDVTimer][TotalPluginStartup] 38.167000ms
+2015-03-14 13:19:00.293 Study Kick Start[6911:388945] Resetting plugins due to page load.
+2015-03-14 13:19:00.328 Study Kick Start[6911:388945] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/022DAA2F-DF12-422D-9845-90328233BB15/Study%20Kick%20Start.app/www/index.html
+2015-03-14 13:46:30.496 Study Kick Start[7084:392302] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/ACD2765C-1CF1-47D1-88CA-09FB89E49136/Library/Cookies/Cookies.binarycookies
+2015-03-14 13:46:30.734 Study Kick Start[7084:392302] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 13:46:30.734 Study Kick Start[7084:392302] Multi-tasking -> Device: YES, App: YES
+2015-03-14 13:46:30.749 Study Kick Start[7084:392302] Unlimited access to network resources
+2015-03-14 13:46:30.760 Study Kick Start[7084:392302] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 13:46:31.229 Study Kick Start[7084:392302] [CDVTimer][statusbar] 140.456975ms
+2015-03-14 13:46:31.229 Study Kick Start[7084:392302] [CDVTimer][TotalPluginStartup] 140.609980ms
+2015-03-14 13:46:31.343 Study Kick Start[7084:392302] Resetting plugins due to page load.
+2015-03-14 13:46:31.485 Study Kick Start[7084:392302] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/A3803B63-4702-4973-B19E-41F23F0DA9C3/Study%20Kick%20Start.app/www/index.html
+2015-03-14 13:46:34.594 Study Kick Start[7084:392521] Terminating since there is no system app.
+2015-03-14 13:46:59.434 Study Kick Start[7225:393431] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/ADA5BFD6-762B-4423-88B9-81C9476C3DA6/Library/Cookies/Cookies.binarycookies
+2015-03-14 13:46:59.502 Study Kick Start[7225:393431] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 13:46:59.502 Study Kick Start[7225:393431] Multi-tasking -> Device: YES, App: YES
+2015-03-14 13:46:59.504 Study Kick Start[7225:393431] Unlimited access to network resources
+2015-03-14 13:46:59.506 Study Kick Start[7225:393431] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 13:46:59.613 Study Kick Start[7225:393431] [CDVTimer][statusbar] 40.066004ms
+2015-03-14 13:46:59.613 Study Kick Start[7225:393431] [CDVTimer][TotalPluginStartup] 40.205002ms
+2015-03-14 13:46:59.690 Study Kick Start[7225:393431] Resetting plugins due to page load.
+2015-03-14 13:46:59.723 Study Kick Start[7225:393431] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/9D46610B-0649-46A4-BA83-EEBAA22EE75B/Study%20Kick%20Start.app/www/index.html
+2015-03-14 13:49:56.582 Study Kick Start[7369:396138] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/4796269F-F3BD-49FE-ADB5-A87154BE78F4/Library/Cookies/Cookies.binarycookies
+2015-03-14 13:49:56.752 Study Kick Start[7369:396138] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 13:49:56.752 Study Kick Start[7369:396138] Multi-tasking -> Device: YES, App: YES
+2015-03-14 13:49:56.755 Study Kick Start[7369:396138] Unlimited access to network resources
+2015-03-14 13:49:56.763 Study Kick Start[7369:396138] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 13:49:56.881 Study Kick Start[7369:396138] [CDVTimer][statusbar] 40.253997ms
+2015-03-14 13:49:56.881 Study Kick Start[7369:396138] [CDVTimer][TotalPluginStartup] 40.398955ms
+2015-03-14 13:49:56.966 Study Kick Start[7369:396138] Resetting plugins due to page load.
+2015-03-14 13:49:57.039 Study Kick Start[7369:396138] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/4E6002D3-0896-4E05-9BE9-74806363B1B3/Study%20Kick%20Start.app/www/index.html
+2015-03-14 13:49:58.920 Study Kick Start[7369:396160] Terminating since there is no system app.
+2015-03-14 13:49:58.920 Study Kick Start[7369:396171] Communications error: <OS_xpc_error: <error: 0x2db05f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2db083c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-03-14 13:58:24.891 Study Kick Start[7530:401361] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/49E5C978-FEEA-4112-BAB9-428B720AC845/Library/Cookies/Cookies.binarycookies
+2015-03-14 13:58:25.165 Study Kick Start[7530:401361] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 13:58:25.166 Study Kick Start[7530:401361] Multi-tasking -> Device: YES, App: YES
+2015-03-14 13:58:25.179 Study Kick Start[7530:401361] Unlimited access to network resources
+2015-03-14 13:58:25.188 Study Kick Start[7530:401361] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 13:58:25.612 Study Kick Start[7530:401361] [CDVTimer][statusbar] 129.593015ms
+2015-03-14 13:58:25.645 Study Kick Start[7530:401361] [CDVTimer][splashscreen] 33.499002ms
+2015-03-14 13:58:25.645 Study Kick Start[7530:401361] [CDVTimer][TotalPluginStartup] 163.378954ms
+2015-03-14 13:58:25.760 Study Kick Start[7530:401361] Resetting plugins due to page load.
+2015-03-14 13:58:25.862 Study Kick Start[7530:401361] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/09FE846A-7370-43A2-9049-98F9AF52D107/Study%20Kick%20Start.app/www/index.html
+2015-03-14 13:58:33.338 Study Kick Start[7530:401455] Communications error: <OS_xpc_error: <error: 0x2d1f5f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2d1f83c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-03-14 13:58:46.568 Study Kick Start[7635:402457] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/F7E6E0D5-04A7-4772-BD84-7239BC3DA597/Library/Cookies/Cookies.binarycookies
+2015-03-14 13:58:46.641 Study Kick Start[7635:402457] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 13:58:46.642 Study Kick Start[7635:402457] Multi-tasking -> Device: YES, App: YES
+2015-03-14 13:58:46.643 Study Kick Start[7635:402457] Unlimited access to network resources
+2015-03-14 13:58:46.645 Study Kick Start[7635:402457] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 13:58:46.755 Study Kick Start[7635:402457] [CDVTimer][statusbar] 42.244971ms
+2015-03-14 13:58:46.774 Study Kick Start[7635:402457] [CDVTimer][splashscreen] 18.899977ms
+2015-03-14 13:58:46.774 Study Kick Start[7635:402457] [CDVTimer][TotalPluginStartup] 61.451018ms
+2015-03-14 13:58:46.862 Study Kick Start[7635:402457] Resetting plugins due to page load.
+2015-03-14 13:58:46.909 Study Kick Start[7635:402457] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/63B5D173-6836-48C3-950B-394102891971/Study%20Kick%20Start.app/www/index.html
+2015-03-14 13:59:36.430 Study Kick Start[7635:402457] Received memory warning.
+2015-03-14 14:31:21.509 Study Kick Start[8196:438506] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/F3A06780-2D4C-4F10-921D-F02F326AEB2B/Library/Cookies/Cookies.binarycookies
+2015-03-14 14:31:21.582 Study Kick Start[8196:438506] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 14:31:21.582 Study Kick Start[8196:438506] Multi-tasking -> Device: YES, App: YES
+2015-03-14 14:31:21.585 Study Kick Start[8196:438506] Unlimited access to network resources
+2015-03-14 14:31:21.587 Study Kick Start[8196:438506] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 14:31:21.687 Study Kick Start[8196:438506] [CDVTimer][statusbar] 32.638013ms
+2015-03-14 14:31:21.710 Study Kick Start[8196:438506] [CDVTimer][splashscreen] 22.175014ms
+2015-03-14 14:31:21.710 Study Kick Start[8196:438506] [CDVTimer][TotalPluginStartup] 55.163026ms
+2015-03-14 14:31:21.830 Study Kick Start[8196:438506] Resetting plugins due to page load.
+2015-03-14 14:31:21.905 Study Kick Start[8196:438506] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/5B77CC67-D399-4D23-A7CA-90BE72DFA755/Study%20Kick%20Start.app/www/index.html
+2015-03-14 14:32:49.058 Study Kick Start[8300:440753] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/DAED4616-80A7-485F-BD5C-4C93BCFBB279/Library/Cookies/Cookies.binarycookies
+2015-03-14 14:32:49.166 Study Kick Start[8300:440753] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 14:32:49.166 Study Kick Start[8300:440753] Multi-tasking -> Device: YES, App: YES
+2015-03-14 14:32:49.168 Study Kick Start[8300:440753] Unlimited access to network resources
+2015-03-14 14:32:49.171 Study Kick Start[8300:440753] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 14:32:49.274 Study Kick Start[8300:440753] [CDVTimer][statusbar] 15.944958ms
+2015-03-14 14:32:49.278 Study Kick Start[8300:440753] [CDVTimer][splashscreen] 3.792048ms
+2015-03-14 14:32:49.278 Study Kick Start[8300:440753] [CDVTimer][TotalPluginStartup] 20.043969ms
+2015-03-14 14:32:49.372 Study Kick Start[8300:440753] Resetting plugins due to page load.
+2015-03-14 14:32:49.392 Study Kick Start[8300:440753] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/B6E7703E-7B2F-4C5C-8CCF-4CC08675A757/Study%20Kick%20Start.app/www/index.html
+2015-03-14 14:33:29.953 Study Kick Start[8396:441816] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/BB4D3A1A-734B-4CA4-B345-811B4F0BE635/Library/Cookies/Cookies.binarycookies
+2015-03-14 14:33:30.024 Study Kick Start[8396:441816] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 14:33:30.024 Study Kick Start[8396:441816] Multi-tasking -> Device: YES, App: YES
+2015-03-14 14:33:30.026 Study Kick Start[8396:441816] Unlimited access to network resources
+2015-03-14 14:33:30.028 Study Kick Start[8396:441816] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 14:33:30.123 Study Kick Start[8396:441816] [CDVTimer][statusbar] 12.615979ms
+2015-03-14 14:33:30.127 Study Kick Start[8396:441816] [CDVTimer][splashscreen] 4.163980ms
+2015-03-14 14:33:30.127 Study Kick Start[8396:441816] [CDVTimer][TotalPluginStartup] 17.130971ms
+2015-03-14 14:33:30.220 Study Kick Start[8396:441816] Resetting plugins due to page load.
+2015-03-14 14:33:30.243 Study Kick Start[8396:441816] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/7518F4B4-F78B-410B-AAB4-252EA242FC50/Study%20Kick%20Start.app/www/index.html
+2015-03-14 14:33:41.256 Study Kick Start[8396:441840] Communications error: <OS_xpc_error: <error: 0x2e0c5f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2e0c83c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-03-14 16:30:59.157 Study Kick Start[9434:531555] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/10966FBF-DF4A-4C1F-ADC9-065C235AB784/Library/Cookies/Cookies.binarycookies
+2015-03-14 16:30:59.260 Study Kick Start[9434:531555] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 16:30:59.261 Study Kick Start[9434:531555] Multi-tasking -> Device: YES, App: YES
+2015-03-14 16:30:59.263 Study Kick Start[9434:531555] Unlimited access to network resources
+2015-03-14 16:30:59.265 Study Kick Start[9434:531555] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 16:30:59.378 Study Kick Start[9434:531555] [CDVTimer][statusbar] 45.142949ms
+2015-03-14 16:30:59.419 Study Kick Start[9434:531555] [CDVTimer][splashscreen] 41.299999ms
+2015-03-14 16:30:59.419 Study Kick Start[9434:531555] [CDVTimer][TotalPluginStartup] 86.740017ms
+2015-03-14 16:30:59.501 Study Kick Start[9434:531555] Resetting plugins due to page load.
+2015-03-14 16:30:59.544 Study Kick Start[9434:531555] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/15219FA9-8D14-4F99-9363-E892E757E893/Study%20Kick%20Start.app/www/index.html
+2015-03-14 16:32:29.351 Study Kick Start[9487:532598] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/CF7C6E14-EA99-4003-BA1A-A6F6017E7C97/Library/Cookies/Cookies.binarycookies
+2015-03-14 16:32:29.418 Study Kick Start[9487:532598] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 16:32:29.419 Study Kick Start[9487:532598] Multi-tasking -> Device: YES, App: YES
+2015-03-14 16:32:29.420 Study Kick Start[9487:532598] Unlimited access to network resources
+2015-03-14 16:32:29.423 Study Kick Start[9487:532598] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 16:32:29.515 Study Kick Start[9487:532598] [CDVTimer][statusbar] 31.107008ms
+2015-03-14 16:32:29.519 Study Kick Start[9487:532598] [CDVTimer][splashscreen] 4.211009ms
+2015-03-14 16:32:29.519 Study Kick Start[9487:532598] [CDVTimer][TotalPluginStartup] 35.592973ms
+2015-03-14 16:32:29.592 Study Kick Start[9487:532598] Resetting plugins due to page load.
+2015-03-14 16:32:29.631 Study Kick Start[9487:532598] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/791CD3FE-1D6E-45CA-8783-F16808D1ABFF/Study%20Kick%20Start.app/www/index.html
+2015-03-14 16:33:55.640 Study Kick Start[9545:534166] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/6EB84D42-5B6B-4D9C-AB59-9088A99A909E/Library/Cookies/Cookies.binarycookies
+2015-03-14 16:33:55.697 Study Kick Start[9545:534166] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 16:33:55.697 Study Kick Start[9545:534166] Multi-tasking -> Device: YES, App: YES
+2015-03-14 16:33:55.699 Study Kick Start[9545:534166] Unlimited access to network resources
+2015-03-14 16:33:55.701 Study Kick Start[9545:534166] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 16:33:55.785 Study Kick Start[9545:534166] [CDVTimer][statusbar] 25.178969ms
+2015-03-14 16:33:55.788 Study Kick Start[9545:534166] [CDVTimer][splashscreen] 3.570974ms
+2015-03-14 16:33:55.789 Study Kick Start[9545:534166] [CDVTimer][TotalPluginStartup] 29.007018ms
+2015-03-14 16:33:55.853 Study Kick Start[9545:534166] Resetting plugins due to page load.
+2015-03-14 16:33:55.886 Study Kick Start[9545:534166] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/22A732A8-C089-44DB-A168-AABD196F8D1E/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:00:30.291 Study Kick Start[9643:558906] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/FA2B7CD7-279D-4905-B3E6-DC81A581E3F0/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:00:30.372 Study Kick Start[9643:558906] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:00:30.372 Study Kick Start[9643:558906] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:00:30.374 Study Kick Start[9643:558906] Unlimited access to network resources
+2015-03-14 17:00:30.376 Study Kick Start[9643:558906] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:00:30.495 Study Kick Start[9643:558906] [CDVTimer][statusbar] 42.533040ms
+2015-03-14 17:00:30.499 Study Kick Start[9643:558906] [CDVTimer][splashscreen] 3.476024ms
+2015-03-14 17:00:30.499 Study Kick Start[9643:558906] [CDVTimer][TotalPluginStartup] 46.257973ms
+2015-03-14 17:00:30.600 Study Kick Start[9643:558906] Resetting plugins due to page load.
+2015-03-14 17:00:30.765 Study Kick Start[9643:558906] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/BD8370B5-9D58-47B9-85AD-15A251C3A7DE/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:01:39.774 Study Kick Start[9755:559779] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/784D093C-445D-4CE8-8759-C3E00635D041/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:01:39.834 Study Kick Start[9755:559779] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:01:39.835 Study Kick Start[9755:559779] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:01:39.836 Study Kick Start[9755:559779] Unlimited access to network resources
+2015-03-14 17:01:39.838 Study Kick Start[9755:559779] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:01:39.923 Study Kick Start[9755:559779] [CDVTimer][statusbar] 23.160994ms
+2015-03-14 17:01:39.927 Study Kick Start[9755:559779] [CDVTimer][splashscreen] 3.388047ms
+2015-03-14 17:01:39.927 Study Kick Start[9755:559779] [CDVTimer][TotalPluginStartup] 26.820958ms
+2015-03-14 17:01:39.998 Study Kick Start[9755:559779] Resetting plugins due to page load.
+2015-03-14 17:01:40.062 Study Kick Start[9755:559779] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/4E33BEA2-13B6-410A-AE7A-33816951F54C/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:05:48.396 Study Kick Start[9870:561963] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/4435FEDF-60B7-4430-9E4A-B50934090845/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:05:48.454 Study Kick Start[9870:561963] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:05:48.454 Study Kick Start[9870:561963] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:05:48.455 Study Kick Start[9870:561963] Unlimited access to network resources
+2015-03-14 17:05:48.457 Study Kick Start[9870:561963] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:05:48.540 Study Kick Start[9870:561963] [CDVTimer][statusbar] 23.620009ms
+2015-03-14 17:05:48.543 Study Kick Start[9870:561963] [CDVTimer][splashscreen] 3.638983ms
+2015-03-14 17:05:48.544 Study Kick Start[9870:561963] [CDVTimer][TotalPluginStartup] 27.517974ms
+2015-03-14 17:05:48.609 Study Kick Start[9870:561963] Resetting plugins due to page load.
+2015-03-14 17:05:48.662 Study Kick Start[9870:561963] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/2512AB8A-6F48-41CC-99BF-52891ADC3B07/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:08:20.558 Study Kick Start[9990:563723] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/CECEBBDF-43D4-41A3-BB50-1F9B7902151B/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:08:20.619 Study Kick Start[9990:563723] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:08:20.619 Study Kick Start[9990:563723] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:08:20.621 Study Kick Start[9990:563723] Unlimited access to network resources
+2015-03-14 17:08:20.623 Study Kick Start[9990:563723] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:08:20.721 Study Kick Start[9990:563723] [CDVTimer][statusbar] 33.219993ms
+2015-03-14 17:08:20.725 Study Kick Start[9990:563723] [CDVTimer][splashscreen] 3.367007ms
+2015-03-14 17:08:20.725 Study Kick Start[9990:563723] [CDVTimer][TotalPluginStartup] 36.837041ms
+2015-03-14 17:08:20.790 Study Kick Start[9990:563723] Resetting plugins due to page load.
+2015-03-14 17:08:20.852 Study Kick Start[9990:563723] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/72192A6A-A42D-4D72-8A4F-E9992BEEF871/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:10:54.765 Study Kick Start[10114:565106] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/1163BFBB-ADBE-4C37-85C0-F2247545D30D/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:10:54.818 Study Kick Start[10114:565106] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:10:54.818 Study Kick Start[10114:565106] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:10:54.820 Study Kick Start[10114:565106] Unlimited access to network resources
+2015-03-14 17:10:54.822 Study Kick Start[10114:565106] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:10:54.905 Study Kick Start[10114:565106] [CDVTimer][statusbar] 21.968961ms
+2015-03-14 17:10:54.909 Study Kick Start[10114:565106] [CDVTimer][splashscreen] 3.363013ms
+2015-03-14 17:10:54.909 Study Kick Start[10114:565106] [CDVTimer][TotalPluginStartup] 25.582016ms
+2015-03-14 17:10:54.970 Study Kick Start[10114:565106] Resetting plugins due to page load.
+2015-03-14 17:10:55.022 Study Kick Start[10114:565106] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/32066871-FB36-42BA-B7CB-A1E2268C9ECF/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:22:25.178 Study Kick Start[10315:572098] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/1F0F3D82-22FB-4102-8224-C6B7F50352E3/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:22:25.440 Study Kick Start[10315:572098] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:22:25.440 Study Kick Start[10315:572098] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:22:25.452 Study Kick Start[10315:572098] Unlimited access to network resources
+2015-03-14 17:22:25.461 Study Kick Start[10315:572098] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:22:25.941 Study Kick Start[10315:572098] [CDVTimer][statusbar] 128.977001ms
+2015-03-14 17:22:25.981 Study Kick Start[10315:572098] [CDVTimer][splashscreen] 39.750993ms
+2015-03-14 17:22:25.981 Study Kick Start[10315:572098] [CDVTimer][TotalPluginStartup] 169.008017ms
+2015-03-14 17:22:26.113 Study Kick Start[10315:572098] Resetting plugins due to page load.
+2015-03-14 17:22:26.226 Study Kick Start[10315:572098] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/ECD3B99C-A9EC-49B8-A884-212B8956ED5A/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:23:54.645 Study Kick Start[10449:573581] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/BCBC811E-7E5C-4B7C-8E4E-6AA9A22D9944/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:23:54.720 Study Kick Start[10449:573581] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:23:54.720 Study Kick Start[10449:573581] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:23:54.722 Study Kick Start[10449:573581] Unlimited access to network resources
+2015-03-14 17:23:54.724 Study Kick Start[10449:573581] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:23:54.829 Study Kick Start[10449:573581] [CDVTimer][statusbar] 41.866958ms
+2015-03-14 17:23:54.832 Study Kick Start[10449:573581] [CDVTimer][splashscreen] 3.481030ms
+2015-03-14 17:23:54.832 Study Kick Start[10449:573581] [CDVTimer][TotalPluginStartup] 45.603991ms
+2015-03-14 17:23:54.930 Study Kick Start[10449:573581] Resetting plugins due to page load.
+2015-03-14 17:23:55.088 Study Kick Start[10449:573581] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/D6229890-AB64-42B4-9F18-B2866918CD50/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:26:39.157 Study Kick Start[10580:575441] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/4CD9D719-378F-400A-9839-1F39CA42DAB0/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:26:39.216 Study Kick Start[10580:575441] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:26:39.216 Study Kick Start[10580:575441] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:26:39.218 Study Kick Start[10580:575441] Unlimited access to network resources
+2015-03-14 17:26:39.220 Study Kick Start[10580:575441] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:26:39.309 Study Kick Start[10580:575441] [CDVTimer][statusbar] 27.144015ms
+2015-03-14 17:26:39.313 Study Kick Start[10580:575441] [CDVTimer][splashscreen] 4.174948ms
+2015-03-14 17:26:39.313 Study Kick Start[10580:575441] [CDVTimer][TotalPluginStartup] 31.613052ms
+2015-03-14 17:26:39.384 Study Kick Start[10580:575441] Resetting plugins due to page load.
+2015-03-14 17:26:39.442 Study Kick Start[10580:575441] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/4613C05D-1FC4-4A6D-8EF5-7832ADBA57BF/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:27:02.567 Study Kick Start[10702:576152] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/60839536-6796-4E7E-A03F-553BA73CA953/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:27:02.627 Study Kick Start[10702:576152] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:27:02.627 Study Kick Start[10702:576152] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:27:02.629 Study Kick Start[10702:576152] Unlimited access to network resources
+2015-03-14 17:27:02.631 Study Kick Start[10702:576152] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:27:02.719 Study Kick Start[10702:576152] [CDVTimer][statusbar] 27.546048ms
+2015-03-14 17:27:02.722 Study Kick Start[10702:576152] [CDVTimer][splashscreen] 3.587961ms
+2015-03-14 17:27:02.723 Study Kick Start[10702:576152] [CDVTimer][TotalPluginStartup] 31.390965ms
+2015-03-14 17:27:02.789 Study Kick Start[10702:576152] Resetting plugins due to page load.
+2015-03-14 17:27:02.846 Study Kick Start[10702:576152] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/D994EA06-7013-48E4-8215-A219290F30F0/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:29:05.483 Study Kick Start[11067:578221] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/F60ED149-039B-459B-8D28-9331ABD3AB01/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:29:05.552 Study Kick Start[11067:578221] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:29:05.553 Study Kick Start[11067:578221] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:29:05.555 Study Kick Start[11067:578221] Unlimited access to network resources
+2015-03-14 17:29:05.557 Study Kick Start[11067:578221] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:29:05.659 Study Kick Start[11067:578221] [CDVTimer][statusbar] 36.854982ms
+2015-03-14 17:29:05.663 Study Kick Start[11067:578221] [CDVTimer][splashscreen] 3.395021ms
+2015-03-14 17:29:05.663 Study Kick Start[11067:578221] [CDVTimer][TotalPluginStartup] 40.513039ms
+2015-03-14 17:29:05.733 Study Kick Start[11067:578221] Resetting plugins due to page load.
+2015-03-14 17:29:05.787 Study Kick Start[11067:578221] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/97BA6DD9-766A-491F-A1FF-6DC03E06D69F/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:29:44.830 Study Kick Start[11188:578858] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/9378A588-531A-456C-9166-2BD00857BD43/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:29:44.882 Study Kick Start[11188:578858] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:29:44.882 Study Kick Start[11188:578858] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:29:44.884 Study Kick Start[11188:578858] Unlimited access to network resources
+2015-03-14 17:29:44.887 Study Kick Start[11188:578858] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:29:44.960 Study Kick Start[11188:578858] [CDVTimer][statusbar] 16.120017ms
+2015-03-14 17:29:44.965 Study Kick Start[11188:578858] [CDVTimer][splashscreen] 4.281998ms
+2015-03-14 17:29:44.965 Study Kick Start[11188:578858] [CDVTimer][TotalPluginStartup] 20.710051ms
+2015-03-14 17:29:45.015 Study Kick Start[11188:578858] Resetting plugins due to page load.
+2015-03-14 17:29:45.067 Study Kick Start[11188:578858] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/9D3DC094-6977-41B1-B0CE-53DF4050401F/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:30:17.497 Study Kick Start[11312:579642] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/A57C1535-2CD1-4FA5-8448-BB1F170F48D6/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:30:17.558 Study Kick Start[11312:579642] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:30:17.558 Study Kick Start[11312:579642] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:30:17.560 Study Kick Start[11312:579642] Unlimited access to network resources
+2015-03-14 17:30:17.562 Study Kick Start[11312:579642] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:30:17.644 Study Kick Start[11312:579642] [CDVTimer][statusbar] 21.378040ms
+2015-03-14 17:30:17.648 Study Kick Start[11312:579642] [CDVTimer][splashscreen] 3.407001ms
+2015-03-14 17:30:17.648 Study Kick Start[11312:579642] [CDVTimer][TotalPluginStartup] 25.035977ms
+2015-03-14 17:30:17.709 Study Kick Start[11312:579642] Resetting plugins due to page load.
+2015-03-14 17:30:17.765 Study Kick Start[11312:579642] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/7486BD87-52D2-4F5C-ACFC-F8F3E34DEDA7/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:30:42.003 Study Kick Start[11434:580251] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/B49E9F74-32B3-479E-90AC-FC6CFAED1116/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:30:42.065 Study Kick Start[11434:580251] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:30:42.065 Study Kick Start[11434:580251] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:30:42.067 Study Kick Start[11434:580251] Unlimited access to network resources
+2015-03-14 17:30:42.069 Study Kick Start[11434:580251] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:30:42.155 Study Kick Start[11434:580251] [CDVTimer][statusbar] 18.405974ms
+2015-03-14 17:30:42.159 Study Kick Start[11434:580251] [CDVTimer][splashscreen] 3.410995ms
+2015-03-14 17:30:42.159 Study Kick Start[11434:580251] [CDVTimer][TotalPluginStartup] 22.067010ms
+2015-03-14 17:30:42.220 Study Kick Start[11434:580251] Resetting plugins due to page load.
+2015-03-14 17:30:42.276 Study Kick Start[11434:580251] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/6C55011B-6936-437D-8FA8-83E9E18B0E0F/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:46:57.116 Study Kick Start[11644:592589] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/63240551-4B7E-4124-B460-40C0B4EC89A1/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:46:57.197 Study Kick Start[11644:592589] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:46:57.198 Study Kick Start[11644:592589] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:46:57.199 Study Kick Start[11644:592589] Unlimited access to network resources
+2015-03-14 17:46:57.201 Study Kick Start[11644:592589] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:46:57.314 Study Kick Start[11644:592589] [CDVTimer][statusbar] 45.446992ms
+2015-03-14 17:46:57.319 Study Kick Start[11644:592589] [CDVTimer][splashscreen] 4.194975ms
+2015-03-14 17:46:57.319 Study Kick Start[11644:592589] [CDVTimer][TotalPluginStartup] 49.932003ms
+2015-03-14 17:46:57.418 Study Kick Start[11644:592589] Resetting plugins due to page load.
+2015-03-14 17:46:57.480 Study Kick Start[11644:592589] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/112C9834-1EB6-4A1F-BAEA-5C329019E16A/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:47:39.430 Study Kick Start[11766:593409] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/CB6E812F-E7A8-43A8-BE01-2292E7DB52E2/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:47:39.491 Study Kick Start[11766:593409] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:47:39.492 Study Kick Start[11766:593409] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:47:39.493 Study Kick Start[11766:593409] Unlimited access to network resources
+2015-03-14 17:47:39.495 Study Kick Start[11766:593409] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:47:39.588 Study Kick Start[11766:593409] [CDVTimer][statusbar] 24.168015ms
+2015-03-14 17:47:39.592 Study Kick Start[11766:593409] [CDVTimer][splashscreen] 3.376007ms
+2015-03-14 17:47:39.592 Study Kick Start[11766:593409] [CDVTimer][TotalPluginStartup] 27.801991ms
+2015-03-14 17:47:39.664 Study Kick Start[11766:593409] Resetting plugins due to page load.
+2015-03-14 17:47:39.723 Study Kick Start[11766:593409] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/8450035E-E3D5-407B-8547-202DB04B949F/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:52:18.829 Study Kick Start[12036:600143] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/EACA3463-0B29-49FB-92D9-3B41E5F1F25A/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:52:18.889 Study Kick Start[12036:600143] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:52:18.889 Study Kick Start[12036:600143] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:52:18.891 Study Kick Start[12036:600143] Unlimited access to network resources
+2015-03-14 17:52:18.893 Study Kick Start[12036:600143] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:52:18.987 Study Kick Start[12036:600143] [CDVTimer][statusbar] 33.002973ms
+2015-03-14 17:52:18.991 Study Kick Start[12036:600143] [CDVTimer][splashscreen] 3.410041ms
+2015-03-14 17:52:18.991 Study Kick Start[12036:600143] [CDVTimer][TotalPluginStartup] 36.687970ms
+2015-03-14 17:52:19.040 Study Kick Start[12036:600143] Resetting plugins due to page load.
+2015-03-14 17:52:19.101 Study Kick Start[12036:600143] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/C8450361-6448-42EE-984A-2B363E8AEE73/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:57:36.644 Study Kick Start[12326:607263] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/00142FC9-60A9-4F77-83FB-A3D4C0FDB4B1/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:57:36.729 Study Kick Start[12326:607263] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:57:36.729 Study Kick Start[12326:607263] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:57:36.730 Study Kick Start[12326:607263] Unlimited access to network resources
+2015-03-14 17:57:36.733 Study Kick Start[12326:607263] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:57:36.841 Study Kick Start[12326:607263] [CDVTimer][statusbar] 44.041991ms
+2015-03-14 17:57:36.844 Study Kick Start[12326:607263] [CDVTimer][splashscreen] 3.444016ms
+2015-03-14 17:57:36.845 Study Kick Start[12326:607263] [CDVTimer][TotalPluginStartup] 47.736943ms
+2015-03-14 17:57:36.922 Study Kick Start[12326:607263] Resetting plugins due to page load.
+2015-03-14 17:57:36.990 Study Kick Start[12326:607263] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/AD63141B-3F78-4D5F-8D0C-5D45AE9161C5/Study%20Kick%20Start.app/www/index.html
+2015-03-14 17:59:40.760 Study Kick Start[12454:608809] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/415D80CA-0197-49D2-A902-A6FE1F12AB05/Library/Cookies/Cookies.binarycookies
+2015-03-14 17:59:40.814 Study Kick Start[12454:608809] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 17:59:40.814 Study Kick Start[12454:608809] Multi-tasking -> Device: YES, App: YES
+2015-03-14 17:59:40.816 Study Kick Start[12454:608809] Unlimited access to network resources
+2015-03-14 17:59:40.818 Study Kick Start[12454:608809] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 17:59:40.893 Study Kick Start[12454:608809] [CDVTimer][statusbar] 14.909029ms
+2015-03-14 17:59:40.898 Study Kick Start[12454:608809] [CDVTimer][splashscreen] 4.895031ms
+2015-03-14 17:59:40.898 Study Kick Start[12454:608809] [CDVTimer][TotalPluginStartup] 20.184994ms
+2015-03-14 17:59:40.975 Study Kick Start[12454:608809] Resetting plugins due to page load.
+2015-03-14 17:59:41.026 Study Kick Start[12454:608809] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/0ECEDA52-388F-40F6-9E80-AE8E7FA9655E/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:00:29.216 Study Kick Start[12577:609744] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/B0AB764A-B693-4222-9AF8-1B5BE349D32B/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:00:29.272 Study Kick Start[12577:609744] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:00:29.273 Study Kick Start[12577:609744] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:00:29.274 Study Kick Start[12577:609744] Unlimited access to network resources
+2015-03-14 18:00:29.276 Study Kick Start[12577:609744] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:00:29.363 Study Kick Start[12577:609744] [CDVTimer][statusbar] 27.707994ms
+2015-03-14 18:00:29.368 Study Kick Start[12577:609744] [CDVTimer][splashscreen] 4.728019ms
+2015-03-14 18:00:29.368 Study Kick Start[12577:609744] [CDVTimer][TotalPluginStartup] 32.783031ms
+2015-03-14 18:00:29.438 Study Kick Start[12577:609744] Resetting plugins due to page load.
+2015-03-14 18:00:29.496 Study Kick Start[12577:609744] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/EB4F0698-CE3F-425C-AA3F-54F567326631/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:02:42.978 Study Kick Start[12719:611697] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/8679C0AA-DEAB-40A4-BC95-A76EC028421D/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:02:43.038 Study Kick Start[12719:611697] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:02:43.039 Study Kick Start[12719:611697] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:02:43.043 Study Kick Start[12719:611697] Unlimited access to network resources
+2015-03-14 18:02:43.046 Study Kick Start[12719:611697] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:02:43.153 Study Kick Start[12719:611697] [CDVTimer][statusbar] 29.679000ms
+2015-03-14 18:02:43.158 Study Kick Start[12719:611697] [CDVTimer][splashscreen] 4.980028ms
+2015-03-14 18:02:43.158 Study Kick Start[12719:611697] [CDVTimer][TotalPluginStartup] 34.956992ms
+2015-03-14 18:02:43.232 Study Kick Start[12719:611697] Resetting plugins due to page load.
+2015-03-14 18:02:43.293 Study Kick Start[12719:611697] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/E096E853-225D-4E94-AD42-0DD24E92B6D7/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:03:22.149 Study Kick Start[12843:612442] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/F17A4DA1-2E4F-4539-893C-3CDFBF488847/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:03:22.204 Study Kick Start[12843:612442] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:03:22.204 Study Kick Start[12843:612442] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:03:22.208 Study Kick Start[12843:612442] Unlimited access to network resources
+2015-03-14 18:03:22.211 Study Kick Start[12843:612442] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:03:22.298 Study Kick Start[12843:612442] [CDVTimer][statusbar] 28.698981ms
+2015-03-14 18:03:22.303 Study Kick Start[12843:612442] [CDVTimer][splashscreen] 4.716992ms
+2015-03-14 18:03:22.303 Study Kick Start[12843:612442] [CDVTimer][TotalPluginStartup] 33.765972ms
+2015-03-14 18:03:22.367 Study Kick Start[12843:612442] Resetting plugins due to page load.
+2015-03-14 18:03:22.421 Study Kick Start[12843:612442] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/72D80494-2FF8-4DBA-9CFA-DD6E30F70ADD/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:04:47.955 Study Kick Start[12969:613719] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/D3A91081-1540-4581-BFEE-98D79CD321A6/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:04:48.014 Study Kick Start[12969:613719] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:04:48.015 Study Kick Start[12969:613719] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:04:48.017 Study Kick Start[12969:613719] Unlimited access to network resources
+2015-03-14 18:04:48.019 Study Kick Start[12969:613719] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:04:48.100 Study Kick Start[12969:613719] [CDVTimer][statusbar] 21.869004ms
+2015-03-14 18:04:48.104 Study Kick Start[12969:613719] [CDVTimer][splashscreen] 3.364980ms
+2015-03-14 18:04:48.104 Study Kick Start[12969:613719] [CDVTimer][TotalPluginStartup] 25.499046ms
+2015-03-14 18:04:48.166 Study Kick Start[12969:613719] Resetting plugins due to page load.
+2015-03-14 18:04:48.233 Study Kick Start[12969:613719] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/9566ECC2-4390-498C-BCE7-65F6FDC8B7B4/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:05:08.240 Study Kick Start[13091:614426] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/F0A4E41A-6943-4768-986A-8A2E0D8DB4FA/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:05:08.294 Study Kick Start[13091:614426] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:05:08.295 Study Kick Start[13091:614426] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:05:08.296 Study Kick Start[13091:614426] Unlimited access to network resources
+2015-03-14 18:05:08.298 Study Kick Start[13091:614426] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:05:08.376 Study Kick Start[13091:614426] [CDVTimer][statusbar] 12.981951ms
+2015-03-14 18:05:08.380 Study Kick Start[13091:614426] [CDVTimer][splashscreen] 3.534019ms
+2015-03-14 18:05:08.380 Study Kick Start[13091:614426] [CDVTimer][TotalPluginStartup] 16.797006ms
+2015-03-14 18:05:08.430 Study Kick Start[13091:614426] Resetting plugins due to page load.
+2015-03-14 18:05:08.484 Study Kick Start[13091:614426] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/FDF1CD0C-82D0-47F8-9B84-BC869CE5DC15/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:06:11.990 Study Kick Start[13226:615680] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/B489D857-3013-457B-A979-C680196E075C/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:06:12.053 Study Kick Start[13226:615680] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:06:12.054 Study Kick Start[13226:615680] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:06:12.055 Study Kick Start[13226:615680] Unlimited access to network resources
+2015-03-14 18:06:12.058 Study Kick Start[13226:615680] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:06:12.141 Study Kick Start[13226:615680] [CDVTimer][statusbar] 22.639036ms
+2015-03-14 18:06:12.146 Study Kick Start[13226:615680] [CDVTimer][splashscreen] 4.776001ms
+2015-03-14 18:06:12.147 Study Kick Start[13226:615680] [CDVTimer][TotalPluginStartup] 27.758956ms
+2015-03-14 18:06:12.208 Study Kick Start[13226:615680] Resetting plugins due to page load.
+2015-03-14 18:06:12.269 Study Kick Start[13226:615680] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/1CBB1DA5-F1D5-493A-846F-B97CC96A3D0D/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:17:54.666 Study Kick Start[1278:9880] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/BB02133B-A5AA-40BC-AF5B-9945C01EA58C/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:17:54.719 Study Kick Start[1278:9880] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:17:54.720 Study Kick Start[1278:9880] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:17:54.722 Study Kick Start[1278:9880] Unlimited access to network resources
+2015-03-14 18:17:54.724 Study Kick Start[1278:9880] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:17:54.799 Study Kick Start[1278:9880] [CDVTimer][statusbar] 13.191998ms
+2015-03-14 18:17:54.818 Study Kick Start[1278:9880] [CDVTimer][splashscreen] 18.756986ms
+2015-03-14 18:17:54.818 Study Kick Start[1278:9880] [CDVTimer][TotalPluginStartup] 32.217979ms
+2015-03-14 18:17:54.896 Study Kick Start[1278:9880] Resetting plugins due to page load.
+2015-03-14 18:17:54.951 Study Kick Start[1278:9880] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/6B705F2B-CC96-4406-B03B-CB5E557217E9/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:20:08.854 Study Kick Start[1462:11532] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/665F5BDD-7F49-439E-8FD9-5B6A719C3CA6/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:20:08.920 Study Kick Start[1462:11532] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:20:08.920 Study Kick Start[1462:11532] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:20:08.922 Study Kick Start[1462:11532] Unlimited access to network resources
+2015-03-14 18:20:08.924 Study Kick Start[1462:11532] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:20:09.003 Study Kick Start[1462:11532] [CDVTimer][statusbar] 14.012039ms
+2015-03-14 18:20:09.007 Study Kick Start[1462:11532] [CDVTimer][splashscreen] 3.503025ms
+2015-03-14 18:20:09.007 Study Kick Start[1462:11532] [CDVTimer][TotalPluginStartup] 17.783046ms
+2015-03-14 18:20:09.082 Study Kick Start[1462:11532] Resetting plugins due to page load.
+2015-03-14 18:20:09.135 Study Kick Start[1462:11532] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/AA413D85-F843-45D1-A273-32E0F4AD2237/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:20:55.949 Study Kick Start[1462:12275] Terminating since there is no system app.
+2015-03-14 18:21:04.789 Study Kick Start[1646:13003] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/95F937A3-A9DA-4681-8EA7-E3B4A28E6EDA/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:21:04.864 Study Kick Start[1646:13003] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:21:04.864 Study Kick Start[1646:13003] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:21:04.866 Study Kick Start[1646:13003] Unlimited access to network resources
+2015-03-14 18:21:04.868 Study Kick Start[1646:13003] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:21:04.945 Study Kick Start[1646:13003] [CDVTimer][statusbar] 12.609005ms
+2015-03-14 18:21:04.948 Study Kick Start[1646:13003] [CDVTimer][splashscreen] 3.618002ms
+2015-03-14 18:21:04.949 Study Kick Start[1646:13003] [CDVTimer][TotalPluginStartup] 16.510010ms
+2015-03-14 18:21:05.025 Study Kick Start[1646:13003] Resetting plugins due to page load.
+2015-03-14 18:21:05.078 Study Kick Start[1646:13003] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/DA642025-A324-4A18-893C-8FA0698FFB92/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:21:52.806 Study Kick Start[1817:14102] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/B53DF26F-372F-45B1-ABF3-A67797C1F85C/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:21:52.861 Study Kick Start[1817:14102] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:21:52.861 Study Kick Start[1817:14102] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:21:52.863 Study Kick Start[1817:14102] Unlimited access to network resources
+2015-03-14 18:21:52.866 Study Kick Start[1817:14102] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:21:52.943 Study Kick Start[1817:14102] [CDVTimer][statusbar] 13.818979ms
+2015-03-14 18:21:52.947 Study Kick Start[1817:14102] [CDVTimer][splashscreen] 3.536999ms
+2015-03-14 18:21:52.947 Study Kick Start[1817:14102] [CDVTimer][TotalPluginStartup] 17.661989ms
+2015-03-14 18:21:53.020 Study Kick Start[1817:14102] Resetting plugins due to page load.
+2015-03-14 18:21:53.070 Study Kick Start[1817:14102] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/757E6174-B0BB-450B-A00F-9EA1EF361610/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:22:49.123 Study Kick Start[1985:15157] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/CA7D077D-777D-4B7B-ABAC-65AD45E3A8C0/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:22:49.213 Study Kick Start[1985:15157] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:22:49.213 Study Kick Start[1985:15157] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:22:49.215 Study Kick Start[1985:15157] Unlimited access to network resources
+2015-03-14 18:22:49.216 Study Kick Start[1985:15157] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:22:49.293 Study Kick Start[1985:15157] [CDVTimer][statusbar] 12.387991ms
+2015-03-14 18:22:49.297 Study Kick Start[1985:15157] [CDVTimer][splashscreen] 3.628016ms
+2015-03-14 18:22:49.297 Study Kick Start[1985:15157] [CDVTimer][TotalPluginStartup] 16.313016ms
+2015-03-14 18:22:49.374 Study Kick Start[1985:15157] Resetting plugins due to page load.
+2015-03-14 18:22:49.425 Study Kick Start[1985:15157] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/4E2D3D88-CD79-453D-B947-61C592FB3C75/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:23:25.719 Study Kick Start[1985:15495] Terminating since there is no system app.
+2015-03-14 18:23:32.369 Study Kick Start[2156:16174] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/3EEB4FC0-A27E-4EA6-8F90-87E587104EC7/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:23:32.438 Study Kick Start[2156:16174] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:23:32.438 Study Kick Start[2156:16174] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:23:32.440 Study Kick Start[2156:16174] Unlimited access to network resources
+2015-03-14 18:23:32.442 Study Kick Start[2156:16174] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:23:32.519 Study Kick Start[2156:16174] [CDVTimer][statusbar] 13.493001ms
+2015-03-14 18:23:32.523 Study Kick Start[2156:16174] [CDVTimer][splashscreen] 3.369987ms
+2015-03-14 18:23:32.523 Study Kick Start[2156:16174] [CDVTimer][TotalPluginStartup] 17.119944ms
+2015-03-14 18:23:32.598 Study Kick Start[2156:16174] Resetting plugins due to page load.
+2015-03-14 18:23:32.654 Study Kick Start[2156:16174] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/05FBA74A-000E-4A30-B2C1-504E0DE3F839/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:24:12.189 Study Kick Start[2327:17312] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/66E581F8-824F-4A7B-9BAE-9EDDA50DB5FD/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:24:12.247 Study Kick Start[2327:17312] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:24:12.247 Study Kick Start[2327:17312] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:24:12.248 Study Kick Start[2327:17312] Unlimited access to network resources
+2015-03-14 18:24:12.251 Study Kick Start[2327:17312] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:24:12.325 Study Kick Start[2327:17312] [CDVTimer][statusbar] 12.925029ms
+2015-03-14 18:24:12.329 Study Kick Start[2327:17312] [CDVTimer][splashscreen] 3.410995ms
+2015-03-14 18:24:12.329 Study Kick Start[2327:17312] [CDVTimer][TotalPluginStartup] 16.592026ms
+2015-03-14 18:24:12.409 Study Kick Start[2327:17312] Resetting plugins due to page load.
+2015-03-14 18:24:12.467 Study Kick Start[2327:17312] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/A1D2B987-9E44-425A-966F-9E3B2A7EF5ED/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:24:47.936 Study Kick Start[2451:17981] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/F42C44F0-2BB7-4F7B-A80D-C7236CF5CF8D/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:24:47.987 Study Kick Start[2451:17981] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:24:47.988 Study Kick Start[2451:17981] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:24:47.989 Study Kick Start[2451:17981] Unlimited access to network resources
+2015-03-14 18:24:47.991 Study Kick Start[2451:17981] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:24:48.064 Study Kick Start[2451:17981] [CDVTimer][statusbar] 12.961984ms
+2015-03-14 18:24:48.068 Study Kick Start[2451:17981] [CDVTimer][splashscreen] 3.363013ms
+2015-03-14 18:24:48.068 Study Kick Start[2451:17981] [CDVTimer][TotalPluginStartup] 16.574025ms
+2015-03-14 18:24:48.144 Study Kick Start[2451:17981] Resetting plugins due to page load.
+2015-03-14 18:24:48.201 Study Kick Start[2451:17981] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/BEE13DCC-B8FE-4CDD-BD94-7402FC0BD0E3/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:25:28.229 Study Kick Start[2573:18671] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/D0D5B6C2-80BA-4596-890F-8E15DC1B0FBF/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:25:28.280 Study Kick Start[2573:18671] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:25:28.280 Study Kick Start[2573:18671] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:25:28.281 Study Kick Start[2573:18671] Unlimited access to network resources
+2015-03-14 18:25:28.283 Study Kick Start[2573:18671] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:25:28.362 Study Kick Start[2573:18671] [CDVTimer][statusbar] 14.051974ms
+2015-03-14 18:25:28.365 Study Kick Start[2573:18671] [CDVTimer][splashscreen] 3.639996ms
+2015-03-14 18:25:28.365 Study Kick Start[2573:18671] [CDVTimer][TotalPluginStartup] 17.952025ms
+2015-03-14 18:25:28.445 Study Kick Start[2573:18671] Resetting plugins due to page load.
+2015-03-14 18:25:28.496 Study Kick Start[2573:18671] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/D216A4EE-4B36-4348-ABF6-D7511540FCC4/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:26:09.326 Study Kick Start[2696:19343] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/D5C61819-7DD0-4114-B5BA-9AB9D77703FF/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:26:09.400 Study Kick Start[2696:19343] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:26:09.400 Study Kick Start[2696:19343] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:26:09.401 Study Kick Start[2696:19343] Unlimited access to network resources
+2015-03-14 18:26:09.403 Study Kick Start[2696:19343] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:26:09.476 Study Kick Start[2696:19343] [CDVTimer][statusbar] 13.146996ms
+2015-03-14 18:26:09.480 Study Kick Start[2696:19343] [CDVTimer][splashscreen] 3.530979ms
+2015-03-14 18:26:09.480 Study Kick Start[2696:19343] [CDVTimer][TotalPluginStartup] 16.954958ms
+2015-03-14 18:26:09.561 Study Kick Start[2696:19343] Resetting plugins due to page load.
+2015-03-14 18:26:09.613 Study Kick Start[2696:19343] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/7BA3C9BF-77DE-49DF-A553-A874D80E563C/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:27:10.482 Study Kick Start[2819:20110] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/93A3155E-1929-4C34-9E9C-9624814F459B/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:27:10.542 Study Kick Start[2819:20110] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:27:10.543 Study Kick Start[2819:20110] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:27:10.544 Study Kick Start[2819:20110] Unlimited access to network resources
+2015-03-14 18:27:10.546 Study Kick Start[2819:20110] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:27:10.620 Study Kick Start[2819:20110] [CDVTimer][statusbar] 12.655973ms
+2015-03-14 18:27:10.624 Study Kick Start[2819:20110] [CDVTimer][splashscreen] 3.600001ms
+2015-03-14 18:27:10.624 Study Kick Start[2819:20110] [CDVTimer][TotalPluginStartup] 16.525984ms
+2015-03-14 18:27:10.697 Study Kick Start[2819:20110] Resetting plugins due to page load.
+2015-03-14 18:27:10.750 Study Kick Start[2819:20110] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/D15E59A4-2D3B-47CF-A884-61243BE858A2/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:28:01.976 Study Kick Start[2944:20835] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/67B27B96-367F-401F-8389-26E714F4EF0B/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:28:02.034 Study Kick Start[2944:20835] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:28:02.035 Study Kick Start[2944:20835] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:28:02.036 Study Kick Start[2944:20835] Unlimited access to network resources
+2015-03-14 18:28:02.039 Study Kick Start[2944:20835] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:28:02.113 Study Kick Start[2944:20835] [CDVTimer][statusbar] 12.869000ms
+2015-03-14 18:28:02.117 Study Kick Start[2944:20835] [CDVTimer][splashscreen] 3.952980ms
+2015-03-14 18:28:02.117 Study Kick Start[2944:20835] [CDVTimer][TotalPluginStartup] 17.099023ms
+2015-03-14 18:28:02.198 Study Kick Start[2944:20835] Resetting plugins due to page load.
+2015-03-14 18:28:02.250 Study Kick Start[2944:20835] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/2B02448F-7EC0-44A9-96DA-BE1C6A854A03/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:31:19.997 Study Kick Start[3080:22307] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/72416006-AC34-4079-B31E-CEEC5FFB2D9F/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:31:20.049 Study Kick Start[3080:22307] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:31:20.049 Study Kick Start[3080:22307] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:31:20.051 Study Kick Start[3080:22307] Unlimited access to network resources
+2015-03-14 18:31:20.053 Study Kick Start[3080:22307] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:31:20.128 Study Kick Start[3080:22307] [CDVTimer][statusbar] 13.175011ms
+2015-03-14 18:31:20.132 Study Kick Start[3080:22307] [CDVTimer][splashscreen] 3.345966ms
+2015-03-14 18:31:20.132 Study Kick Start[3080:22307] [CDVTimer][TotalPluginStartup] 16.789973ms
+2015-03-14 18:31:20.213 Study Kick Start[3080:22307] Resetting plugins due to page load.
+2015-03-14 18:31:20.264 Study Kick Start[3080:22307] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/FE969C65-37C2-40CA-A6E6-38B26C9E181E/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:31:50.807 Study Kick Start[3201:22937] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/D8061C48-A54B-456A-BAE1-F98EE3C97C40/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:31:50.862 Study Kick Start[3201:22937] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:31:50.862 Study Kick Start[3201:22937] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:31:50.864 Study Kick Start[3201:22937] Unlimited access to network resources
+2015-03-14 18:31:50.866 Study Kick Start[3201:22937] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:31:50.940 Study Kick Start[3201:22937] [CDVTimer][statusbar] 12.962997ms
+2015-03-14 18:31:50.944 Study Kick Start[3201:22937] [CDVTimer][splashscreen] 3.642023ms
+2015-03-14 18:31:50.944 Study Kick Start[3201:22937] [CDVTimer][TotalPluginStartup] 16.873002ms
+2015-03-14 18:31:51.021 Study Kick Start[3201:22937] Resetting plugins due to page load.
+2015-03-14 18:31:51.070 Study Kick Start[3201:22937] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/59581CD4-005A-47B7-86F4-4D61DB8A2E77/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:36:42.095 Study Kick Start[3690:25788] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/00F99F8A-D1E2-4394-84B1-6F97B6491961/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:36:42.195 Study Kick Start[3690:25788] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:36:42.195 Study Kick Start[3690:25788] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:36:42.197 Study Kick Start[3690:25788] Unlimited access to network resources
+2015-03-14 18:36:42.199 Study Kick Start[3690:25788] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:36:42.272 Study Kick Start[3690:25788] [CDVTimer][statusbar] 13.813019ms
+2015-03-14 18:36:42.277 Study Kick Start[3690:25788] [CDVTimer][splashscreen] 4.663050ms
+2015-03-14 18:36:42.277 Study Kick Start[3690:25788] [CDVTimer][TotalPluginStartup] 18.818021ms
+2015-03-14 18:36:42.393 Study Kick Start[3690:25788] Resetting plugins due to page load.
+2015-03-14 18:36:42.443 Study Kick Start[3690:25788] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/BCDCD0FD-91DC-48CD-9FAC-DC16653E1E27/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:37:08.372 Study Kick Start[3809:26342] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/AAA51DCD-0BB1-4AC0-BAB8-A44B73912F9A/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:37:08.427 Study Kick Start[3809:26342] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:37:08.428 Study Kick Start[3809:26342] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:37:08.429 Study Kick Start[3809:26342] Unlimited access to network resources
+2015-03-14 18:37:08.431 Study Kick Start[3809:26342] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:37:08.503 Study Kick Start[3809:26342] [CDVTimer][statusbar] 13.137996ms
+2015-03-14 18:37:08.507 Study Kick Start[3809:26342] [CDVTimer][splashscreen] 3.646016ms
+2015-03-14 18:37:08.507 Study Kick Start[3809:26342] [CDVTimer][TotalPluginStartup] 17.055035ms
+2015-03-14 18:37:08.583 Study Kick Start[3809:26342] Resetting plugins due to page load.
+2015-03-14 18:37:08.638 Study Kick Start[3809:26342] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/F057CA11-DF69-4F78-B8DF-6147506EC63E/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:39:41.108 Study Kick Start[3937:27433] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/A9F579A5-F7F7-4144-828F-E750A2500929/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:39:41.160 Study Kick Start[3937:27433] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:39:41.160 Study Kick Start[3937:27433] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:39:41.162 Study Kick Start[3937:27433] Unlimited access to network resources
+2015-03-14 18:39:41.164 Study Kick Start[3937:27433] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:39:41.239 Study Kick Start[3937:27433] [CDVTimer][statusbar] 13.590991ms
+2015-03-14 18:39:41.242 Study Kick Start[3937:27433] [CDVTimer][splashscreen] 3.389001ms
+2015-03-14 18:39:41.242 Study Kick Start[3937:27433] [CDVTimer][TotalPluginStartup] 17.247975ms
+2015-03-14 18:39:41.324 Study Kick Start[3937:27433] Resetting plugins due to page load.
+2015-03-14 18:39:41.377 Study Kick Start[3937:27433] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/2527DB3B-3E52-4265-8B75-6638BD89A21D/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:47:24.975 Study Kick Start[4076:30137] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/8688361B-8DA1-452D-A124-60D9D2E4D142/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:47:25.031 Study Kick Start[4076:30137] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:47:25.031 Study Kick Start[4076:30137] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:47:25.032 Study Kick Start[4076:30137] Unlimited access to network resources
+2015-03-14 18:47:25.034 Study Kick Start[4076:30137] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:47:25.108 Study Kick Start[4076:30137] [CDVTimer][statusbar] 13.051987ms
+2015-03-14 18:47:25.112 Study Kick Start[4076:30137] [CDVTimer][splashscreen] 3.601015ms
+2015-03-14 18:47:25.112 Study Kick Start[4076:30137] [CDVTimer][TotalPluginStartup] 16.921997ms
+2015-03-14 18:47:25.188 Study Kick Start[4076:30137] Resetting plugins due to page load.
+2015-03-14 18:47:25.244 Study Kick Start[4076:30137] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/A6C6EF67-0E40-4BFB-80AD-A81B03311BDA/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:48:23.278 Study Kick Start[4195:30834] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/9B0176A3-C9CA-4CB9-8E28-2F380077C7C5/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:48:23.329 Study Kick Start[4195:30834] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:48:23.329 Study Kick Start[4195:30834] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:48:23.331 Study Kick Start[4195:30834] Unlimited access to network resources
+2015-03-14 18:48:23.333 Study Kick Start[4195:30834] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:48:23.411 Study Kick Start[4195:30834] [CDVTimer][statusbar] 15.545011ms
+2015-03-14 18:48:23.414 Study Kick Start[4195:30834] [CDVTimer][splashscreen] 3.670990ms
+2015-03-14 18:48:23.415 Study Kick Start[4195:30834] [CDVTimer][TotalPluginStartup] 19.496024ms
+2015-03-14 18:48:23.492 Study Kick Start[4195:30834] Resetting plugins due to page load.
+2015-03-14 18:48:23.552 Study Kick Start[4195:30834] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/853F1197-B4EC-40C0-AF41-26C938BBAEBB/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:51:05.653 Study Kick Start[4314:31855] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/F06F4214-7057-4075-9357-7AD8DE0781F6/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:51:05.719 Study Kick Start[4314:31855] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:51:05.719 Study Kick Start[4314:31855] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:51:05.720 Study Kick Start[4314:31855] Unlimited access to network resources
+2015-03-14 18:51:05.723 Study Kick Start[4314:31855] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:51:05.799 Study Kick Start[4314:31855] [CDVTimer][statusbar] 12.872994ms
+2015-03-14 18:51:05.803 Study Kick Start[4314:31855] [CDVTimer][splashscreen] 3.481030ms
+2015-03-14 18:51:05.803 Study Kick Start[4314:31855] [CDVTimer][TotalPluginStartup] 16.620994ms
+2015-03-14 18:51:05.883 Study Kick Start[4314:31855] Resetting plugins due to page load.
+2015-03-14 18:51:05.934 Study Kick Start[4314:31855] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/EE1246DF-DB2E-4E82-98FE-FE3F913D81AC/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:54:03.376 Study Kick Start[4452:33906] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/E45E9B84-DD1D-42B0-A27D-1BF8190CD955/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:54:03.436 Study Kick Start[4452:33906] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:54:03.437 Study Kick Start[4452:33906] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:54:03.438 Study Kick Start[4452:33906] Unlimited access to network resources
+2015-03-14 18:54:03.440 Study Kick Start[4452:33906] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:54:03.528 Study Kick Start[4452:33906] [CDVTimer][statusbar] 22.266984ms
+2015-03-14 18:54:03.531 Study Kick Start[4452:33906] [CDVTimer][splashscreen] 3.457963ms
+2015-03-14 18:54:03.531 Study Kick Start[4452:33906] [CDVTimer][TotalPluginStartup] 25.990009ms
+2015-03-14 18:54:03.598 Study Kick Start[4452:33906] Resetting plugins due to page load.
+2015-03-14 18:54:03.652 Study Kick Start[4452:33906] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/5D282810-8F48-405A-A55B-91CF93B0C632/Study%20Kick%20Start.app/www/index.html
+2015-03-14 18:54:24.157 Study Kick Start[4572:34405] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Data/Application/FBE556EF-7E57-4622-B7F3-E21FDBD5FB9C/Library/Cookies/Cookies.binarycookies
+2015-03-14 18:54:24.215 Study Kick Start[4572:34405] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-14 18:54:24.215 Study Kick Start[4572:34405] Multi-tasking -> Device: YES, App: YES
+2015-03-14 18:54:24.217 Study Kick Start[4572:34405] Unlimited access to network resources
+2015-03-14 18:54:24.219 Study Kick Start[4572:34405] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-14 18:54:24.300 Study Kick Start[4572:34405] [CDVTimer][statusbar] 18.723011ms
+2015-03-14 18:54:24.303 Study Kick Start[4572:34405] [CDVTimer][splashscreen] 3.381014ms
+2015-03-14 18:54:24.303 Study Kick Start[4572:34405] [CDVTimer][TotalPluginStartup] 22.355974ms
+2015-03-14 18:54:24.363 Study Kick Start[4572:34405] Resetting plugins due to page load.
+2015-03-14 18:54:24.424 Study Kick Start[4572:34405] Finished load of: file:///Users/darian/Library/Developer/CoreSimulator/Devices/5AC3B53A-78D2-4F63-AA5E-6ED4111838AD/data/Containers/Bundle/Application/E893CD80-CE16-4A28-BA40-40E581E9447C/Study%20Kick%20Start.app/www/index.html
