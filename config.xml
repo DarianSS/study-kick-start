@@ -7,8 +7,18 @@
     <author email="darian.stanescu.14@ucl.ac.uk" href="">
         Team 9
     </author>
+    
     <preference name="orientation" value="portrait" />
     <preference name="MediaPlaybackRequiresUserAction" value="true"/>
+    
+     <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="StatusBarBackgroundColor" value="#86c2cd" />
+    
     <platform name="ios">
         <!-- images are determined by width and height. The following are supported -->
         <splash src="res/screen/ios/Default~iphone.png" width="320" height="480"/>
@@ -22,6 +32,7 @@
         <splash src="res/screen/ios/Default-736h.png" width="1242" height="2208"/>
         <splash src="res/screen/ios/Default-Landscape-736h.png" width="2208" height="1242"/>
     </platform>
+    
     <content src="index.html" />
     <access origin="*" />
     <icon src="/icons/LOGO.psd" />

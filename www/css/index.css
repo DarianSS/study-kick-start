@@ -16,7 +16,6 @@ body {
     height:100%;
     margin:0px;
     padding:0px;
-    text-transform:uppercase;
     width:100%;
 }
 
@@ -38,11 +37,22 @@ body {
 
 h1 {
     font-size:24px;
+    color:white;
     font-weight:normal;
     margin:0px;
     overflow:visible;
     padding:0px;
     text-align:center;
+}
+
+.next {
+    position: relative;
+    margin-left: 50%;
+    height: auto;
+}
+
+.header {
+    background-color:black;
 }
 
 .event {
