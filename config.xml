@@ -24,4 +24,5 @@
     </platform>
     <content src="index.html" />
     <access origin="*" />
+    <icon src="/icons/LOGO.psd" />
 </widget>
