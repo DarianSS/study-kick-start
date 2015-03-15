@@ -91,3 +91,7 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+bar bar-nav {
+    background-color: #86c2cd;
+}

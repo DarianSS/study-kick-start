@@ -47,4 +47,5 @@
     <preference name="StatusBarBackgroundColor" value="#86c2cd" />
     <content src="index.html" />
     <access origin="*" />
+    <icon src="/icons/LOGO.psd" />
 </widget>
