@@ -44,7 +44,7 @@
     <preference name="MediaPlaybackRequiresUserAction" value="true" />
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarStyle" value="lightcontent" />
-    <preference name="StatusBarBackgroundColor" value="#86c2cd" />
+    <preference name="StatusBarBackgroundColor" value="#68b3c1" />
     <content src="index.html" />
     <access origin="*" />
     <icon src="/icons/LOGO.psd" />

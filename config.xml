@@ -17,7 +17,7 @@
     </feature>
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarStyle" value="lightcontent" />
-    <preference name="StatusBarBackgroundColor" value="#86c2cd" />
+    <preference name="StatusBarBackgroundColor" value="#68b3c1" />
     
     <platform name="ios">
         <!-- images are determined by width and height. The following are supported -->
