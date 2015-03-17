@@ -11,8 +11,8 @@
     /* --------------------------------- Event Registration -------------------------------- */
     document.addEventListener('deviceready', function () {
         StatusBar.overlaysWebView( false );
-        StatusBar.backgroundColorByHexString('#ffffff');
-        StatusBar.styleDefault();
+        StatusBar.backgroundColorByHexString('#86c2cd');
+        StatusBar.styleLightContent();
         if (navigator.notification) { // Override default HTML alert with native dialog
             window.alert = function (message) {
                 navigator.notification.alert(
@@ -22,10 +22,9 @@
                     'OK'        // buttonName
                 );
             };
-        FastClick.attach(document.body);
-    }
-
-}, false);
+            FastClick.attach(document.body);
+        }
+    }, false);
 
     /* ---------------------------------- Local Functions ---------------------------------- */
     function findByName() {
