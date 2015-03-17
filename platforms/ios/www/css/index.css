@@ -92,11 +92,44 @@ h1 {
     -webkit-animation:fade 3000ms infinite;
 }
 
-bar bar-nav {
-    background-color: #86c2cd;
-}
-
 .textbox {
     text-align: center;
     vertical-align: middle;
+    text-color:#091a37;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.typewriter {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }

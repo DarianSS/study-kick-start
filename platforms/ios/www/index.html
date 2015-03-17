@@ -21,22 +21,34 @@
 
         <input type="image" src="img/next-button.png" class="next">
 
+        <script src="lib/jquery.js"></script>
+        <script src="assets/typed/js/typed.js"></script>
+        <script>
+          $(function(){
+              $(".typewriter").typed({
+                strings: ["<p>Whether you find yourself lacking in motivation or engaging in full on procrastination Study Kick Start will help you to understand its causes, what keeps you locked in and, most importantly, how to combat it.</p>"],
+                typeSpeed: 5,
+                contentType: 'html'
+              });
+          });
+        </script>
+        ...
+
+        <div class="typewriter"> </div>
+
         <!--<script src="cordova.js"></script>
         <script src="lib/fastclick.js"></script>
         <script src="lib/handlebars.js"></script>
         <script src="lib/jquery.js"></script>
         <script src="js/app.js"></script>-->
 
-        <div class = textbox>
+  <!--      <div class = "textbox">
             <script src="..www/assets/theaterJS/theater.js"></script>
             <script type="text/javascript">
-                            //create a theater object
                 var theater = new TheaterJS();
-                            //provide an slug/id for a pice for text in first parameter and an id of an HTML element inside which you want typing effect.
-                            //now call write function with the slug and text to write separated with an colon. 
-                theater.write("text:QNimate, Narayan's Blog", 600);
+                theater.write("IT FINALLY WORKS", 600);
             </script>
-        </div>
+        </div> -->
 
     </body>
 </html>
