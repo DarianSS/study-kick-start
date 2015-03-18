@@ -34,18 +34,6 @@ h1 {
     text-align:center;
 }
 
-.advice {
-    font-size: 20px;
-    text-align: center;
-    position: absolute;
-    top: 15%;
-    margin-right: 6%;
-    margin-left: 6%;
-    line-height: 170%;
-    color: #091a37;
-    font-family: "Lato";
-}
-
 .next {
     position: absolute;
     margin-left: 40%;
