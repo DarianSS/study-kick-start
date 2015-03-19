@@ -7,79 +7,66 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         
-        <link href="css/index.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.2.css">
         <link href="assets/ratchet/css/ratchet.css" rel="stylesheet" />
         <link href="assets/css/styles.css" rel="stylesheet" />
+        <link href="css/index.css" rel="stylesheet" type="text/css" />
 
-        <script src="lib/jquery.js"></script>
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>        
         <script src="assets/typed/js/typed.js"></script>
+        <!--<script src="cordova.js"></script>
+        <script src="lib/fastclick.js"></script>
+        <script src="lib/handlebars.js"></script>-->
     </head>
 
     <body>
-
-<<<<<<< Updated upstream
-        <script src="lib/jquery.js"></script>
-        <script src="assets/typed/js/typed.js"></script>
-
-        <div data-role="page" id="pageone">    
-            <div data-role="header">
-                <header class="bar bar-nav" style="background-color:#68b3c1">
+        <div data-role="header">
+            <header class="bar bar-nav" style="background-color:#68b3c1">
                     <h1 class="title" style="color:white; font-size:18px">Study Kick Start</h1>
-                </header>
-            </div>
-            
-            <div data-role="main" class="ui-content">
+            </header>
+        </div>
+
+        <div data-role="footer">
+            <input type="image" src="img/next-button.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="pageone">
+            <div data-role="content">
                 <script>
-                  $(function(){
-                      $(".typewriter").typed({
-                        strings: ["Whether you find yourself lacking in motivation or engaging in full on procrastination, Study Kick Start will help you to understand its causes, what keeps you locked in and, most importantly, how to combat it."],
-                        typeSpeed: 50,
-                        contentType: 'text'
-                      });
-                  });
+                    $(function(){
+                        $(".typewriter#tw1").typed({
+                            strings: ["Whether you find yourself lacking in motivation or engaging in full on procrastination, Study Kick Start will help you to understand its causes, what keeps you locked in and, most importantly, how to combat it."],
+                            typeSpeed: 50,
+                            contentType: 'text',
+                            showCursor: false
+                        });
+                    });
                 </script>            
-                <div class="typewriter"> </div>
-                <a href="#pagetwo"><input type="image" src="img/next-button.png" class="next">
+                <div class="typewriter" id="tw1"> </div>
+                <a href="#pagetwo" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a>
             </div>
         </div>
+
 
         <div data-role="page" id="pagetwo">
-            <div data-role="header">
-                <header class="bar bar-nav" style="background-color:#68b3c1">
-                    <h1 class="title" style="color:white; font-size:18px">Study Kick Start</h1>
-                </header>
-            </div>
-            
-            <div data-role="main" class="ui-content">
+            <div data-role="content">
                 <script>
-                  $(function(){
-                      $(".typewriter").typed({
-                        strings: ["second paaaageee <3"],
-                        typeSpeed: 50,
-                        contentType: 'text'
-                      });
-                  });
+                $( ".next" ).bind( "click", function(event, ui) {
+                    $(function(){
+                        $(".typewriter#tw2").typed({
+                            strings: ["^200 You'll be moving step-by-step, through proven methods for getting your work done with the minimum of stress. And, if the stress still feels too much to handle, don't panic! you'll be able to unlock some materials to put in your bonus bag by answering questions throughout your journey. \nFor each correct answer you'll get a goodie which will help you to learn ways to manage stress so that you can still get your work done. A winner either way! Stage one captures your personal study struggles and stage two is to help you work through them. \nLet's set you up."],
+                            typeSpeed: 50,
+                            contentType: 'text',
+                            showCursor: false
+                        });
+                    });
+                });
                 </script>            
-                <div class="typewriter"> </div>
-                <a href="#pageone"><input type="image" src="img/next-button.png" class="next">
+                <div class="typewriter" id="tw2"> </div>
+                <a href="#pageone" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a>
             </div>
         </div>
-=======
-        <div data-role="page">
-            <script>
-              $(function(){
-                  $(".typewriter").typed({
-                    strings: ["Whether you find yourself lacking in motivation or engaging in full on procrastination, Study Kick Start will help you to understand its causes, what keeps you locked in and, most importantly, how to combat it."],
-                    typeSpeed: 30,
-                    contentType: 'text'
-                  });
-              });
-            </script>
-            
-            <div class="typewriter"> </div>
->>>>>>> Stashed changes
 
-            <input type="image" src="img/next-button.png" class="next">
-        </div>
     </body>
 </html>
