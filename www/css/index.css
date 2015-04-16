@@ -2,6 +2,10 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
+[data-role=page] {
+    background: transparent url('img/cream_pixels@2X.png') no-repeat !important;
+}
+
 @font-face {
     font-family: "Lato";
     src: url("../assets/fonts/Lato-Regular.ttf") format("opentype");  
@@ -24,6 +28,18 @@ body {
     width:100%;*/
 }
 
+p {
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    right: 6%;
+    left: 6%;
+    line-height: 170%;
+    color: #091a37;
+    font-family: "Lato";
+}
+
 h1 {
     font-size:24px;
     color:white;
@@ -32,16 +48,8 @@ h1 {
     overflow:visible;
     padding:0px;
     text-align:center;
+    text-shadow:none !important;
 }
-
-.next {
-    position: absolute;
-    left: 41.5% !important; 
-    padding: 0px !important;
-    bottom: 12%;
-    width: 17%;
-}
-
 
 .event {
     border-radius:4px;
@@ -79,6 +87,20 @@ h1 {
     -webkit-animation:fade 3000ms infinite;
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.next {
+    position: absolute;
+    left: 41.5% !important; 
+    padding: 0px !important;
+    bottom: 12%;
+    width: 17%;
+}
+
 .textbox {
     text-align: center;
     vertical-align: middle;
@@ -94,14 +116,115 @@ h1 {
 
 .typewriter {
     font-size: 18px;
+    font-family: "Lato";
     text-align: center;
     position: absolute;
-    top: 20%;
+    top: 33%; 
     right: 6%;
     left: 6%;
     line-height: 170%;
-    color: #091a37;
+    color: #091a37;  
+}
+
+.name {
+    position: absolute;
+    top: 30%;
+    left: 18%;
+}
+
+input.form, h1.label {
+    height: 50px; 
+    line-height: 50px;
+}
+
+.label{
+    font-size: 18px;
+    font-weight: normal;
     font-family: "Lato";
+    color: #091a37;
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    line-height: 170%;
+}
+
+.form {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Lato";
+    color: #091a37 !important;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    line-height: 170%;
+    background: transparent;
+    border-width:5px;
+    border-bottom: thick solid #091a37;
+}
+
+hr.line {
+    left: 30%;
+    margin-top: 31% !important;
+    width: 40%;
+    height: 5px;
+    background-color: #091a37;
+    border: 0 none;
+}
+
+img {
+    max-width: 100%;
+}
+
+table.mascotDisplay {
+    position: absolute !important;
+    top: 30% !important;
+    bottom: 20% !important;
+    left: 10% !important;
+    right: 10% !important;
+    width: 80% !important;
+}
+
+table.mascotDisplay td {
+    width: 33% !important;
+    vertical-align: center !important;
+    text-align: center !important;
+}
+
+div.didyouknow {
+    position: absolute;
+    width: 10em;
+    top: 20%;
+    left: 50%;
+    margin-left: -5em;
+}
+
+/* .table_cell {
+    position: relative;
+} */
+
+.mascot {
+    /*  Please try not to give other positions and margins to the table cells, 
+        as that overrides the initial potisions that I gave them and messes up
+        the display. I commented the code cause I don't know what you wanted 
+        to do with it. But basically the commented code right above and below this
+        affected the way the table was displayed :D 
+    */
+
+   /* position: absolute;  
+    left: 0;
+    top: 0; */
+}
+
+.selection {
+ /*   position: absolute;
+    margin: auto; */
+}
+
+.stageTitle {
+    height: 8%;
+    top: 40% !important;
+    text-align: center;
+    color: #68b3c1 !important;
 }
 
 @keyframes blink{
@@ -118,14 +241,4 @@ h1 {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-}
-
-[data-role=page] {
-    background: transparent url('img/cream_pixels@2X.png') no-repeat !important;
 }

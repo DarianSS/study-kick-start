@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
     <head>
         <meta charset="utf-8" />
@@ -7,13 +7,13 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         
-        <link rel="stylesheet" href="css/jquery.mobile-1.4.2.css">
+        <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet" />
         <link href="assets/ratchet/css/ratchet.css" rel="stylesheet" />
-        <link href="assets/css/styles.css" rel="stylesheet" />
+        <!--<link href="assets/css/styles.css" rel="stylesheet" />-->
         <link href="css/index.css" rel="stylesheet" type="text/css" />
 
-        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-        <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>        
+        <script src="lib/jquery-2.1.1.min.js"></script>
+        <script src="lib/jquery.mobile-1.4.5.js"></script>        
         <script src="assets/typed/js/typed.js"></script>
         <!--<script src="cordova.js"></script>
         <script src="lib/fastclick.js"></script>
@@ -21,52 +21,82 @@
     </head>
 
     <body>
-        
+        <div data-role="header">
             <header class="bar bar-nav" style="background-color:#68b3c1">
-                    <h1 class="title" style=" font-size:18px">Study Kick Start</h1>
+                    <h1 class="title" style="color:white">Study Kick Start</h1>
             </header>
-        
+        </div>
 
         <div data-role="footer">
             <input type="image" src="img/next-button.png" class="next"> </a>
         </div>
 
-        <div data-role="page" id="pageone">
+
+        <div data-role="page" id="page1">
             <div data-role="content">
-                <script>
-                    $(function(){
-                        $(".typewriter#tw1").typed({
-                            strings: ["Whether you find yourself lacking in motivation or engaging in full on procrastination, Study Kick Start will help you to understand its causes, what keeps you locked in and, most importantly, how to combat it."],
-                            typeSpeed: 50,
-                            contentType: 'text',
-                            showCursor: false
-                        });
-                    });
-                </script>            
-                <div class="typewriter" id="tw1"> </div>
-                <a href="#pagetwo" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a>
+                <p> 
+                    Whether you find yourself lacking in motivation or engaging in full on procrastination, Study Kick Start will help you to understand its causes, what keeps you locked in and, most importantly, how to combat it. 
+                </p>
+                <a href="#page2" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a>
             </div>
         </div>
 
 
-        <div data-role="page" id="pagetwo">
+         <div data-role="page" id="page2">
             <div data-role="content">
-                <script>
-                $( ".next" ).bind( "click", function(event, ui) {
-                    $(function(){
-                        $(".typewriter#tw2").typed({
-                            strings: ["^200 You'll be moving step-by-step, through proven methods for getting your work done with the minimum of stress. And, if the stress still feels too much to handle, don't panic! you'll be able to unlock some materials to put in your bonus bag by answering questions throughout your journey. \nFor each correct answer you'll get a goodie which will help you to learn ways to manage stress so that you can still get your work done. A winner either way! Stage one captures your personal study struggles and stage two is to help you work through them. \nLet's set you up."],
-                            typeSpeed: 50,
-                            contentType: 'text',
-                            showCursor: false
-                        });
-                    });
-                });
-                </script>            
-                <div class="typewriter" id="tw2"> </div>
-                <a href="#pageone" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a>
+                <p>
+                    You&rsquo;ll be moving step-by-step, through proven methods for getting your work done with the minimum of stress. And, if the stress still feels too much to handle, don&rsquo;t panic! You&rsquo;ll be able to unlock some materials to put in your bonus bag by answering questions throughout your journey.
+                </p>
+                <a href="#page3" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a>
             </div>
         </div>
+
+
+        <div data-role="page" id="page3">
+            <div data-role="content">
+                <p>
+                    For each correct answer you&rsquo;ll get a goodie which will help you to learn ways to manage stress so that you can still get your work done. A winner either way! Stage one captures your personal study struggles and stage two is to help you work through them. Let&rsquo;s set you up.
+                </p>
+                <a href="#name" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a>
+            </div>
+        </div>
+
+        <div data-role="page" id="name"> 
+            <div data-role="content">
+                <p><b>Who are you?</b></p>
+                    <h1 class="label" id="test">Name: </h1>
+                    <input type="text" name="name" id="name_input" class="form" style="background:transparent; border:none;">
+                    <hr class="line"> 
+                <a href="#page4"  data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next" onclick="submitName()"> </a> 
+                <script>
+                    function submitName() {
+                        localStorage.name = document.getElementById("name_input").value;
+                    } 
+                </script>
+            </div>
+        </div>
+
+        <div data-role="page" id="page4">
+            <div data-role="content">
+                <p><b>Choose a mascot</b></p>
+                <div class="mascotDisplay">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td><img src="../icons/Mascots/masc1.png" alt="1" /></td>
+                            <td><img src="../icons/Mascots/masc2.png" alt="2" /></td>
+                            <td><img src="../icons/Mascots/masc3.png" alt="3" /></td>
+                        </tr>
+                        <tr>
+                            <td><img src="../icons/Mascots/masc4.png" alt="4" /></td>
+                            <td><img src="../icons/Mascots/masc5.png" alt="5" /></td>
+                            <td><img src="../icons/Mascots/masc6.png" alt="6" /></td>
+                        </tr>
+                    </table>
+                </div>
+                <a href="#page4"  data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next" onclick="submitName()"> </a> 
+            </div>
+        </div>
+
 
     </body>
 </html>
