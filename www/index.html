@@ -15,6 +15,12 @@
         <script src="lib/jquery-2.1.1.min.js"></script>
         <script src="lib/jquery.mobile-1.4.5.js"></script>        
         <script src="assets/typed/js/typed.js"></script>
+        <script src="js/scripts.js"></script>
+        <!--<script>
+            $(document).on("mobileinit",function() {
+                $.mobile.autoInitializePage = false;
+            });        
+        </script>-->
         <!--<script src="cordova.js"></script>
         <script src="lib/fastclick.js"></script>
         <script src="lib/handlebars.js"></script>-->
@@ -68,11 +74,6 @@
                     <input type="text" name="name" id="name_input" class="form" style="background:transparent; border:none;">
                     <hr class="line"> 
                 <a href="#page4"  data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next" onclick="submitName()"> </a> 
-                <script>
-                    function submitName() {
-                        localStorage.name = document.getElementById("name_input").value;
-                    } 
-                </script>
             </div>
         </div>
 
@@ -120,20 +121,7 @@
                             </div>
                         </td>
                     </tr>
-                </table>  
-                <script>
-                    $(document).ready(function(){
-                        $(".selection").hide();
-                        $(".table_cell").click(function(){
-                            $(".selection").hide();
-                            $(this).each(function(){
-                                $(this).children(".selection").show();
-                                var mascot = $(this).children().first().attr("src");
-                                $('.didyouknow').html("<img src='" + mascot + "' alt='mascot'>");
-                            });
-                        });
-                    });                                                 
-                </script>           
+                </table>           
                 <a href="#page5"  data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next" id="next5" onclick="submitName()"> </a> 
             </div>
         </div>
@@ -154,19 +142,8 @@
                     });
                 </script>            
                 <div class="typewriter" id="tw5"> </div>
-                <a href="#menu" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a> 
+                <a href="menu.html" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a> 
             </div>
         </div>
-
-        <div data-role="page" id="menu">
-            <div data-role="content">
-                <div class="stageTitle">
-                    <p><b>Stage 1</b></p>
-                </div>
-                <a href="#page2" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a>
-            </div>
-        </div>
-
-
     </body>
 </html>

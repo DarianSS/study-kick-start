@@ -119,11 +119,11 @@ h1 {
     font-family: "Lato";
     text-align: center;
     position: absolute;
-    top: 20%;
+    top: 33%; 
     right: 6%;
     left: 6%;
     line-height: 170%;
-    color: #091a37;   
+    color: #091a37;  
 }
 
 .name {
@@ -158,23 +158,130 @@ input.form, h1.label {
     left: 30%;
     line-height: 170%;
     background: transparent;
-    border: none;
+    border-width:1px;
+    border-bottom: thick solid #091a37;
 }
 
 hr.line {
     left: 30%;
-    margin-top: 31% !important;
+    top: 31% !important;
     width: 40%;
-    height: 5px;
+    height: 1px;
     background-color: #091a37;
+    border: 0 none;
 }
 
-.mascotDisplay {
+img {
+    max-width: 100%;
+}
+
+table.mascotDisplay {
+    position: absolute !important;
+    top: 30% !important;
+    bottom: 20% !important;
+    left: 10% !important;
+    right: 10% !important;
+    width: 80% !important;
+}
+
+table.mascotDisplay td {
+    position: relative;
+    width: 33% !important;
+    vertical-align: center !important;
+    text-align: center !important;
+}
+
+div.didyouknow {
     position: absolute;
-    top: 25%;
-    bottom: 20%;
-    left: 5%;
-    right: 5%;
+    text-align: center;
+    width: 6em !important;
+    top: 15%;
+    left: 50%;  
+    margin-left: -3em; 
+}
+
+.mascot {
+    z-index: 1;
+}
+
+.selection {
+    position: absolute;
+    z-index: 2;
+    top: 10px !important;
+    left: 0 !important;
+}
+
+div.stepTitle div.stageTitle {
+    display: block;
+}
+
+div.stageTitle {
+    position: static;
+    margin-top: 1.5em;
+    height: 3em;
+    text-align: center;
+}
+
+p.stageTitle {
+    font-size: 22px;
+    text-align: center;
+    position: static;
+    right: 6%;
+    left: 6%;
+    line-height: 170%;
+    color: #68b3c1;
+    font-family: "Lato";
+}
+
+p.stepTitle {
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 50% !important;
+    margin-top: -9px;
+    right: 6%;
+    left: 6%;
+    line-height: 170%;
+    color: #091a37;
+    font-family: "Lato";
+}
+
+.stepTitle .stepTitleText{
+    height: 3.5em;
+}
+
+p.stepTitleText img.footprint img.lock{
+    display: inline-block;
+    top-padding: 5px;
+}
+
+ div.stepTitle {
+    position: relative;
+    border-bottom-width: 1px;
+    border-bottom-color: #68b3c1;
+    border-bottom-style: solid;
+} 
+
+.footprint {
+    position: absolute;
+    float: left;
+    padding: 10px 0;
+    width: 2em;
+}
+
+.lock {
+    position: absolute;
+    float: right;
+    width: 2em;
+    right: 4px;
+    top: 13px;
+}
+
+.stageLocked {
+    position: absolute;
+    width: 3em;
+    left: 50% !important;
+    margin-left: -1.5em;
 }
 
 @keyframes blink{
