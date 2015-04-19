@@ -16,6 +16,7 @@
         <script src="lib/jquery.mobile-1.4.5.js"></script>        
         <script src="assets/typed/js/typed.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/jquery.foggy.min.js"></script>
         <!--<script>
             $(document).on("mobileinit",function() {
                 $.mobile.autoInitializePage = false;
@@ -131,7 +132,12 @@
                 <div class="didyouknow"> </div>
                 <script>
                     $( "#next5" ).bind( "click", function(event, ui) {
-                        $(function(){
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this).foggy()
+                                                    .dequeue();
+                                            });
                             $(".typewriter#tw5").typed({
                                 strings: ["^600 20% of people identify themselves as chronic procrastinators - so if you do, you are not alone!"],
                                 typeSpeed: 50,

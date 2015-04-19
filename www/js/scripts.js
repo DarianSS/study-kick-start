@@ -16,3 +16,19 @@ $(document).ready(function() {
         });
     });
 }); 
+
+$( "#next5" ).bind( "click", function(event, ui) {
+    $(function() {
+        $(".didyouknow").delay(5000)
+                        .queue(function() {
+                            $(this).foggy()
+                                .dequeue();
+                        });
+        $(".typewriter#tw5").typed({
+            strings: ["^600 20% of people identify themselves as chronic procrastinators - so if you do, you are not alone!"],
+            typeSpeed: 50,
+            contentType: 'text',
+            showCursor: false
+        });
+    });
+});
