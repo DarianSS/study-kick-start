@@ -1,0 +1,165 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+                                                                                            
+        <link href="../css/jquery.mobile-1.4.5.css" rel="stylesheet" />
+        <link href="../assets/ratchet/css/ratchet.css" rel="stylesheet" />
+        <link href="../css/index.css" rel="stylesheet" type="text/css" />
+
+        <script src="../lib/jquery-2.1.1.min.js"></script>
+        <script src="../lib/jquery.mobile-1.4.5.js"></script>        
+        <script src="../assets/typed/js/typed.js"></script>
+        <script src="../js/scripts.js"></script>
+        <script src="../js/jquery.foggy.min.js"></script>
+    </head>
+
+    <body>
+        <div data-role="header">
+            <header class="bar bar-nav" style="background-color:#68b3c1">
+                    <h1 class="title" style="color:white">Doing Stuff</h1>
+            </header>
+        </div>
+
+        <div data-role="footer">
+            <input type="image" src="../img/next-button.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page1">
+            <div data-role="content">
+                <p style="top:5em">
+                    The final step in Stage 1 is about what you do in response to your thoughts, feelings and sensations. This matters because what you do will either assist you or hinder you - it is either helpful or unhelpful. You can spot your helpful behaviours as they lead to success in achieving your goals. Your unhelpful behaviours can be spotted as they tend to be repeated without success or accompanied by unwanted consequences/ fallout/ effects/ follow-up.
+                </p>
+            </div>
+            <a href="#page2" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page2">
+            <div data-role="content">
+                <p>
+                    Tunde went out to parties and ate chocolate; Yolanda avoided looking at her schedule whilst Daniel updated his Facebook profile picture, read a book, played Candy Crush and watched TV.
+                </p>
+            </div>
+            <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page3">
+            <div data-role="content">
+                <p>
+                    Some of your unhelpful behaviours are really obvious such as Daniel playing Candy Crush, whilst others can be more difficult to spot.
+                </p>
+            </div>
+            <a href="#page4" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page4">
+            <div data-role="content">
+                <video width="320" height="240" controls>
+                    <source src="../chris.mp4" type="video/mp4">
+                </video>
+                <a href="#page5" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+            </div>
+        </div>
+        
+        <div data-role="page" id="page5">
+            <div data-role="content">
+                <div class="character">
+                    <img src="../img/chris.png">
+                </div>
+                <div class="characterIntro">
+                    <p>
+                        Chris believes that by lying around and thinking about the assignment some studying has taken place but it doesn't mean that the paper is any closer to being finished. Chris' behaviour is unhelpful as it doesn't actually progress to beginning the creative process of capturing any thoughts on paper.
+                    </p>
+                </div>
+
+                <script>
+                    $(function() {
+                        $(img).delay(5000)
+                            .queue(function() {
+                                    $(this).foggy()
+                                            .dequeue();
+                            });
+                </script>
+                <a href="#page6" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+            </div>
+        </div>
+
+        <div data-role="page" id="page6">
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <p class="textWithMascot">What do you do instead of/ in place of working/ to get away from your work?</p>
+                <div class="badThoughtsBox" style="top:9em"> 
+                    <p class="badThoughts">Watch TV</p>
+                    <p class="badThoughts">Daydream</p>
+                    <p class="badThoughts">See/speak to friends</p>
+                    <p class="badThoughts">Go online</p>
+                    <p class="badThoughts">Sleep</p>
+                    <p class="badThoughts">Eat</p>
+                    <p class="badThoughts">Think about work</p>
+                    <p class="badThoughts">Spend time perfecting your work</p>
+                    <p class="badThoughts">Add other (to be used multiple times)</p>
+                </div>
+            </div>
+            <a href="#page7" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page7">
+            <div data-role="content">
+                <p>
+                    The things that you do because of your head stuff form one piece of the puzzle
+                </p>
+                <img src="../img/headstuff.png" class="stuff">
+            </div>
+            <a href="#page8" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page8">
+            <div data-role="content">
+                <p>
+                    The things that you do because of your heart stuff form another piece of the puzzle
+                </p>
+                <img src="../img/heartstuff.png" class="stuff">
+            </div>
+            <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page9">
+            <div data-role="content">
+                <p>
+                    The things that you do because of your body stuff form the next piece of the puzzle
+                </p>
+                <img src="../img/bodystuff.png" class="stuff">
+            </div>
+            <a href="#page10" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page10">
+            <div data-role="content">
+                <p>
+                    ...Until you end up completely stuffed and feeling trapped in a cycle where you fall behind and work doesn't get done!
+                </p>
+                <img src="../img/completelystuffed.png" class="stuff">
+            </div>
+            <a href="#page11" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page11">
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <p class="textWithMascot">OK <span></span>, tomorrow I'll give you a task to help you think about the things you do that help or hinder your studying. Once completed you'll be ready for stage 2 of your journey!</p>
+                <div class="setReminder">
+                    <p>SET REMINDER TIME</p>
+                </div>
+            </div>
+            <a href="../menu.html" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <script>
+            $('.didyouknow').html("<img src='../" + localStorage.mascot + "' alt='mascot'>");
+        </script>
+    </body>
+</html>

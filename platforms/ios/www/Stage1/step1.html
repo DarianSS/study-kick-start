@@ -1,0 +1,256 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+                                                                                            
+        <link href="../css/jquery.mobile-1.4.5.css" rel="stylesheet" />
+        <link href="../assets/ratchet/css/ratchet.css" rel="stylesheet" />
+        <link href="../css/index.css" rel="stylesheet" type="text/css" />
+
+        <script src="../lib/jquery-2.1.1.min.js"></script>
+        <script src="../lib/jquery.mobile-1.4.5.js"></script>        
+        <script src="../assets/typed/js/typed.js"></script>
+        <script src="../js/scripts.js"></script>
+        <script src="../js/jquery.foggy.min.js"></script>
+    </head>
+
+    <body> 
+        <div data-role="header">
+            <header class="bar bar-nav" style="background-color:#68b3c1">
+                    <h1 class="title" style="color:white">Head Stuff</h1>
+            </header>
+        </div>
+
+        <div data-role="footer">
+            <input type="image" src="../img/next-button.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page1">
+            <div data-role="content">
+                <div class="character">
+                    <img src="../img/tunde.png">
+                </div>
+                <div class="characterIntro">
+                    <p>
+                        This is Tunde. She's looking pretty stressed out but then so would you be if you had 2 pieces of coursework with deadlines in a week and 3 exams to revise for to be taken in 2 weeks time. She had all good intentions to work in a manageable way from the start of term but then with society events, parties and watching episodes of her favourite TV series she somehow fell behind. How did she get to this point?
+                    </p>
+                </div>
+
+                <script>
+                    $(function() {
+                        $(img).delay(5000)
+                            .queue(function() {
+                                    $(this).foggy()
+                                            .dequeue();
+                            });
+                </script>
+                <a href="#page2" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+            </div>
+        </div>
+
+        <div data-role="page" id="page2">
+            <div data-role="content">
+                <video width="320" height="240">
+                    <object id="MediaPlayer" width="192" height="190" type="video/x-ms-asf">
+                    <param name="FileName"value="media/tunde.wmv">
+                    <param name="autostart" value="false">
+                    <param name="ShowControls" value="true">
+                    <param name="ShowStatusBar" value="false">
+                    <param name="ShowDisplay" value="false">
+                    <embed type="application/x-mplayer2" src="media/tunde.wmv" 
+                    width="192" height="190" ShowControls="1" ShowStatusBar="0" ShowDisplay="0" autostart="0" />
+                    </object>
+                </video>
+                <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+            </div>
+        </div>
+
+        <div data-role="page" id="page3">
+            <div data-role="content">
+                
+                <div class="quiz">
+                    <div class="popquizimg">
+                        <img src="../img/popquiz.png">
+                    </div>
+                    <div class="quizOption1">
+                        <p>It was Tunde's friends that began the journey to her demise</p>
+                    </div>
+                    <div class="quizOption2">
+                        <p>It was Tunde's workload that began the journey to her demise</p>
+                    </div>
+                    <div class="quizOption3">
+                        <p>It was Tunde's thoughts that began the journey to her demise</p>
+                    </div>
+                    <div class="quizOption4">
+                        <p>It was Tunde's love of chocolate that began the journey to her demise</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#page3right" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next3"> </a>
+        </div>
+
+        <div data-role="page" id="page3right"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next3").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this)
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw3").typed({
+                                strings: ["^200 Well done, that was easy right! Get to the end of this section and you'll find a goodie in your bonus bag!"],
+                                typeSpeed: 50,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw3"> </div>
+                <a href="#page4" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page3wrong"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next3").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this)
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw3").typed({
+                                strings: ["^200 I'm afraid not. Don't worry though, you'll have another chance to get something in your bonus bag."],
+                                typeSpeed: 50,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw3"> </div>
+                <a href="#page4" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page4">
+            <div data-role="content">
+                <p>There is often a link between how we think, how that makes us feel and then how we behave. Tunde's thinking that she had loads of time to do her coursework meant that she neglected her studies and went out a lot instead. So it was in fact her thinking and behaviour that led to her demise!</p>
+            </div>
+            <a href="#page5" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page5">
+            <div data-role="content">
+                <p style="top:4em"><b>The thoughts that started Tunde spiralling out of control were:</b></p>
+                <div class="thought1">
+                    <img src="../img/thought.png">
+                    <p class="thoughtText1">I've got ages to start that</p>
+                </div>
+                <div class="thought2">
+                    <img src="../img/thought.png">
+                    <p class="thoughtText2">It's just a couple of hours, I've still got time to do this</p>
+                </div>
+                <div class="thought3">
+                    <img src="../img/thought.png">
+                    <p class="thoughtText3">YOLO!!!</p>
+                </div>
+            </div>
+            <a href="#page6" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page6">
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <p class="textWithMascot">OK, <span></span>, let's get a flavour of the type of thoughts that initially stop you from doing your work:</p>
+                <div class="badThoughtsBox"> 
+                    <p class="badThoughts">I don’t know how to start</p>
+                    <p class="badThoughts">This is boring/I'd rather do X</p>
+                    <p class="badThoughts">I'll do it better if I wait a bit/I need the pressure to work</p>
+                    <p class="badThoughts">It's better not to start now as I am unsure exactly how to do it correctly</p>
+                    <p class="badThoughts">I'm running out of time now</p>
+                    <p class="badThoughts">I've got so much to do</p>
+                    <p class="badThoughts">I should have started ages ago</p>
+                    <p class="badThoughts">Add other (to be used multiple times)</p>
+                </div>
+            </div>
+            <a href="#page7" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next7"> </a>
+        </div>
+
+        <div data-role="page" id="page7"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next7").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this)
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw7").typed({
+                                strings: ["^200 <b>Tip: </b>Long-term memory is improved by varying your routine-change where you study, the time of day and length of time."],
+                                typeSpeed: 50,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw7"> </div>
+                <a href="#page8" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page8">
+            <div data-role="content">
+                
+                <div class="quiz">
+                    <div class="popquizimg">
+                        <img src="../img/popquiz.png">
+                    </div>
+                    <div class="quizOption1">
+                        <p>It was Tunde's friends that began the journey to her demise</p>
+                    </div>
+                    <div class="quizOption2">
+                        <p>It was Tunde's workload that began the journey to her demise</p>
+                    </div>
+                    <div class="quizOption3">
+                        <p>It was Tunde's thoughts that began the journey to her demise</p>
+                    </div>
+                    <div class="quizOption4">
+                        <p>It was Tunde's love of chocolate that began the journey to her demise</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page9">
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <p class="textWithMascot">OK <span></span>, tomorrow I'll set you a task to help you identify thoughts that have helped you to study and those that hindered you. Once that's done you'll have opened Step 2- Heart stuff. </p>
+                <div class="setReminder">
+                    <p>SET REMINDER TIME</p>
+                </div>
+            </div>
+            <a href="../menu.html" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+        
+        <script>
+            $('.didyouknow').html("<img src='../" + localStorage.mascot + "' alt='mascot'>");
+        </script>
+    </body>
+</html>

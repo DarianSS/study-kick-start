@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
     <head>
         <meta charset="utf-8" />
@@ -9,21 +9,20 @@
         
         <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet" />
         <link href="assets/ratchet/css/ratchet.css" rel="stylesheet" />
-        <link href="assets/css/styles.css" rel="stylesheet" />
         <link href="css/index.css" rel="stylesheet" type="text/css" />
 
         <script src="lib/jquery-2.1.1.min.js"></script>
         <script src="lib/jquery.mobile-1.4.5.js"></script>        
         <script src="assets/typed/js/typed.js"></script>
-        <!--<script src="cordova.js"></script>
-        <script src="lib/fastclick.js"></script>
-        <script src="lib/handlebars.js"></script>-->
+        <script src="js/scripts.js"></script>
+        <script src="js/jquery.foggy.min.js"></script>
+        <script src="js/redirect.js"></script>
     </head>
 
     <body>
         <div data-role="header">
             <header class="bar bar-nav" style="background-color:#68b3c1">
-                    <h1 class="title" style="color:white; font-size:18px">Study Kick Start</h1>
+                    <h1 class="title" style="color:white">Study Kick Start</h1>
             </header>
         </div>
 
@@ -37,17 +36,17 @@
                 <p> 
                     Whether you find yourself lacking in motivation or engaging in full on procrastination, Study Kick Start will help you to understand its causes, what keeps you locked in and, most importantly, how to combat it. 
                 </p>
-                <a href="#page2" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next" id="next1"> </a>
+                <a href="#page2" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a>
             </div>
         </div>
 
 
-        <div data-role="page" id="page2">
+         <div data-role="page" id="page2">
             <div data-role="content">
                 <p>
-                    You&rsquo;ll be moving step-by-step, through proven methods for getting your work done with the minimum of stress. And, if the stress still feels too much to handle, don&rsquo;t panic! you&rsquo;ll be able to unlock some materials to put in your bonus bag by answering questions throughout your journey.
+                    You&rsquo;ll be moving step-by-step, through proven methods for getting your work done with the minimum of stress. And, if the stress still feels too much to handle, don&rsquo;t panic! You&rsquo;ll be able to unlock some materials to put in your bonus bag by answering questions throughout your journey.
                 </p>
-                <a href="#page3" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next" id="next2"> </a>
+                <a href="#page3" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a>
             </div>
         </div>
 
@@ -57,36 +56,92 @@
                 <p>
                     For each correct answer you&rsquo;ll get a goodie which will help you to learn ways to manage stress so that you can still get your work done. A winner either way! Stage one captures your personal study struggles and stage two is to help you work through them. Let&rsquo;s set you up.
                 </p>
-                <a href="#page4" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next" id="next3"> </a>
+                <a href="#name" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a>
             </div>
         </div>
 
+        <div data-role="page" id="name"> 
+            <div data-role="content">
+                <p><b>Who are you?</b></p>
+                    <h1 class="label" id="test">Name: </h1>
+                    <input type="text" name="name" id="name_input" class="form" style="background:transparent; border:none;">
+                    <hr class="line"> 
+                <a href="#page4" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next" onclick="submitName()"> </a> 
+            </div>
+        </div>
 
         <div data-role="page" id="page4">
             <div data-role="content">
-                <p>
-                    <b>What&rsquo;s your name?</b>
-                </p>
-                <a href="#page1" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next" id="next3"> </a>
+                <p><b>Choose a mascot</b></p>
+                <table class="mascotDisplay" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <div class="table_cell" id="masc1">
+                                <img src="img/Mascots/masc1.png" alt="1" class="mascot"/>
+                                <img src="img/selection.png" class="selection" id="selection1">
+                            </div> 
+                        </td>
+                        <td>
+                            <div class="table_cell" id="masc2">
+                                <img src="img/Mascots/masc2.png" alt="2" />
+                                <img src="img/selection.png" class="selection" id="selection2">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="table_cell" id="masc3">
+                                <img src="img/Mascots/masc3.png" alt="3" />
+                                <img src="img/selection.png" class="selection" id="selection3">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="table_cell" id="masc4">
+                                <img src="img/Mascots/masc4.png" alt="4" />
+                                <img src="img/selection.png" class="selection" id="selection4">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="table_cell" id="masc5">
+                                <img src="img/Mascots/masc5.png" alt="5" />
+                                <img src="img/selection.png" class="selection" id="selection5">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="table_cell" id="masc6">
+                                <img src="img/Mascots/masc6.png" alt="6" />
+                                <img src="img/selection.png" class="selection" id="selection6">
+                            </div>
+                        </td>
+                    </tr>
+                </table>           
+                <a href="#page5"  data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next" id="next5" onclick="submitName()"> </a> 
             </div>
         </div>
 
-    </body>
-</html>
-
-
-<!-- Script for typewriter. Let's not forget about the tags. Also, let's not forget about the tags for making the typewriter activate. Please don't delete this comment. 
+        <div data-role="page" id="page5"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
                 <script>
-                    $(function(){
-                        $(".typewriter#tw1").typed({
-                            strings: ["Whether you find yourself lacking in motivation or engaging in full on procrastination, Study Kick Start will help you to understand its causes, what keeps you locked in and, most importantly, how to combat it."],
-                            typeSpeed: 50,
-                            contentType: 'text',
-                            showCursor: false
+                    $("#next5").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this).foggy()
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw5").typed({
+                                strings: ["^600 20% of people identify themselves as chronic procrastinators - so if you do, you are not alone!"],
+                                typeSpeed: 50,
+                                contentType: 'text',
+                                showCursor: false
+                            });
                         });
                     });
-                </script>  
-                <div class="typewriter" id="tw1"> </div>
-                <a href="#page2" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next" id="next1"> </a>   
-
--->
+                </script>            
+                <div class="typewriter" id="tw5"> </div>
+                <a href="menu.html" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+    </body>
+</html>

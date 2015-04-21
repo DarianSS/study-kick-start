@@ -1,0 +1,115 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        
+        <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet" />
+        <link href="assets/ratchet/css/ratchet.css" rel="stylesheet" />
+        <link href="css/index.css" rel="stylesheet" type="text/css" />
+
+        <script src="lib/jquery-2.1.1.min.js"></script>
+        <script src="lib/jquery.mobile-1.4.5.js"></script>        
+        <script src="assets/typed/js/typed.js"></script>
+        <script src="js/scripts.js"></script>
+    </head>
+
+    <body>
+        <div data-role="header">
+            <header class="bar bar-nav" style="background-color:#68b3c1">
+                    <h1 class="title" style="color:white">Study Kick Start</h1>
+            </header>
+        </div>
+
+        <div data-role="content">
+
+            <div class="stageTitle"> 
+                <p class="stageTitle"><b>Stage 1</b></p>
+            </div>
+           
+            <div class="stepTitle" onclick="window.location='Stage1/step1.html#page1'" data-transition="slidefade">
+                <div class="footprint">
+                    <img src="img/footprint.png">
+                </div>
+                <div class="stepTitleText">
+                    <p><b>Head Stuff</b></p>
+                </div>
+                <div class="lock">
+                    <img src="img/lock.png"> 
+                </div> 
+            </div> 
+
+            <div class="stepTitle" onclick="window.location='Stage1/step2.html#page1'" data-transition="slidefade">
+                <div class="footprint">
+                    <img src="img/footprint.png">
+                </div>
+                <div class="stepTitleText">
+                    <p><b>Heart Stuff</b></p>
+                </div>
+                <div class="lock">
+                    <img src="img/lock.png">
+                </div>
+            </div>
+
+            <div class="stepTitle" onclick="window.location='Stage1/step3.html#page1'" data-transition="slidefade">
+                <div class="footprint">
+                    <img src="img/footprint.png">
+                </div>
+                <div class="stepTitleText">
+                    <p><b>Body Stuff</b></p>
+                </div>
+                <div class="lock">
+                    <img src="img/lock.png">
+                </div>
+            </div>
+
+            <div class="stepTitle" onclick="window.location='Stage1/step4.html#page1'" data-transition="slidefade">
+                <div class="footprint">
+                    <img src="img/footprint.png">
+                </div>
+                <div class="stepTitleText">
+                    <p><b>Doing Stuff</b></p>
+                </div>
+                <div class="lock">
+                    <img src="img/lock.png">
+                </div>
+            </div>
+
+            <div class="stepTitle" onclick="window.location='Stage1/step5.html#page1'" data-transition="slidefade">
+                <div class="footprint">
+                    <img src="img/footprint.png">
+                </div>
+                <div class="stepTitleText">
+                    <p><b>Completely Stuffed</b></p>
+                </div>
+                <div class="lock">
+                    <img src="img/lock.png">
+                </div>
+            </div>
+
+            <div class="stepTitle">
+                <div class="footprint">
+                    <img src="img/vault.png">
+                </div>
+                <div class="stepTitleText">
+                    <p><b>Bonus Bag</b></p>
+                </div>
+                <div class="lock">
+                    <img src="img/lock.png">
+                </div>
+            </div>
+
+            <div class="stageTitle"> 
+                <p class="stageTitle"><b>Stage 2</b></p>
+            </div>
+            <img src="img/lock.png" class="stageLocked">
+
+            <script>
+                $(".next").hide();
+            </script>  
+        </div>
+    </body>
+</html>
