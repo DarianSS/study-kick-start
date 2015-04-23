@@ -6,34 +6,151 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        
-        <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet" />
-        <link href="assets/ratchet/css/ratchet.css" rel="stylesheet" />
-        <!--<link href="assets/css/styles.css" rel="stylesheet" />-->
-        <link href="css/index.css" rel="stylesheet" type="text/css" />
+                                                                                            
+        <link href="../css/jquery.mobile-1.4.5.css" rel="stylesheet" />
+        <link href="../assets/ratchet/css/ratchet.css" rel="stylesheet" />
+        <link href="../css/index.css" rel="stylesheet" type="text/css" />
 
-        <script src="lib/jquery-2.1.1.min.js"></script>
-        <script src="lib/jquery.mobile-1.4.5.js"></script>        
-        <script src="assets/typed/js/typed.js"></script>
-        <!--<script src="cordova.js"></script>
-        <script src="lib/fastclick.js"></script>
-        <script src="lib/handlebars.js"></script>-->
+        <script src="../lib/jquery-2.1.1.min.js"></script>
+        <script src="../lib/jquery.mobile-1.4.5.js"></script>        
+        <script src="../assets/typed/js/typed.js"></script>
+        <script src="../js/scripts.js"></script>
+        <script src="../js/jquery.foggy.min.js"></script>
     </head>
 
     <body>
         <div data-role="header">
             <header class="bar bar-nav" style="background-color:#68b3c1">
-                    <h1 class="title" style="color:white">Study Kick Start</h1>
+                    <h1 class="title" style="color:white">Completely Stuffed</h1>
             </header>
         </div>
 
         <div data-role="footer">
-            <input type="image" src="img/next-button.png" class="next"> </a>
+            <input type="image" src="../img/next-button.png" class="next"> </a>
         </div>
 
+        <div data-role="page" id="page1">
+            <div data-role="content">
+                <p>
+                    The contents of your head stuff forms the first step of your journey of procrastination
+                </p>
+                <img src="../img/headstuff.png" class="stuff">
+            </div>
+            <a href="#page2" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
 
-        
+        <div data-role="page" id="page2">
+            <div data-role="content">
+                <p>
+                    That head stuff leads to heart stuff and this forms step 2 of your journey
+                </p>
+                <table class="stuffed">
+                    <tr>
+                        <td><img src="../img/headstuff.png"></td>
+                        <td><img src="../img/heartstuff.png"></td> 
+                    </tr>
+                </table>
+            </div>
+            <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
 
+        <div data-role="page" id="page3">
+            <div data-role="content">
+                <p>
+                    The head and heart stuff can lead to your body stuff occurring and that's step 3 of your journey
+                </p>
+                <table class="stuffed">
+                    <tr>
+                        <td><img src="../img/headstuff.png"></td>
+                        <td><img src="../img/heartstuff.png"></td> 
+                        <td><img src="../img/bodystuff.png"></td> 
+                    </tr>
+                </table>
+            </div>
+            <a href="#page4" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
 
+        <div data-role="page" id="page4">
+            <div data-role="content">
+                <p>
+                    The things that you do because of your body stuff is step 4 of your journey and once you've taken all of those steps you end up at your destination which is...
+                </p>
+                <table class="stuffed">
+                    <tr>
+                        <td><img src="../img/headstuff.png"></td>
+                        <td><img src="../img/heartstuff.png"></td> 
+                        <td><img src="../img/bodystuff.png"></td> 
+                        <td><img src="../img/doingstuff.png"></td> 
+                    </tr>
+                </table>
+            </div>
+            <a href="#page5" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page5">
+            <div data-role="content">
+                <p>
+                    ... completely stuffed and walking the road of procrastination where you fall behind and work doesn't get done! Let's take a look at your personal journey
+                </p>
+                <img src="../img/completelystuffed.png" class="stuff">
+            </div>
+            <a href="#page6" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page6">
+            <div data-role="content">
+                <h1>Head Stuff Road</h1>
+                <p>
+                        !!!!!we need to implement this!!!!!
+                </p>
+            </div>
+            <a href="#page7" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page7">
+            <div data-role="content">
+                <h1>Heart Stuff Lane</h1>
+                <p>
+                        !!!!!we need to implement this!!!!!
+                </p>
+            </div>
+            <a href="#page8" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page8">
+            <div data-role="content">
+                <h1>Body Stuff Boulevard</h1>
+                <p>
+                        !!!!!we need to implement this!!!!!
+                </p>
+            </div>
+            <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page9">
+            <div data-role="content">
+                <h1>Doing Stuff Drive</h1>
+                <p>
+                        !!!!!we need to implement this!!!!!
+                </p>
+            </div>
+            <a href="#page10" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page10">
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <p class="textWithMascot">OK <span></span>, you've made it to the end of stage 1 of your journey and have unlocked stage 2!</p>
+            </div>
+            <a href="../menu.html#menu2" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <script>
+            $('.didyouknow').html("<img src='../" + localStorage.mascot + "' alt='mascot'>");
+
+            $("#page10").click(function() {
+                localStorage.progress = 6;
+            });
+        </script>
     </body>
 </html>

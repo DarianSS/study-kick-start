@@ -31,6 +31,7 @@ body {
 p {
     font-size: 18px;
     text-align: center;
+    text-shadow: none !important;
     position: absolute;
     top: 20%;
     right: 6%;
@@ -41,14 +42,20 @@ p {
 }
 
 h1 {
-    font-size:24px;
-    color:white;
-    font-weight:bold;
-    margin:0px;
-    overflow:visible;
-    padding:0px;
-    text-align:center;
-    text-shadow:none !important;
+    font-family: "Lato";
+    font-size: 24px;
+    color: #68b3c1;
+    font-weight: bold;
+    overflow: visible;
+    padding: 0px;
+    text-align: center;
+    text-shadow: none !important;
+    margin-top: 3em;
+}
+
+h1.title {
+    font-family: "Lato";
+    font-weight: bold;
 }
 
 .event {
@@ -195,7 +202,7 @@ div.didyouknow {
     position: absolute;
     text-align: center;
     width: 6em !important;
-    top: 15%;
+    top: 4em;
     left: 50%;  
     margin-left: -3em; 
 }
@@ -216,7 +223,7 @@ div.stepTitle div.stageTitle {
 }
 
 div.stageTitle {
-    position: static;
+    position: relative;              /*chaged 22.05.2015 - 03:15*/
     margin-top: 1.5em;
     height: 3em;
     text-align: center;
@@ -282,6 +289,266 @@ p.stepTitleText img.footprint img.lock{
     width: 3em;
     left: 50% !important;
     margin-left: -1.5em;
+}
+
+.character {
+    position: absolute;
+    top: 4em;
+    width: 18em;
+    left: 50%;
+    margin-left: -9em;
+    z-index: -1;
+}
+
+.characterIntro {
+    position: absolute;
+    top: 4em;
+    width: 18em;
+    left: 50%;
+    margin-left: -9em;
+}
+
+div.popquiz div.quizOption {
+    display: block;
+}
+
+.quiz * {
+    line-height: 1em !important;    
+}
+
+.popquizimg {
+    position: absolute;
+    top: 4em;
+    width: 8em;
+    left: 50%;
+    margin-left: -4em;
+}
+
+.quizOption1 {
+    position: absolute;
+    top: 9em;
+    height: 4em;
+    border-radius: 10px;
+    border: 2px solid #68b3c1;
+    padding: 20px; 
+    width: 90%;
+    left: 5%;
+}
+
+.quizOption2 {
+    position: absolute;
+    top: 14em;
+    height: 4em;
+    border-radius: 10px;
+    border: 2px solid #68b3c1;
+    padding: 20px; 
+    width: 90%;
+    left: 5%;
+}
+
+.quizOption3 {
+    position: absolute;
+    top: 19em;
+    height: 4em;
+    border-radius: 10px;
+    border: 2px solid #68b3c1;
+    padding: 20px; 
+    width: 90%;
+    left: 5%;
+}
+
+.quizOption4 {
+    position: absolute;
+    top: 24em;
+    height: 4em;
+    border-radius: 10px;
+    border: 2px solid #68b3c1;
+    padding: 20px; 
+    width: 90%;
+    left: 5%;
+}
+
+p.textWithMascot {
+    padding-top: 10em !important;
+    position: static;
+}
+
+.thought1 *{
+    position: absolute;
+    width: 10em;
+    top: 9em;
+}
+
+.thought2 *{
+    position: absolute;
+    width: 10em;
+    top: 12em;
+    left: 50%;
+}
+
+.thought3 *{
+    position: absolute;
+    width: 10em;
+    top: 20em;
+    left: 10%;
+}
+
+.thoughtText1 {
+    position: absolute;
+    line-height: 1em;
+    top: 11em;
+    width: 8em;
+    padding-left: 0.5em;
+}
+
+.thoughtText2 {
+    position: absolute;
+    line-height: 1em;
+    top: 13em;
+    width: 8em;
+    padding-left: 1em;
+}
+
+.thoughtText3 {
+    position: absolute;
+    line-height: 1em;
+    top: 22em;
+    width: 8em;
+    padding-left: 2em;
+}
+
+.badThoughts .textWithMascot {
+    display: block;
+}
+
+.badThoughts {
+    display: block;
+    position: static;
+    line-height: 1em;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.badThoughtsBox {
+    border-radius: 10px;
+    border: 1px solid #68b3c1;
+}
+
+.setReminder *{
+    position: static;
+    width: 50%;
+    margin-top: 2em;
+    margin-left: 25%;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #68b3c1;
+}
+
+.hook {
+    display: inline-block;
+    width: 2em;
+    margin-left: 2.2em;
+    margin-top: 24em;
+}
+
+.phqOption {
+    margin-left: 5%;
+    margin-top: 15em;
+    width: 90%;
+    table-layout: fixed;
+}
+
+table.phqOption {
+    border-collapse: separate;
+    border-spacing: 7px !important;
+}
+
+.phqOption td {
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 0 0 0 2px #68b3c1;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.stuff {
+    margin-top: 13em;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.stuffed {
+    margin-top: 15em;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+
+.yes {
+    position: absolute;
+    top: 17em;
+    height: 2.5em;
+    border-radius: 10px;
+    border: 2px solid #68b3c1;
+    padding: 20px; 
+    width: 5em;
+    left: 50%;
+    margin-left: -2.5em;
+}
+
+.no {
+    position: absolute;
+    top: 20.5em;
+    height: 2.5em;
+    border-radius: 10px;
+    border: 2px solid #68b3c1;
+    padding: 20px; 
+    width: 5em;
+    left: 50%;
+    margin-left: -2.5em;
+}
+
+video {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 6em;
+}
+
+audio {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10em;
+}
+
+.categories {
+    margin-left: 15%;
+    margin-top: 30%;
+    width: 70%;
+    table-layout: fixed;
+}
+
+table.categories {
+    border-collapse: separate;
+    border-spacing: 20px !important;
+}
+
+.categories td {
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 0 0 0 2px #68b3c1;
+    padding: 0.5em;
+    text-align: center;
+    height: 3em;
+}
+
+.char2 {
+    position: absolute;
+    top: 0em;
+    width: 18em;
+    left: 50%;
+    margin-left: -9em;
+    z-index: -1;
 }
 
 @keyframes blink{

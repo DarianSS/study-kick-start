@@ -14,6 +14,7 @@
         <script src="lib/jquery-2.1.1.min.js"></script>
         <script src="lib/jquery.mobile-1.4.5.js"></script>        
         <script src="assets/typed/js/typed.js"></script>
+        <script src="js/scripts.js"></script>
     </head>
 
     <body>
@@ -23,92 +24,174 @@
             </header>
         </div>
 
-        <div data-role="content">
+            <div data-role="page" id="menu1">
+                <div data-role="content">
 
-            <div class="stageTitle"> 
-                <p class="stageTitle"><b>Stage 1</b></p>
+                    <div class="stageTitle"> 
+                        <p class="stageTitle"><b>Stage 1</b></p>
+                    </div>
+
+                    <div class="stepTitle" onclick="window.location='Stage1/step1.html#page1'" data-transition="slidefade"> 
+                            <div class="footprint">         
+                                <img src="img/footprint.png">   
+                            </div> 
+                            <div class="stepTitleText"> 
+                                <p><b>Head Stuff</b></p>
+                            </div> 
+                            <!-- <div class="lock">
+                                <img src="img/lock.png"> 
+                            </div> --> 
+                    </div>
+
+                    <div class="stepTitle" onclick="window.location='Stage1/step" data-transition="slidefade" id="step2">
+                        <div class="footprint">
+                            <img src="img/footprint.png">
+                        </div>
+                        <div class="stepTitleText">
+                            <p><b>Heart Stuff</b></p>
+                        </div>
+                        <div class="lock" id="lock2">
+                            <img src="img/lock.png">
+                        </div>
+                    </div>
+
+                    <div class="stepTitle" onclick="window.location='Stage1/step" data-transition="slidefade" id="step3">
+                        <div class="footprint">
+                            <img src="img/footprint.png">
+                        </div>
+                        <div class="stepTitleText">
+                            <p><b>Body Stuff</b></p>
+                        </div>
+                        <div class="lock" id="lock3">
+                            <img src="img/lock.png">
+                        </div>
+                    </div>
+
+                    <div class="stepTitle" onclick="window.location='Stage1/step" data-transition="slidefade" id="step4">
+                        <div class="footprint">
+                            <img src="img/footprint.png">
+                        </div>
+                        <div class="stepTitleText">
+                            <p><b>Doing Stuff</b></p>
+                        </div>
+                        <div class="lock" id="lock4">
+                            <img src="img/lock.png">
+                        </div>
+                    </div>
+
+                    <div class="stepTitle" onclick="window.location='Stage1/step" data-transition="slidefade" id="step5">
+                        <div class="footprint">
+                            <img src="img/footprint.png">
+                        </div>
+                        <div class="stepTitleText">
+                            <p><b>Completely Stuffed</b></p>
+                        </div>
+                        <div class="lock" id="lock5">
+                            <img src="img/lock.png">
+                        </div>
+                    </div>
+
+                    <div class="stepTitle">
+                        <div class="footprint">
+                            <img src="img/vault.png">
+                        </div>
+                        <div class="stepTitleText">
+                            <p><b>Bonus Bag</b></p>
+                        </div>
+                        <div class="lock" id="lock6">
+                            <img src="img/lock.png">
+                        </div>
+                    </div>
+
+                    <a href="#menu2" data-transition="slideup">
+                        <div class="stageTitle"> 
+                            <p class="stageTitle"><b>Stage 2</b></p>
+                        </div>
+                    </a>
+                    <img src="img/lock.png" class="stageLocked">
+                </div>
             </div>
 
-            <div class="stepTitle">
-                <div class="footprint">
-                    <img src="img/footprint.png">
-                </div>
-                <div class="stepTitleText">
-                    <p><b>Head Stuff</b></p>
-                </div>
-                <div class="lock">
-                    <img src="img/lock.png">
-                </div>
-            </div>
+            <!--second menu -->
 
-            <div class="stepTitle">
-                <div class="footprint">
-                    <img src="img/footprint.png">
-                </div>
-                <div class="stepTitleText">
-                    <p><b>Heart Stuff</b></p>
-                </div>
-                <div class="lock">
-                    <img src="img/lock.png">
-                </div>
-            </div>
+            <div data-role="page" id="menu2">
+                <div data-role="content">
 
-            <div class="stepTitle">
-                <div class="footprint">
-                    <img src="img/footprint.png">
-                </div>
-                <div class="stepTitleText">
-                    <p><b>Body Stuff</b></p>
-                </div>
-                <div class="lock">
-                    <img src="img/lock.png">
-                </div>
-            </div>
+                    <div class="stageTitle"> 
+                        <p class="stageTitle"><b>Stage 2</b></p>
+                    </div>
 
-            <div class="stepTitle">
-                <div class="footprint">
-                    <img src="img/footprint.png">
-                </div>
-                <div class="stepTitleText">
-                    <p><b>Doing Stuff</b></p>
-                </div>
-                <div class="lock">
-                    <img src="img/lock.png">
-                </div>
-            </div>
+                    <div class="stepTitle" onclick="window.location='Stage2/step1.html#page1'" data-transition="slidefade">         
+                            <div class="footprint">
+                                <img src="img/footprint.png">
+                            </div>
+                            <div class="stepTitleText">
+                                <p><b>Managing Head Stuff</b></p>
+                            </div>
+                            <div class="lock"c>
+                                <img src="img/lock.png"> 
+                            </div> 
+                    </div> 
 
-            <div class="stepTitle">
-                <div class="footprint">
-                    <img src="img/footprint.png">
-                </div>
-                <div class="stepTitleText">
-                    <p><b>Completely Stuffed</b></p>
-                </div>
-                <div class="lock">
-                    <img src="img/lock.png">
-                </div>
-            </div>
+                    <div class="stepTitle" onclick="window.location='Stage2/step2.html#page1'" data-transition="slidefade">
+                        <div class="footprint">
+                            <img src="img/footprint.png">
+                        </div>
+                        <div class="stepTitleText">
+                            <p><b>Managing Heart Stuff</b></p>
+                        </div>
+                        <div class="lock">
+                            <img src="img/lock.png">
+                        </div>
+                    </div>
 
-            <div class="stepTitle">
-                <div class="footprint">
-                    <img src="img/vault.png">
-                </div>
-                <div class="stepTitleText">
-                    <p><b>Bonus Bag</b></p>
-                </div>
-                <div class="lock">
-                    <img src="img/lock.png">
-                </div>
-            </div>
+                    <div class="stepTitle" onclick="window.location='Stage2/step3.html#page1'" data-transition="slidefade">
+                        <div class="footprint">
+                            <img src="img/footprint.png">
+                        </div>
+                        <div class="stepTitleText">
+                            <p><b>Managing Body Stuff</b></p>
+                        </div>
+                        <div class="lock">
+                            <img src="img/lock.png">
+                        </div>
+                    </div>
 
-            <div class="stageTitle"> 
-                <p class="stageTitle"><b>Stage 2</b></p>
+                    <div class="stepTitle" onclick="window.location='Stage2/step4.html#page1'" data-transition="slidefade">
+                        <div class="footprint">
+                            <img src="img/footprint.png">
+                        </div>
+                        <div class="stepTitleText">
+                            <p><b>Managing Doing Stuff</b></p>
+                        </div>
+                        <div class="lock">
+                            <img src="img/lock.png">
+                        </div>
+                    </div>
+
+                    <div class="stepTitle" onclick="window.location='Stage2/step5.html#page1'" data-transition="slidefade">
+                        <div class="footprint">
+                            <img src="img/footprint.png">
+                        </div>
+                        <div class="stepTitleText">
+                            <p><b>Final Step</b></p>
+                        </div>
+                        <div class="lock">
+                            <img src="img/lock.png">
+                        </div>
+                    </div>
+
+                    <a href="#menu1" data-transition="slidedown">
+                        <div class="stageTitle"> 
+                            <p class="stageTitle"><b>Back to Stage 1</b></p>
+                        </div>
+                    </a>
+                     
+                </div>
             </div>
-            <img src="img/lock.png" class="stageLocked">
 
             <script>
                 $(".next").hide();
-            </script>  
-        </div>
+            </script> 
     </body>
 </html>

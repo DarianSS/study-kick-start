@@ -16,6 +16,7 @@
         <script src="assets/typed/js/typed.js"></script>
         <script src="js/scripts.js"></script>
         <script src="js/jquery.foggy.min.js"></script>
+        <script src="js/redirect.js"></script>
     </head>
 
     <body>
@@ -65,7 +66,7 @@
                     <h1 class="label" id="test">Name: </h1>
                     <input type="text" name="name" id="name_input" class="form" style="background:transparent; border:none;">
                     <hr class="line"> 
-                <a href="#page4"  data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next" onclick="submitName()"> </a> 
+                <a href="#page4" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next" onclick="submitName()"> </a> 
             </div>
         </div>
 
@@ -124,11 +125,6 @@
                 <script>
                     $("#next5").bind("click", function(event, ui) {
                         $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this).foggy()
-                                                    .dequeue();
-                                            });
                             $(".typewriter#tw5").typed({
                                 strings: ["^600 20% of people identify themselves as chronic procrastinators - so if you do, you are not alone!"],
                                 typeSpeed: 50,
@@ -139,7 +135,7 @@
                     });
                 </script>            
                 <div class="typewriter" id="tw5"> </div>
-                <a href="menu.html" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a> 
+                <a href="menu.html#menu1" rel="external" data-transition="slidefade"><input type="image" src="img/next-button-transparent.png" class="next"> </a> 
             </div>
         </div>
     </body>
