@@ -15,6 +15,7 @@
         <script src="lib/jquery.mobile-1.4.5.js"></script>        
         <script src="assets/typed/js/typed.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/jquery.appear.js"></script>
     </head>
 
     <body>
@@ -91,7 +92,7 @@
                         </div>
                     </div>
 
-                    <div class="stepTitle">
+                    <div class="stepTitle" id="bonus">
                         <div class="footprint">
                             <img src="img/vault.png">
                         </div>
@@ -103,12 +104,14 @@
                         </div>
                     </div>
 
-                    <a href="#menu2" data-transition="slideup">
+                    <a data-transition="slideup">
                         <div class="stageTitle"> 
                             <p class="stageTitle"><b>Stage 2</b></p>
                         </div>
                     </a>
-                    <img src="img/lock.png" class="stageLocked">
+                    <div class="stageLocked">
+                        <img src="img/lock.png">
+                    </div>
                 </div>
             </div>
 
@@ -128,55 +131,52 @@
                             <div class="stepTitleText">
                                 <p><b>Managing Head Stuff</b></p>
                             </div>
-                            <div class="lock"c>
-                                <img src="img/lock.png"> 
-                            </div> 
                     </div> 
 
-                    <div class="stepTitle" onclick="window.location='Stage2/step2.html#page1'" data-transition="slidefade">
+                    <div class="stepTitle" onclick="window.location='Stage2/step" data-transition="slidefade" id="step8">
                         <div class="footprint">
                             <img src="img/footprint.png">
                         </div>
                         <div class="stepTitleText">
                             <p><b>Managing Heart Stuff</b></p>
                         </div>
-                        <div class="lock">
+                        <div class="lock" id="lock8">
                             <img src="img/lock.png">
                         </div>
                     </div>
 
-                    <div class="stepTitle" onclick="window.location='Stage2/step3.html#page1'" data-transition="slidefade">
+                    <div class="stepTitle" onclick="window.location='Stage2/step" data-transition="slidefade" id="step9">
                         <div class="footprint">
                             <img src="img/footprint.png">
                         </div>
                         <div class="stepTitleText">
                             <p><b>Managing Body Stuff</b></p>
                         </div>
-                        <div class="lock">
+                        <div class="lock" id="lock9">
                             <img src="img/lock.png">
                         </div>
                     </div>
 
-                    <div class="stepTitle" onclick="window.location='Stage2/step4.html#page1'" data-transition="slidefade">
+                    <div class="stepTitle" onclick="window.location='Stage2/step" data-transition="slidefade" id="step10">
                         <div class="footprint">
                             <img src="img/footprint.png">
                         </div>
                         <div class="stepTitleText">
                             <p><b>Managing Doing Stuff</b></p>
                         </div>
-                        <div class="lock">
+                        <div class="lock" id="lock10">
                             <img src="img/lock.png">
                         </div>
                     </div>
 
-                    <div class="stepTitle" onclick="window.location='Stage2/step5.html#page1'" data-transition="slidefade">
+                    <div class="stepTitle" onclick="window.location='Stage2/step" data-transition="slidefade" id="step11">
                         <div class="footprint">
                             <img src="img/footprint.png">
                         </div>
                         <div class="stepTitleText">
                             <p><b>Final Step</b></p>
                         </div>
-                        <div class="lock">
+                        <div class="lock" id="lock11">
                             <img src="img/lock.png">
                         </div>
                     </div>

@@ -16,6 +16,7 @@
         <script src="../assets/typed/js/typed.js"></script>
         <script src="../js/scripts.js"></script>
         <script src="../js/jquery.foggy.min.js"></script>
+        <script src="../js/jquery.appear.js"></script>
     </head>
 
     <body>
@@ -69,15 +70,15 @@
                     </p>
                 </div>
                 <div class="quiz">
-                    <div class="quizOption1" style="top:13em;height:5em">
+                    <div class="quizOption1" style="top:13em;height:5em" id="wrong">
                         <p>Yes - she would be able to start her revision as the feelings wouldn't be distracting her anymore</p>
                     </div>
-                    <div class="quizOption2" style="top:19em;height:5em">
+                    <div class="quizOption2" style="top:19em;height:5em" id="right">
                         <p>No - she wouldn't be able to tell what is or isn't important in her life anymore.</p>
                     </div>
                 </div>
             </div>
-            <a href="#page3right" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next3"> </a>
+            <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next3"> </a>
         </div>
 
         <div data-role="page" id="page3right"> 
@@ -175,30 +176,46 @@
 
         <div data-role="page" id="page7">
             <div data-role="content">
+                <div>
                 <p>
                     A simple way to start building familiarity with emotions can be to think of all our emotions falling into four broad categories. On the next page you will see 16 words. Correctly place them onto one of the 4 hooks below within the time allowed and you'll earn a goodie for your bonus bag!
-                </p>
-                <div class="hook">
-                    <img src="../img/hook.png">
-                </div>
-                <div class="hook">
-                    <img src="../img/hook.png">
-                </div>
-                <div class="hook">
-                    <img src="../img/hook.png">
-                </div>
-                <div class="hook">
-                    <img src="../img/hook.png">
-                </div>
+                </p> </div>
+                <ul class="hook"> 
+                    <li><img src="../img/angerhook.png">
+                    <li><img src="../img/joyhook.png">
+                    <li><img src="../img/sadhook.png">
+                    <li><img src="../img/fearhook.png">
+                </ul>
             </div>
             <a href="#page8" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
         <div data-role="page" id="page8">
             <div data-role="content">
-                <p>
-                    PAGE LEFT EMPTY FOR WHEN WE GET THE WORDS
-                </p>
+                <ul class="words">
+                    <li class="absolute-center">bored
+                    <li class="absolute-center">comfortable 
+                    <li class="absolute-center">distracted
+                    <li class="absolute-center">nervous
+                    <li class="absolute-center">irritated
+                    <li class="absolute-center">frustrated
+                    <li class="absolute-center">stimulated
+                    <li class="absolute-center">worried
+                    <li class="absolute-center">relief
+                    <li class="absolute-center">apathetic
+                    <li class="absolute-center">dread
+                    <li class="absolute-center">anxious
+                    <li class="absolute-center">content
+                    <li class="absolute-center">low
+                    <li class="absolute-center">annoyed
+                    <li class="absolute-center">resentment
+                </ul>
+                <ul class="hook"> 
+                    <li><img src="../img/angerhook.png">
+                    <li><img src="../img/joyhook.png">
+                    <li><img src="../img/sadhook.png">
+                    <li><img src="../img/fearhook.png">
+                </ul>
             </div>
             <a href="#page8right" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a>
         </div>
@@ -298,7 +315,6 @@
                     <p class="badThoughts">Guilt</p>
                     <p class="badThoughts">Relief</p>
                     <p class="badThoughts">Boredom</p>
-                    <p class="badThoughts">Add other (to be used multiple times)</p>
                 </div>
             </div>
             <a href="#page10" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
@@ -349,14 +365,12 @@
             <div data-role="content">
                 <p>1. Little interest or pleasure in doing things</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page14" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -364,14 +378,12 @@
             <div data-role="content">
                 <p>2. Feeling down, depressed, or hopeless</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page15" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -379,14 +391,12 @@
             <div data-role="content">
                 <p>3. Trouble falling or staying asleep, or sleeping too much</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page16" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -394,14 +404,12 @@
             <div data-role="content">
                 <p>4. Feeling tired or having little energy</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page17" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -409,14 +417,12 @@
             <div data-role="content">
                 <p>5. Poor appetite or overeating</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page18" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -424,14 +430,12 @@
             <div data-role="content">
                 <p>6. Feeling bad about yourself — or that you are a failure or have let yourself or your family down</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page19" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -439,14 +443,12 @@
             <div data-role="content">
                 <p>7. Trouble concentrating on things, such as reading the newspaper or watching television</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page20" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -454,14 +456,12 @@
             <div data-role="content">
                 <p>8. Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page21" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -469,14 +469,12 @@
             <div data-role="content">
                 <p>9. Thoughts that you would be better off dead or of hurting yourself in some way</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page22A" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next22"> </a>
         </div>
 

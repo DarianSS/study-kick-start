@@ -146,10 +146,92 @@
             </div>
         </div>
 
-        
+        <div data-role="page" id="page9">
+            <div data-role="content">
+                <p>
+                    How aware are you now of the sensation of your bottom on the chair?
+                </p>
+                <div class="slider">
+                    <input type="range" data-highlight="true" min="0" max="10" value="5">
+                </div>
+            </div>
+            <a href="#page10" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a>
+        </div>
+
+        <div data-role="page" id="page10">
+            <div data-role="content">
+                <p>
+                    How aware are you now of the sensation of your bottom on the chair?
+                </p>
+                <div class="slider">
+                    <input type="range" data-highlight="true" min="0" max="10" value="5">
+                </div>
+            </div>
+            <a href="#page11" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a>
+        </div>
+
+        <div data-role="page" id="page11">
+            <div data-role="content">
+                <p>
+                    Most people find that by focusing on their bottom on the chair for 15 seconds they become hyperaware of the feeling of it though they never thought about it before. Once it has been noticed, it is hard to unnotice it!
+                </p>
+            </div>
+            <a href="#page12" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page12">
+            <div data-role="content">
+                <p>
+                    You're probably beginning to notice a pattern that if you try to resist, avoid,  or ignore your thoughts, feelings they get worse, there are unintended consequences, and it creates thoughts about your thoughts and feelings about your feelings. Well, it's the same for sensations.
+                </p>
+            </div>
+            <a href="#page13" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page13">
+            <div data-role="content">
+                <p>
+                    We saw with Daniel that running away from the bodily sensations isn’t helpful but neither is focusing on them. The more focus you give something, the more aware of it you will be. So that question again 'What do you do??'
+                </p>
+            </div>
+            <a href="#page14" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page14">
+            <div data-role="content">
+                <audio controls>
+                    <source src="media/sensations.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <a href="#page15" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next15"> </a>
+        </div>
+
+        <div data-role="page" id="page15"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next15").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".typewriter#tw15").typed({
+                                strings: ["^200 I'll visit you a few times tomorrow to remind you to practice managing body stuff using this exercise."],
+                                typeSpeed: 50,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw15"> </div>
+                <a href="../menu.html#menu2" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
 
         <script>
             $('.didyouknow').html("<img src='../" + localStorage.mascot + "' alt='mascot'>");
+
+            $("#page10").click(function() {
+                localStorage.progress = 10;
+            });
         </script>
     </body>
 </html>

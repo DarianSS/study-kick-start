@@ -139,36 +139,6 @@ h1.title {
     left: 18%;
 }
 
-input.form, h1.label {
-    height: 50px; 
-    line-height: 50px;
-}
-
-.label{
-    font-size: 18px;
-    font-weight: normal;
-    font-family: "Lato";
-    color: #091a37;
-    position: absolute;
-    top: 30%;
-    left: 18%;
-    line-height: 170%;
-}
-
-.form {
-    font-size: 18px;
-    font-weight: normal;
-    font-family: "Lato";
-    color: #091a37 !important;
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    line-height: 170%;
-    background: transparent;
-    border-width:1px;
-    border-bottom: thick solid #091a37;
-}
-
 hr.line {
     left: 30%;
     top: 31% !important;
@@ -427,9 +397,11 @@ p.textWithMascot {
     line-height: 1em;
     font-style: italic;
     font-size: 14px;
+    background-color: transparent;
 }
 
 .badThoughtsBox {
+    padding-top: 0.4em;
     border-radius: 10px;
     border: 1px solid #68b3c1;
 }
@@ -445,30 +417,80 @@ p.textWithMascot {
 }
 
 .hook {
-    display: inline-block;
-    width: 2em;
-    margin-left: 2.2em;
-    margin-top: 24em;
+    list-style: none;
+    padding: 0;
+    margin-top: 20em;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hook li {
+    margin-right: 10px;
+    padding: 0.5em;
+    text-align: center;
+    float: left;
+    width: 22%;
 }
 
 .phqOption {
-    margin-left: 5%;
-    margin-top: 15em;
-    width: 90%;
+    margin: 15em auto 0 auto;
+    width: 95%;
     table-layout: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
 }
 
-table.phqOption {
-    border-collapse: separate;
-    border-spacing: 7px !important;
+ul.phqOption {
+    /*border-collapse: separate;
+    border-spacing: 7px !important;*/
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.phqOption td {
+.phqOption li {
     border-radius: 10px;
     border-style: hidden;
     box-shadow: 0 0 0 2px #68b3c1;
+    margin-right: 10px;
     padding: 0.5em;
     text-align: center;
+    float: left;
+    width: 22%;
+    height: 6em;
+}
+
+.phqOption p {
+    line-height: 120%;
+    vertical-align: middle;
+}
+
+.absolute-center {
+
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Opera, and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+
 }
 
 .stuff {
@@ -482,8 +504,6 @@ table.phqOption {
     width: 90%;
     margin-left: 5%;
 }
-
-
 
 .yes {
     position: absolute;
@@ -549,6 +569,112 @@ table.categories {
     left: 50%;
     margin-left: -9em;
     z-index: -1;
+}
+
+.slider {
+    margin-top: 60%;
+}
+
+.words {
+    position: relative;
+    margin: 4em auto 0 auto;
+    width: 90%;
+    table-layout: fixed;
+}
+
+ul.words {
+    /*border-collapse: separate;
+    border-spacing: 7px !important;*/
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.words li {
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 0 0 0 2px #68b3c1;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 0.2em;
+    text-align: center;
+    float: left;
+}
+
+.words p {
+    line-height: 120%;
+    vertical-align: middle;
+}
+
+.experiment {
+    margin-top: 15em;
+    table-layout: fixed;
+    width: 94%;
+    margin-left: 3%;
+}
+
+.experiment td {
+    border: 1px solid #68b3c1;
+    padding: 0.5em;
+}
+
+.experiment *{
+    font-size: 14px;
+    line-height: 120%
+}
+
+.how-hard {
+    margin: 20em auto 0 auto;
+    width: 95%;
+    table-layout: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+ul.how-hard {
+    /*border-collapse: separate;
+    border-spacing: 7px !important;*/
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.how-hard li {
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 0 0 0 2px #68b3c1;
+    margin-right: 10px;
+    padding: 0.5em;
+    text-align: center;
+    float: left;
+    width: 22%;
+    height: 6em;
+}
+
+.how-hard p {
+    line-height: 120%;
+    vertical-align: middle;
+}
+
+.ask {
+    position: absolute;
+    margin-top: 13em;
+    margin-left: 25%;
+}
+
+.form {
+    position: relative;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Lato";
+    color: #091a37 !important;
+    padding: 5px;
+    border: none;
 }
 
 @keyframes blink{
