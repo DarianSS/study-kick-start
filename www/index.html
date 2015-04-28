@@ -14,8 +14,9 @@
         <script src="lib/jquery-2.1.1.min.js"></script>
         <script src="lib/jquery.mobile-1.4.5.js"></script>        
         <script src="assets/typed/js/typed.js"></script>
-        <script src="js/scripts.js"></script>
+        <script src="js/jquery.appear.js"></script>
         <script src="js/redirect.js"></script>
+        <script src="js/scripts.js"></script>
     </head>
 
     <body>
@@ -108,8 +109,8 @@
                         </td>
                         <td>
                             <div class="table_cell" id="masc6">
-                                <img src="img/Mascots/masc6.png" alt="6" />
-                                <img src="img/selection.png" class="selection" id="selection6">
+                                <img src="img/Mascots/masc6.png" alt="5" />
+                                <img src="img/selection.png" class="selection" id="selection5">
                             </div>
                         </td>
                     </tr>
@@ -122,14 +123,12 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next5").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".typewriter#tw5").typed({
-                                strings: ["^600 20% of people identify themselves as chronic procrastinators - so if you do, you are not alone!"],
-                                typeSpeed: 50,
-                                contentType: 'text',
-                                showCursor: false
-                            });
+                    $("#page5").appear(function() {
+                        $(".typewriter#tw5").typed({
+                            strings: ["^200 20% of people identify themselves as chronic procrastinators - so if you do, you are not alone!<b>"],
+                            typeSpeed: 60,
+                            contentType: 'html',
+                            showCursor: false
                         });
                     });
                 </script>            

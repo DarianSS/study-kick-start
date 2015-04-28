@@ -15,10 +15,8 @@
         <script src="../lib/jquery.mobile-1.4.5.js"></script>        
         <script src="../assets/typed/js/typed.js"></script>
         <script src="../js/jquery.foggy.min.js"></script>
+        <script src="../js/jquery.appear.js"></script>
         <script src="../js/scripts.js"></script>
-
-        <script src="../jquery.appear.js"></script>
-        <script src="../js/framework7.js"></script>
     </head>
 
     <body> 
@@ -35,8 +33,7 @@
         <div data-role="page" id="page1">
             <div data-role="content">
                 <div class="character">
-                    <img src="../img/tunde.png" class="char2">
-                    <!-- img src="../img/tunde.png" id="blurred"> -->
+                    <img src="../img/tunde.png">
                 </div>
                 <div class="characterIntro">
                     <p>
@@ -49,32 +46,27 @@
 
         <div data-role="page" id="page2">
             <div data-role="content">
-                <video width="320" height="240" controls>
-                    <source src="media/tunde.mp4" type="video/mp4">
-                </video>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9m5dRAu-6LA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                 <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
             </div>
         </div>
 
         <div data-role="page" id="page3">
             <div data-role="content">
-                
                 <div class="quiz">
                     <div class="popquizimg">
                         <img src="../img/popquiz.png">
                     </div>
-                    <div class="quizOption1" id="wrong">
-                        <p>It was Tunde's friends that began the journey to her demise</p>
-                    </div>
-                    <div class="quizOption2" id="wrong">
-                        <p>It was Tunde's workload that began the journey to her demise</p>
-                    </div>
-                    <div class="quizOption3" id="right">
-                        <p>It was Tunde's thoughts that began the journey to her demise</p>
-                    </div>
-                    <div class="quizOption4" id="wrong">
-                        <p>It was Tunde's love of chocolate that began the journey to her demise</p>
-                    </div>
+                    <ul class="quizOption">
+                        <li id="wrong">It was Tunde's friends that began the journey to her demise
+                        </li>
+                        <li id="wrong">It was Tunde's workload that began the journey to her demise
+                        </li>
+                        <li id="right">It was Tunde's thoughts that began the journey to her demise
+                        </li>
+                        <li id="wrong">It was Tunde's love of chocolate that began the journey to her demise
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -85,20 +77,13 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next3").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page3right").appear(function() {
                             $(".typewriter#tw3A").typed({
-                                strings: ["^200 Well done, that was easy right! Get to the end of this section and you'll find a goodie in your bonus bag!"],
-                                typeSpeed: 50,
+                                strings: ["^1000 Well done, that was easy, right? Get to the end of this section and you'll find a goodie in your bonus bag!"],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
                 </script>            
                 <div class="typewriter" id="tw3A"> </div>
@@ -110,20 +95,13 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next3").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page3wrong").appear(function() {
                             $(".typewriter#tw3B").typed({
-                                strings: ["^200 I'm afraid not. Don't worry though, you'll have another chance to get something in your bonus bag."],
-                                typeSpeed: 50,
+                                strings: ["^1000 I'm afraid not. Don't worry though, you'll have another chance to get something in your bonus bag."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
                 </script>            
                 <div class="typewriter" id="tw3B"> </div>
@@ -143,15 +121,15 @@
                 <p style="top:4em"><b>The thoughts that started Tunde spiralling out of control were:</b></p>
                 <div class="thought1">
                     <img src="../img/thought.png" class="thought">
-                    <p class="thoughtText1" id="thoughtText">I've got ages to start that</p>
+                    <p class="thoughtText absolute-center" id="thoughtText">I've got ages to start that</p>
                 </div>
                 <div class="thought2">
                     <img src="../img/thought.png" class="thought">
-                    <p class="thoughtText2" id="thoughtText">It's just a couple of hours, I've still got time to do this</p>
+                    <p class="thoughtText absolute-center" id="thoughtText">It's just a couple of hours, I've still got time to do this</p>
                 </div>
                 <div class="thought3">
                     <img src="../img/thought.png" class="thought">
-                    <p class="thoughtText3" id="thoughtText">YOLO!!!</p>
+                    <p class="thoughtText absolute-center" id="thoughtText">YOLO!!!</p>
                 </div>
             </div>
             <a href="#page6" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
@@ -178,19 +156,12 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next7").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
-                            $(".typewriter#tw7").typed({
-                                strings: ["^200 <b>Tip: </b>Long-term memory is improved by varying your routine-change where you study, the time of day and length of time."],
-                                typeSpeed: 50,
-                                contentType: 'html',
-                                showCursor: false
-                            });
+                    $("#page7").appear(function() {
+                        $(".typewriter#tw7").typed({
+                            strings: ["^200 <b>Tip: </b>Long-term memory is improved by varying your routine-change where you study, the time of day and length of time."],
+                            typeSpeed: 60,
+                            contentType: 'html',
+                            showCursor: false
                         });
                     });
                 </script>            

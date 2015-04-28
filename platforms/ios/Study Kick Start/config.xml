@@ -62,5 +62,5 @@
     <preference name="StatusBarBackgroundColor" value="#68b3c1" />
     <content src="index.html" />
     <access origin="*" />
-    <icon src="/icons/LOGO.psd" />
+    <icon src="/icons/android/xxxhdpi.png" />
 </widget>

@@ -2,6 +2,7 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
+
 [data-role=page] {
     background: transparent url('img/cream_pixels@2X.png') no-repeat !important;
 }
@@ -26,6 +27,16 @@ body {
     margin:0px;
     padding:0px;
     width:100%;*/
+}
+
+div.road {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+
+    background-image: url(../img/white_brick_wall.png) !important;
+    background-repeat: repeat;
+    background-attachment:fixed;
 }
 
 p {
@@ -154,11 +165,11 @@ img {
 
 table.mascotDisplay {
     position: absolute !important;
-    top: 30% !important;
+    top: 10em !important;
     bottom: 20% !important;
-    left: 10% !important;
+    left: 15% !important;
     right: 10% !important;
-    width: 80% !important;
+    width: 70% !important;
 }
 
 table.mascotDisplay td {
@@ -166,6 +177,11 @@ table.mascotDisplay td {
     width: 33% !important;
     vertical-align: center !important;
     text-align: center !important;
+    padding: 7px;
+}
+
+table.mascotDisplay tr {
+    height: 150px;
 }
 
 div.didyouknow {
@@ -264,18 +280,20 @@ p.stepTitleText img.footprint img.lock{
 .character {
     position: absolute;
     top: 4em;
-    width: 18em;
-    left: 50%;
-    margin-left: -9em;
+    width: 70%;
+    left: 15%;
     z-index: -1;
 }
 
 .characterIntro {
     position: absolute;
     top: 4em;
-    width: 18em;
-    left: 50%;
-    margin-left: -9em;
+    width: 70%;
+    left: 15%;
+}
+
+.characterIntro p {
+    font-size: 4vw;
 }
 
 div.popquiz div.quizOption {
@@ -294,48 +312,25 @@ div.popquiz div.quizOption {
     margin-left: -4em;
 }
 
-.quizOption1 {
+.quizOption {
     position: absolute;
-    top: 9em;
-    height: 4em;
-    border-radius: 10px;
-    border: 2px solid #68b3c1;
-    padding: 20px; 
+    top: 6em;
+    height: auto;
+    padding: 20px;
     width: 90%;
     left: 5%;
+    list-style: none;
 }
 
-.quizOption2 {
-    position: absolute;
-    top: 14em;
-    height: 4em;
+.quizOption li {
+    margin-top: 10px;
     border-radius: 10px;
     border: 2px solid #68b3c1;
-    padding: 20px; 
-    width: 90%;
-    left: 5%;
+    padding: 5px;
 }
 
-.quizOption3 {
-    position: absolute;
-    top: 19em;
-    height: 4em;
-    border-radius: 10px;
-    border: 2px solid #68b3c1;
-    padding: 20px; 
-    width: 90%;
-    left: 5%;
-}
-
-.quizOption4 {
-    position: absolute;
-    top: 24em;
-    height: 4em;
-    border-radius: 10px;
-    border: 2px solid #68b3c1;
-    padding: 20px; 
-    width: 90%;
-    left: 5%;
+.quizOption * {
+    text-align: center;
 }
 
 p.textWithMascot {
@@ -345,46 +340,28 @@ p.textWithMascot {
 
 .thought1 *{
     position: absolute;
-    width: 10em;
+    width: 40vw;
     top: 9em;
 }
 
 .thought2 *{
     position: absolute;
-    width: 10em;
+    width: 40vw;
     top: 12em;
     left: 50%;
 }
 
 .thought3 *{
     position: absolute;
-    width: 10em;
+    width: 40vw;
     top: 20em;
     left: 10%;
 }
 
-.thoughtText1 {
-    position: absolute;
+.thoughtText {
+    padding-top:3em;
+    font-size: 4vw;
     line-height: 1em;
-    top: 11em;
-    width: 8em;
-    padding-left: 0.5em;
-}
-
-.thoughtText2 {
-    position: absolute;
-    line-height: 1em;
-    top: 13em;
-    width: 8em;
-    padding-left: 1em;
-}
-
-.thoughtText3 {
-    position: absolute;
-    line-height: 1em;
-    top: 22em;
-    width: 8em;
-    padding-left: 2em;
 }
 
 .badThoughts .textWithMascot {
@@ -419,7 +396,7 @@ p.textWithMascot {
 .hook {
     list-style: none;
     padding: 0;
-    margin-top: 20em;
+    margin-top: 22em;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -430,38 +407,33 @@ p.textWithMascot {
     padding: 0.5em;
     text-align: center;
     float: left;
-    width: 22%;
-}
-
-.phqOption {
-    margin: 15em auto 0 auto;
-    width: 95%;
-    table-layout: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
+    width: 20%;
 }
 
 ul.phqOption {
     /*border-collapse: separate;
     border-spacing: 7px !important;*/
+    position: absolute;
+    table-layout: fixed;
+    width: 90%;
+    margin-top: 15em;
+    margin-left: 5%;
     list-style: none;
     padding: 0;
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .phqOption li {
+    position: relative;
     border-radius: 10px;
     border-style: hidden;
     box-shadow: 0 0 0 2px #68b3c1;
-    margin-right: 10px;
-    padding: 0.5em;
+    margin: 5px;
     text-align: center;
     float: left;
-    width: 22%;
-    height: 6em;
+    width: 21%;
+    height: 7.5em;
+    font-size: 16px;
 }
 
 .phqOption p {
@@ -529,8 +501,8 @@ ul.phqOption {
     margin-left: -2.5em;
 }
 
-video {
-    width: 90%;
+iframe {
+    width: 90% !important;
     margin-left: 5%;
     margin-top: 6em;
 }
@@ -562,17 +534,31 @@ table.categories {
     height: 3em;
 }
 
-.char2 {
+.slider {
     position: absolute;
-    top: 0em;
-    width: 18em;
+    margin-top: 60%;
+    background: transparent;
+} 
+
+input.slide {
+    position: relative;
+    background: transparent;
     left: 50%;
-    margin-left: -9em;
-    z-index: -1;
+    margin-left: -1em;
+    top: 2em;
+    width: 2em;
+    height: 4em;
+    color: #091a37 !important;
+    border: none;
+    border-radius: 0px;
 }
 
-.slider {
-    margin-top: 60%;
+.ui-slider {
+    margin: 0;
+}
+
+input[type="range"] {
+    width: 5em !important;
 }
 
 .words {
@@ -587,9 +573,9 @@ ul.words {
     border-spacing: 7px !important;*/
     list-style: none;
     padding: 0;
-    text-align: center;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
 }
 
 .words li {
@@ -664,17 +650,22 @@ ul.how-hard {
 .ask {
     position: absolute;
     margin-top: 13em;
-    margin-left: 25%;
+    left: 50%;
+    margin-left: -100px;
 }
 
-.form {
-    position: relative;
+input.form {
+    position: absolute;
     font-size: 18px;
     font-weight: normal;
     font-family: "Lato";
+    background: transparent;
+    width: 200px;
+    height: 2em;
     color: #091a37 !important;
-    padding: 5px;
     border: none;
+    border-radius: 0px;
+    border-bottom: solid 2px #091a37;
 }
 
 @keyframes blink{
