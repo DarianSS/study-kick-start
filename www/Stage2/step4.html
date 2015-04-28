@@ -6,34 +6,310 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        
-        <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet" />
-        <link href="assets/ratchet/css/ratchet.css" rel="stylesheet" />
-        <!--<link href="assets/css/styles.css" rel="stylesheet" />-->
-        <link href="css/index.css" rel="stylesheet" type="text/css" />
+                                                                                            
+        <link href="../css/jquery.mobile-1.4.5.css" rel="stylesheet" />
+        <link href="../assets/ratchet/css/ratchet.css" rel="stylesheet" />
+        <link href="../css/index.css" rel="stylesheet" type="text/css" />
 
-        <script src="lib/jquery-2.1.1.min.js"></script>
-        <script src="lib/jquery.mobile-1.4.5.js"></script>        
-        <script src="assets/typed/js/typed.js"></script>
-        <!--<script src="cordova.js"></script>
-        <script src="lib/fastclick.js"></script>
-        <script src="lib/handlebars.js"></script>-->
+        <script src="../lib/jquery-2.1.1.min.js"></script>
+        <script src="../lib/jquery.mobile-1.4.5.js"></script>        
+        <script src="../assets/typed/js/typed.js"></script>
+        <script src="../lib/jquery.foggy.min.js"></script>
+        <script src="../lib/jquery.appear.js"></script>
+        <script src="../js/scripts.js"></script>
     </head>
 
     <body>
         <div data-role="header">
             <header class="bar bar-nav" style="background-color:#68b3c1">
-                    <h1 class="title" style="color:white">Study Kick Start</h1>
+                    <h1 class="title" style="color:white">Managing Doing Stuff</h1>
             </header>
         </div>
 
         <div data-role="footer">
-            <input type="image" src="img/next-button.png" class="next"> </a>
+            <input type="image" src="../img/next-button.png" class="next"> </a>
         </div>
 
+        <div data-role="page" id="page1">
+            <div data-role="content">
+                <p style="top:4em">
+                    Raj has finished all his coursework and exams and just has his dissertation to complete. The weather has taken an unexpected turn for the better and that is making this final part of completing his degree that bit harder! So Raj spends most days going out, and playing football. By the time he gets back he decides it's too late to be able to concentrate on studying so watches movies and plays Halo on the Xbox. He vows to start work the next day. But then the next day...
+                </p>
+            </div>
+            <a href="#page2" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
 
-        
+        <div data-role="page" id="page2">
+            <div data-role="content">
+                <iframe src="https://www.youtube-nocookie.com/embed/a2aZOBJsBls?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+            </div>
+        </div>
 
+        <div data-role="page" id="page3">
+            <div data-role="content">
+                <p>
+                    You've seen how arguing with your thoughts or fighting your feelings, or ignoring your sensations can cause unintended further problems. How well has it worked for you in trying to force yourself do something like begin revising?
+                </p>
+            </div>
+            <a href="#page4" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
 
+        <div data-role="page" id="page4">
+            <div data-role="content">
+                <p>
+                    Has it ever caused more of the same difficulties- further procrastination plus guilt on top? Perfectly normal! The same as what you've witnessed Raj go through. Let's take a moment to think about this in more detail.
+                </p>
+            </div>
+            <a href="#page5" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page5">
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <p class="textWithMascot">Take a moment to think about a time when you had a difficult or unpleasant task and went ahead and did it, anyway- what helped you to undertake that task?</p>
+                <div class="badThoughtsBox" style="top:9em"> 
+                    <p class="badThoughts">'It wasn't to going to go away on it's own, so I had to do it'</p>
+                    <p class="badThoughts">'My friends helped me with it'</p>
+                    <p class="badThoughts">Add your own</p>
+                </div>
+            </div>
+            <a href="#page6" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next6"> </a>
+        </div>
+
+        <div data-role="page" id="page6"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page6").appear(function() {
+                            $(".typewriter#tw6").typed({
+                                strings: ["^300 It can be difficult to spot your own motivation to get things done so here's a way of thinking about it..."],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>           
+                <div class="typewriter" id="tw6"> </div>
+                <a href="#page7" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page7">
+            <div data-role="content">
+                <p>
+                    Raj is on a journey. It's a personal journey all about being a student.</br>On this journey he has personal goals that he wants to achieve. His top goal is to get his degree in Chemistry but in order to reach there he'll need to reach some other goals first.
+                </p>
+            </div>
+            <a href="#page8" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page8">
+            <div data-role="content">
+                <p>
+                    Some things are going to happen along the way as no journey is ever 100% predictable, no matter how prepared we are! 
+                </p>
+            </div>
+            <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page9">
+            <div data-role="content">
+                <p>
+                    Now, here's the thing! What makes Raj's journey so worth while? Even when he has set backs or doesn't like a particular module? Sure, having a plan and goals to reach along the way certainly helps . Well, it' s his journey, made up of his values of what's personally meaningful to him about being a student, and learning.
+                </p>
+            </div>
+            <a href="#page10" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next10"> </a>
+        </div>
+
+        <div data-role="page" id="page10"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page10").appear(function() {
+                            $(".typewriter#tw10").typed({
+                                strings: ["^300 Motivation comes from having goals that are in line with your own values"],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>            
+                <div class="typewriter" id="tw10"> </div>
+                <a href="#page11" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page11">
+            <div data-role="content">
+                <p>
+                    Raj has thought about what makes his life rich, full and meaningful, even on the routine, duller days. He thinks about how he would like to reflect on his time at university once it's all over and this is what he thinks...
+                </p>
+            </div>
+            <a href="#page12" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page12">
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <p class="textWithMascot">Take a moment to think about a time when you had a difficult or unpleasant task and went ahead and did it, anyway- what helped you to undertake that task?</p>
+                <div class="badThoughtsBox" style="top:9em"> 
+                    <p class="badThoughts">??</p>
+                    <p class="badThoughts">??</p>
+                    <p class="badThoughts">Add your own</p>
+                </div>
+            </div>
+            <a href="#page13" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page13">
+            <div data-role="content">
+                <p>
+                    Raj feels motivated when he thinks in this way but that doesn't mean it's all plain sailing form there. Oh No. He still feels anxious when he thinks about the time running out and his confusion on writing up his dissertation.
+                </p>
+            </div>
+            <a href="#page14" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page14">
+            <div data-role="content">
+                <p>
+                    He feels instantly better when he avoids working on his dissertation but soon begins to regret having missed yet another day of progress. This is where he has to start changing what he is doing and facing up to his anxiety that is acting as a road block in his journey.
+                </p>
+            </div>
+            <a href="#page15" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page15">
+            <div data-role="content">
+                <p>
+                    Raj plans to undertake an experiment where he will start working in spite of his worries about doing it wrong and then observe what happens.
+                </p>
+                <table class="experiment">
+                    <tr>
+                        <td><b>Experiment</b></td>
+                        <td><b>What do I expect to happen</b></td> 
+                    </tr>
+                    <tr>
+                        <td><i>Write 500 words of my introduction</i></td>
+                        <td> </td> 
+                    </tr>
+                </table>
+            </div>
+            <a href="#page16" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page16">
+            <div data-role="content">
+                <p>
+                    Under prediction Raj describes his <b>worst</b> fears:
+                </p>
+                <table class="experiment" style="margin-top:10.5em">
+                    <tr>
+                        <td><b>Experiment</b></td>
+                        <td><b>What do I expect to happen</b></td> 
+                    </tr>
+                    <tr>
+                        <td><i>Write 500 words of my introduction</i></td>
+                        <td><i>I will try to write but I will get confused and spend hours stuck on the first sentence and not get anything useful written. I believe this 90%.</i></td> 
+                    </tr>
+                </table>
+            </div>
+            <a href="#page17" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next17"> </a>
+        </div>
+
+        <div data-role="page" id="page17"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page17").appear(function() {
+                            $(".typewriter#tw17").typed({
+                                strings: ["^300 <b>Tip: </b>Find your personal meaning in the tasks you undertake to keep yourself motivated."],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>        
+                <div class="typewriter" id="tw17"> </div>
+                <a href="#page18" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page18">
+            <div data-role="content">
+                <p style="top:4em">
+                    Raj gives this a go at his next opportunity and writes down in another column what actually happened:
+                </p>
+                <table class="experiment" style="margin-top:30vh">
+                    <tr>
+                        <td><b>Experiment</b></td>
+                        <td><b>What happened</b></td> 
+                    </tr>
+                    <tr>
+                        <td><i>Write 500 words of my introduction</i></td>
+                        <td><i>I started off confused but once I got a few words down the others started to flow and I wrote the 500 words quicker than I had expected. I now believe my original prediction at 35%.</i></td> 
+                    </tr>
+                </table>
+            </div>
+            <a href="#page19" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page19">
+            <div data-role="content">
+                <p style="top:4em">
+                    Final column- What have I learnt? 
+                </p>
+                <table class="experiment" style="margin-top:20vh">
+                    <tr>
+                        <td><b>Experiment</b></td>
+                        <td><b>What have I learnt?</b></td> 
+                    </tr>
+                    <tr>
+                        <td><i>Write 500 words of my introduction</i></td>
+                        <td><i>It wasn't comfortable but it wasn't as uncomfortable as I was expecting. I did start off stuggling and doubting my work but the more I worked on it the more the ideas came to me and I was able to make some much needed progress.</i></td> 
+                    </tr>
+                </table>
+            </div>
+            <a href="#page20" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page20">
+            <div data-role="content">
+                <p style="top:4em">
+                    Now it's your turn to have a go! You described behaving in the following ways---------. Now pick one of them, maybe the easiest, or smallest, to have a go at changing your response with a behavioural experiment
+                </p>
+                <table class="experiment" style="margin-top:50vh">
+                    <tr>
+                        <td><b>Experiment</b></td>
+                        <td><b>What happened</b></td> 
+                    </tr>
+                    <tr>
+                        <td><i>Describe your experiment here</i></td>
+                        <td><i>Describe what you think will happen here</i></td> 
+                    </tr>
+                </table>
+            </div>
+            <a href="#page21" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page21">
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <p class="textWithMascot">OK <span></span>, I'll be back tomorrow to remind you when it's time to do your experiment!</p>
+                <div class="setReminder">
+                    <p>SET REMINDER TIME</p>
+                </div>
+            </div>
+            <a href="../menu.html#menu2" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next2"> </a>
+        </div>
+
+        <script>
+            $('.didyouknow').html("<img src='../" + localStorage.mascot + "' alt='mascot'>");
+
+            $("#pageXX").click(function() {
+                localStorage.progress = 11;
+            });
+        </script>
     </body>
 </html>

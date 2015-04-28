@@ -14,8 +14,9 @@
         <script src="../lib/jquery-2.1.1.min.js"></script>
         <script src="../lib/jquery.mobile-1.4.5.js"></script>        
         <script src="../assets/typed/js/typed.js"></script>
+        <script src="../lib/jquery.foggy.min.js"></script>
+        <script src="../lib/jquery.appear.js"></script>
         <script src="../js/scripts.js"></script>
-        <script src="../js/jquery.foggy.min.js"></script>
     </head>
 
     <body>
@@ -41,7 +42,7 @@
         <div data-role="page" id="page2">
             <div data-role="content">
                 <div class="character">
-                    <img src="../img/tunde.png">
+                    <img src="../img/yolanda.jpg">
                 </div>
                 <div class="characterIntro">
                     <p>
@@ -64,43 +65,34 @@
         <div data-role="page" id="page3">
             <div data-role="content">
                 <div>
-                    <p style="top:5em;line-height:120%">
+                    <p style="top:15vh;line-height:120%">
                         Now, imagine for a moment that no-body feels emotions anymore. No more guilt, frustration, or anxiety. Would Yolanda start revising if she didn't have any emotions to get in her way?
                     </p>
                 </div>
-                <div class="quiz">
-                    <div class="quizOption1" style="top:13em;height:5em">
-                        <p>Yes - she would be able to start her revision as the feelings wouldn't be distracting her anymore</p>
-                    </div>
-                    <div class="quizOption2" style="top:19em;height:5em">
-                        <p>No - she wouldn't be able to tell what is or isn't important in her life anymore.</p>
-                    </div>
-                </div>
+                <ul class="quizOption" style="top:27vh">
+                    <li id="wrong">Yes - she would be able to start her revision as the feelings wouldn't be distracting her anymore
+                    </li>
+                    <li id="right">No - she wouldn't be able to tell what is or isn't important in her life anymore.
+                    </li>
+                </ul>
             </div>
-            <a href="#page3right" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next3"> </a>
+            <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next3"> </a>
         </div>
 
         <div data-role="page" id="page3right"> 
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next3").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
-                            $(".typewriter#tw3").typed({
-                                strings: ["^200 Yes, you're absolutely right. Emotions motivate us to get things done, such as starting revision."],
-                                typeSpeed: 50,
+                    $("#page3right").appear(function() {
+                            $(".typewriter#tw3A").typed({
+                                strings: ["^300 Yes, you're absolutely right. Emotions motivate us to get things done, such as starting revision."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
-                <div class="typewriter" id="tw3"> </div>
+                </script>
+                <div class="typewriter" id="tw3A"> </div>
                 <a href="#page4" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
         </div>
@@ -109,23 +101,16 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next3").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
-                            $(".typewriter#tw3").typed({
-                                strings: ["^200 Well, actually without emotions we're no longer able to accurately assess for threat and danger anymore. So, the result would be Yolanda who doesn't care as much about anything anymore- she'd be less motivated to get things done."],
-                                typeSpeed: 50,
+                    $("#page3wrong").appear(function() {
+                            $(".typewriter#tw3B").typed({
+                                strings: ["^300 Well, actually without emotions we're no longer able to accurately assess for threat and danger anymore. So, the result would be Yolanda who doesn't care as much about anything anymore- she'd be less motivated to get things done."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
-                <div class="typewriter" id="tw3"> </div>
+                </script>         
+                <div class="typewriter" id="tw3B"> </div>
                 <a href="#page4" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
         </div>
@@ -143,22 +128,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next5").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page5").appear(function() {
                             $(".typewriter#tw5").typed({
-                                strings: ["^200 Emotion is the driving force behind motivation. So, it's important to know what we're feeling and to learn how to manage what we're feeling."],
-                                typeSpeed: 50,
-                                contentType: 'text',
+                                strings: ["^300 Emotion is the driving force behind motivation. So, it's important to know what we're feeling and to learn how to manage what we're feeling."],
+                                typeSpeed: 60,
+                                contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>          
                 <div class="typewriter" id="tw5"> </div>
                 <a href="#page6" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
@@ -175,30 +153,46 @@
 
         <div data-role="page" id="page7">
             <div data-role="content">
+                <div>
                 <p>
                     A simple way to start building familiarity with emotions can be to think of all our emotions falling into four broad categories. On the next page you will see 16 words. Correctly place them onto one of the 4 hooks below within the time allowed and you'll earn a goodie for your bonus bag!
-                </p>
-                <div class="hook">
-                    <img src="../img/hook.png">
-                </div>
-                <div class="hook">
-                    <img src="../img/hook.png">
-                </div>
-                <div class="hook">
-                    <img src="../img/hook.png">
-                </div>
-                <div class="hook">
-                    <img src="../img/hook.png">
-                </div>
+                </p> </div>
+                <ul class="hook"> 
+                    <li><img src="../img/angerhook.png">
+                    <li><img src="../img/joyhook.png">
+                    <li><img src="../img/sadhook.png">
+                    <li><img src="../img/fearhook.png">
+                </ul>
             </div>
             <a href="#page8" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
         <div data-role="page" id="page8">
             <div data-role="content">
-                <p>
-                    PAGE LEFT EMPTY FOR WHEN WE GET THE WORDS
-                </p>
+                <ul class="words">
+                    <li class="absolute-center">bored
+                    <li class="absolute-center">comfortable 
+                    <li class="absolute-center">distracted
+                    <li class="absolute-center">nervous
+                    <li class="absolute-center">irritated
+                    <li class="absolute-center">frustrated
+                    <li class="absolute-center">stimulated
+                    <li class="absolute-center">worried
+                    <li class="absolute-center">relief
+                    <li class="absolute-center">apathetic
+                    <li class="absolute-center">dread
+                    <li class="absolute-center">anxious
+                    <li class="absolute-center">content
+                    <li class="absolute-center">low
+                    <li class="absolute-center">annoyed
+                    <li class="absolute-center">resentment
+                </ul>
+                <ul class="hook"> 
+                    <li><img src="../img/angerhook.png">
+                    <li><img src="../img/joyhook.png">
+                    <li><img src="../img/sadhook.png">
+                    <li><img src="../img/fearhook.png">
+                </ul>
             </div>
             <a href="#page8right" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a>
         </div>
@@ -207,23 +201,16 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next8").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
-                            $(".typewriter#tw8").typed({
-                                strings: ["^200 Well done, that was easy right! You'll find a goodie in your bonus bag!"],
-                                typeSpeed: 50,
+                    $("#page8right").appear(function() {
+                            $(".typewriter#tw8A").typed({
+                                strings: ["^300 Well done, that was easy right! You'll find a goodie in your bonus bag!"],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
-                <div class="typewriter" id="tw8"> </div>
+                </script>        
+                <div class="typewriter" id="tw8A"> </div>
                 <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a> 
             </div>
         </div>
@@ -232,23 +219,16 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next8").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
-                            $(".typewriter#tw8").typed({
-                                strings: ["^200 I'm afraid not. Don't worry though, try again to get something in your bonus bag. Press the button to play again!"],
-                                typeSpeed: 50,
+                    $("#page8again").appear(function() {
+                            $(".typewriter#tw8B").typed({
+                                strings: ["^300 I'm afraid not. Don't worry though, try again to get something in your bonus bag. Press the button to play again!"],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
-                <div class="typewriter" id="tw8"> </div>
+                </script>         
+                <div class="typewriter" id="tw8B"> </div>
                 <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
         </div>
@@ -257,23 +237,16 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next8").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
-                            $(".typewriter#tw8").typed({
-                                strings: ["^200 I'm afraid not. Don't worry though, there'll be other chances to get something in your bonus bag."],
-                                typeSpeed: 50,
+                    $("#page8wrong").appear(function() {
+                            $(".typewriter#tw8C").typed({
+                                strings: ["^300 I'm afraid not. Don't worry though, there'll be other chances to get something in your bonus bag."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
-                <div class="typewriter" id="tw8"> </div>
+                </script> 
+                <div class="typewriter" id="tw8C"> </div>
                 <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
         </div>
@@ -298,7 +271,6 @@
                     <p class="badThoughts">Guilt</p>
                     <p class="badThoughts">Relief</p>
                     <p class="badThoughts">Boredom</p>
-                    <p class="badThoughts">Add other (to be used multiple times)</p>
                 </div>
             </div>
             <a href="#page10" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
@@ -316,20 +288,13 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next11").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page11").appear(function() {
                             $(".typewriter#tw11").typed({
-                                strings: ["^200 The Procrastination Group had 2,700 responders to an online survey where they asked to what extent procrastination had a negative impact on happiness. 46% opted for 'quite a bit' or 'very much' and 18% for extreme negative effect. If you find your procrastination impacts on your happiness you are not alone."],
-                                typeSpeed: 50,
-                                contentType: 'text',
+                                strings: ["^300 The Procrastination Group had 2,700 responders to an online survey where they asked to what extent procrastination had a negative impact on happiness. 46% opted for 'quite a bit' or 'very much' and 18% for extreme negative effect. If you find your procrastination impacts on your happiness you are not alone."],
+                                typeSpeed: 60,
+                                contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
                 </script>            
                 <div class="typewriter" id="tw11"> </div>
@@ -349,14 +314,14 @@
             <div data-role="content">
                 <p>1. Little interest or pleasure in doing things</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <div class="wrapper">
+            <ul class="phqOption">
+                <li id="0" class="absolute-center">Not at all
+                <li id="1" class="absolute-center">Several days 
+                <li id="2" class="absolute-center">More than half the days
+                <li id="3" class="absolute-center">Nearly every day
+            </ul>
+            </div>
             <a href="#page14" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -364,14 +329,12 @@
             <div data-role="content">
                 <p>2. Feeling down, depressed, or hopeless</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="0" class="absolute-center">Not at all
+                <li id="1" class="absolute-center">Several days 
+                <li id="2" class="absolute-center">More than half the days
+                <li id="3" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page15" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -379,14 +342,12 @@
             <div data-role="content">
                 <p>3. Trouble falling or staying asleep, or sleeping too much</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="0" class="absolute-center">Not at all
+                <li id="1" class="absolute-center">Several days 
+                <li id="2" class="absolute-center">More than half the days
+                <li id="3" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page16" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -394,14 +355,12 @@
             <div data-role="content">
                 <p>4. Feeling tired or having little energy</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="0" class="absolute-center">Not at all
+                <li id="1" class="absolute-center">Several days 
+                <li id="2" class="absolute-center">More than half the days
+                <li id="3" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page17" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -409,14 +368,12 @@
             <div data-role="content">
                 <p>5. Poor appetite or overeating</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="0" class="absolute-center">Not at all
+                <li id="1" class="absolute-center">Several days 
+                <li id="2" class="absolute-center">More than half the days
+                <li id="3" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page18" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -424,14 +381,12 @@
             <div data-role="content">
                 <p>6. Feeling bad about yourself — or that you are a failure or have let yourself or your family down</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="0" class="absolute-center">Not at all
+                <li id="1" class="absolute-center">Several days 
+                <li id="2" class="absolute-center">More than half the days
+                <li id="3" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page19" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -439,14 +394,12 @@
             <div data-role="content">
                 <p>7. Trouble concentrating on things, such as reading the newspaper or watching television</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="0" class="absolute-center">Not at all
+                <li id="1" class="absolute-center">Several days 
+                <li id="2" class="absolute-center">More than half the days
+                <li id="3" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page20" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -454,14 +407,12 @@
             <div data-role="content">
                 <p>8. Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
+            <ul class="phqOption">
+                <li id="0" class="absolute-center">Not at all
+                <li id="1" class="absolute-center">Several days 
+                <li id="2" class="absolute-center">More than half the days
+                <li id="3" class="absolute-center">Nearly every day
+            </ul>
             <a href="#page21" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
@@ -469,39 +420,30 @@
             <div data-role="content">
                 <p>9. Thoughts that you would be better off dead or of hurting yourself in some way</p>
             </div>
-            <table class="phqOption">
-                <tr>
-                    <td>Not at all</td>
-                    <td>Several days</td> 
-                    <td>More than half the days</td>
-                    <td>Nearly every day</td>
-                </tr>
-            </table>
-            <a href="#page22A" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next22"> </a>
+            <ul class="phqOption">
+                <li id="0" class="absolute-center">Not at all
+                <li id="1" class="absolute-center">Several days 
+                <li id="2" class="absolute-center">More than half the days
+                <li id="3" class="absolute-center">Nearly every day
+            </ul>
+            <a href="#page22A" id="target" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next22"> </a>
         </div>
 
         <div data-role="page" id="page22A"> 
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next22").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
-                            $(".typewriter#tw22").typed({
-                                strings: ["^200 Not a lot- Great! There's much more to come. Keep going through the stages."],
-                                typeSpeed: 50,
+                    $("#page22A").appear(function() {
+                            $(".typewriter#tw22A").typed({
+                                strings: ["^300 Not a lot- Great! There's much more to come. Keep going through the stages."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
                 </script>            
-                <div class="typewriter" id="tw22"> </div>
-                <a href="#page23" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next23"> </a> 
+                <div class="typewriter" id="tw22A"> </div>
+                <a href="#page23" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next23A"> </a> 
             </div>
         </div>
 
@@ -509,24 +451,17 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next22").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
-                            $(".typewriter#tw22").typed({
-                                strings: ["^200 Quite a bit- Keep going. Throughout the stages you will learn ideas and gain some tools aimed to help you lower your score."],
-                                typeSpeed: 50,
+                    $("#page22B").appear(function() {
+                            $(".typewriter#tw22B").typed({
+                                strings: ["^300 Quite a bit- Keep going. Throughout the stages you will learn ideas and gain some tools aimed to help you lower your score."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
                 </script>            
-                <div class="typewriter" id="tw22"> </div>
-                <a href="#page23" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next23"> </a> 
+                <div class="typewriter" id="tw22B"> </div>
+                <a href="#page23" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next23B"> </a> 
             </div>
         </div>
 
@@ -534,24 +469,17 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next22").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
-                            $(".typewriter#tw22").typed({
-                                strings: ["^200 A lot- Keep going. Throughout the stages you will learn ideas and gain some tools aimed to help you lower your score. You may want some extra support from the SPS whilst completing the stages. You can get in touch via EMAIL ADDRESS"],
-                                typeSpeed: 50,
+                    $("#page22C").appear(function() {
+                            $(".typewriter#tw22C").typed({
+                                strings: ["^300 A lot- Keep going. Throughout the stages you will learn ideas and gain some tools aimed to help you lower your score. You may want some extra support from the SPS whilst completing the stages. You can get in touch via EMAIL ADDRESS"],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
-                <div class="typewriter" id="tw22"> </div>
-                <a href="#page23" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next23"> </a> 
+                </script>           
+                <div class="typewriter" id="tw22C"> </div>
+                <a href="#page23" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next23C"> </a> 
             </div>
         </div>
 
@@ -559,24 +487,17 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next22").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
-                            $(".typewriter#tw22").typed({
-                                strings: ["^200 Very much- It seems that things are difficult for you and you are in need of some support. Register with the SPS. You can get in touch via EMAIL ADDRESS"],
-                                typeSpeed: 50,
+                    $("#page22D").appear(function() {
+                            $(".typewriter#tw22D").typed({
+                                strings: ["^300 Very much- It seems that things are difficult for you and you are in need of some support. Register with the SPS. You can get in touch via EMAIL ADDRESS"],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
-                <div class="typewriter" id="tw22"> </div>
-                <a href="#page23" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next23"> </a> 
+                </script>           
+                <div class="typewriter" id="tw22D"> </div>
+                <a href="#page23" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next23D"> </a> 
             </div>
         </div>
 
@@ -584,22 +505,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next23").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page23").appear(function() {
                             $(".typewriter#tw23").typed({
-                                strings: ["^200 <b>Tip: </b>Do some of your favourite things while taking your study break like eating food, enjoying a walk, listening to music, stroking your pet..."],
-                                typeSpeed: 50,
+                                strings: ["^300 <b>Tip: </b>Do some of your favourite things while taking your study break like eating food, enjoying a walk, listening to music, stroking your pet..."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>       
                 <div class="typewriter" id="tw23"> </div>
                 <a href="#page24" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
@@ -613,11 +527,15 @@
                     <p>SET REMINDER TIME</p>
                 </div>
             </div>
-            <a href="../menu.html" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+            <a href="../menu.html#menu1" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
         <script>
             $('.didyouknow').html("<img src='../" + localStorage.mascot + "' alt='mascot'>");
+
+            $("#page24 a").click(function() {
+                localStorage.progress = 3;
+            });
         </script>
     </body>
 </html>

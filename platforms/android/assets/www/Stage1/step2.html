@@ -1,0 +1,625 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+                                                                                            
+        <link href="../css/jquery.mobile-1.4.5.css" rel="stylesheet" />
+        <link href="../assets/ratchet/css/ratchet.css" rel="stylesheet" />
+        <link href="../css/index.css" rel="stylesheet" type="text/css" />
+
+        <script src="../lib/jquery-2.1.1.min.js"></script>
+        <script src="../lib/jquery.mobile-1.4.5.js"></script>        
+        <script src="../assets/typed/js/typed.js"></script>
+        <script src="../js/scripts.js"></script>
+        <script src="../js/jquery.foggy.min.js"></script>
+        <script src="../js/jquery.appear.js"></script>
+    </head>
+
+    <body>
+        <div data-role="header">
+            <header class="bar bar-nav" style="background-color:#68b3c1">
+                    <h1 class="title" style="color:white">Heart Stuff</h1>
+            </header>
+        </div>
+
+        <div data-role="footer">
+            <input type="image" src="../img/next-button.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page1">
+            <div data-role="content">
+                <p>
+                    Though we might sometimes wish we were able to escape our emotions, especially those pesky ones like sadness, fear, anxiety, shame and guilt living without them would be a very different place indeed. And not just in the positive sense! You may agree once you read on...
+                </p>
+            </div>
+            <a href="#page2" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page2">
+            <div data-role="content">
+                <div class="character">
+                    <img src="../img/tunde.png">
+                </div>
+                <div class="characterIntro">
+                    <p>
+                        Yolanda feels anxious whenever she looks at her exam schedule - she's discovered that is she avoids looking at it she feels fine. However, she's now in the final week of revision and feeling desperate. She feels guilty for not starting earlier, anxious about how much work she now has to do, and angry with herself for getting into this situation.
+                    </p>
+                </div>
+
+                <script>
+                    $(function() {
+                        $(img).delay(5000)
+                            .queue(function() {
+                                    $(this)
+                                            .dequeue();
+                            });
+                </script>
+                <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+            </div>
+        </div>
+
+        <div data-role="page" id="page3">
+            <div data-role="content">
+                <div>
+                    <p style="top:5em;line-height:120%">
+                        Now, imagine for a moment that no-body feels emotions anymore. No more guilt, frustration, or anxiety. Would Yolanda start revising if she didn't have any emotions to get in her way?
+                    </p>
+                </div>
+                <div class="quiz">
+                    <div class="quizOption1" style="top:13em;height:5em" id="wrong">
+                        <p>Yes - she would be able to start her revision as the feelings wouldn't be distracting her anymore</p>
+                    </div>
+                    <div class="quizOption2" style="top:19em;height:5em" id="right">
+                        <p>No - she wouldn't be able to tell what is or isn't important in her life anymore.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next3"> </a>
+        </div>
+
+        <div data-role="page" id="page3right"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next3").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this)
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw3A").typed({
+                                strings: ["^200 Yes, you're absolutely right. Emotions motivate us to get things done, such as starting revision."],
+                                typeSpeed: 200,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw3A"> </div>
+                <a href="#page4" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page3wrong"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next3").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this)
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw3B").typed({
+                                strings: ["^200 Well, actually without emotions we're no longer able to accurately assess for threat and danger anymore. So, the result would be Yolanda who doesn't care as much about anything anymore- she'd be less motivated to get things done."],
+                                typeSpeed: 200,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw3B"> </div>
+                <a href="#page4" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page4">
+            <div data-role="content">
+                <p>
+                    So, we can't get rid of our feelings. Disappointed? Feeling worried that this means you've got to just put up with some unpleasant emotions that you just don't know what to do with them? Remember you'll be taught some techniques for managing the powerful experience of procrastination.
+                </p>
+            </div>
+            <a href="#page5" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next5"> </a>
+        </div>
+
+        <div data-role="page" id="page5"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next5").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this)
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw5").typed({
+                                strings: ["^200 Emotion is the driving force behind motivation. So, it's important to know what we're feeling and to learn how to manage what we're feeling."],
+                                typeSpeed: 200,
+                                contentType: 'text',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw5"> </div>
+                <a href="#page6" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page6">
+            <div data-role="content">
+                <p>
+                    It is important to be able to name your emotions so that you know what you're dealing with. For many people it can be difficult to put a name to them. Don't worry if this is you! The words we use to name our emotions are just labels to try to help us understand what we're feeling. Whether you struggle with the labels or have a good grasp of them, the 'label game' will help you to boost your emotion familiarity.
+                </p>
+            </div>
+            <a href="#page7" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page7">
+            <div data-role="content">
+                <div>
+                <p>
+                    A simple way to start building familiarity with emotions can be to think of all our emotions falling into four broad categories. On the next page you will see 16 words. Correctly place them onto one of the 4 hooks below within the time allowed and you'll earn a goodie for your bonus bag!
+                </p> </div>
+                <ul class="hook"> 
+                    <li><img src="../img/angerhook.png">
+                    <li><img src="../img/joyhook.png">
+                    <li><img src="../img/sadhook.png">
+                    <li><img src="../img/fearhook.png">
+                </ul>
+            </div>
+            <a href="#page8" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page8">
+            <div data-role="content">
+                <ul class="words">
+                    <li class="absolute-center">bored
+                    <li class="absolute-center">comfortable 
+                    <li class="absolute-center">distracted
+                    <li class="absolute-center">nervous
+                    <li class="absolute-center">irritated
+                    <li class="absolute-center">frustrated
+                    <li class="absolute-center">stimulated
+                    <li class="absolute-center">worried
+                    <li class="absolute-center">relief
+                    <li class="absolute-center">apathetic
+                    <li class="absolute-center">dread
+                    <li class="absolute-center">anxious
+                    <li class="absolute-center">content
+                    <li class="absolute-center">low
+                    <li class="absolute-center">annoyed
+                    <li class="absolute-center">resentment
+                </ul>
+                <ul class="hook"> 
+                    <li><img src="../img/angerhook.png">
+                    <li><img src="../img/joyhook.png">
+                    <li><img src="../img/sadhook.png">
+                    <li><img src="../img/fearhook.png">
+                </ul>
+            </div>
+            <a href="#page8right" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a>
+        </div>
+
+        <div data-role="page" id="page8right"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next8").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this)
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw8A").typed({
+                                strings: ["^200 Well done, that was easy right! You'll find a goodie in your bonus bag!"],
+                                typeSpeed: 200,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw8A"> </div>
+                <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page8again"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next8").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this)
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw8B").typed({
+                                strings: ["^200 I'm afraid not. Don't worry though, try again to get something in your bonus bag. Press the button to play again!"],
+                                typeSpeed: 200,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw8B"> </div>
+                <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page8wrong"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next8").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this)
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw8C").typed({
+                                strings: ["^200 I'm afraid not. Don't worry though, there'll be other chances to get something in your bonus bag."],
+                                typeSpeed: 200,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw8C"> </div>
+                <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page9">
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <p class="textWithMascot">Ok <span></span>, let's get a flavour for the types of feelings that turn up when you're about to study, or are studying. Select the emotions from the list on the next page and add any other labels that describe your experience.</p>
+            </div>
+            <a href="#page9a" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page9a">
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <p class="textWithMascot">Choose one or more:</p>
+                <div class="badThoughtsBox" style="top:9em"> 
+                    <p class="badThoughts">Frustration</p>
+                    <p class="badThoughts">Irritation</p>
+                    <p class="badThoughts">Fear</p>
+                    <p class="badThoughts">Worry</p>
+                    <p class="badThoughts">Guilt</p>
+                    <p class="badThoughts">Relief</p>
+                    <p class="badThoughts">Boredom</p>
+                </div>
+            </div>
+            <a href="#page10" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page10">
+            <div data-role="content">
+                <p>
+                    Now you've got your own list you'll find out what to do with when you get to stage 2!
+                </p>
+            </div>
+            <a href="#page11" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next11"> </a>
+        </div>
+        <div data-role="page" id="page11"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next11").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this)
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw11").typed({
+                                strings: ["^200 The Procrastination Group had 2,700 responders to an online survey where they asked to what extent procrastination had a negative impact on happiness. 46% opted for 'quite a bit' or 'very much' and 18% for extreme negative effect. If you find your procrastination impacts on your happiness you are not alone."],
+                                typeSpeed: 200,
+                                contentType: 'text',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw11"> </div>
+                <a href="#page12" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page12">
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <p class="textWithMascot">Answer the next questions to see how much your mood may be effected. Over the last week how often have you been bothered by any of the following problems?</p>
+            </div>
+            <a href="#page13" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page13">
+            <div data-role="content">
+                <p>1. Little interest or pleasure in doing things</p>
+            </div>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
+            <a href="#page14" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page14">
+            <div data-role="content">
+                <p>2. Feeling down, depressed, or hopeless</p>
+            </div>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
+            <a href="#page15" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page15">
+            <div data-role="content">
+                <p>3. Trouble falling or staying asleep, or sleeping too much</p>
+            </div>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
+            <a href="#page16" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page16">
+            <div data-role="content">
+                <p>4. Feeling tired or having little energy</p>
+            </div>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
+            <a href="#page17" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page17">
+            <div data-role="content">
+                <p>5. Poor appetite or overeating</p>
+            </div>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
+            <a href="#page18" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page18">
+            <div data-role="content">
+                <p>6. Feeling bad about yourself — or that you are a failure or have let yourself or your family down</p>
+            </div>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
+            <a href="#page19" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page19">
+            <div data-role="content">
+                <p>7. Trouble concentrating on things, such as reading the newspaper or watching television</p>
+            </div>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
+            <a href="#page20" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page20">
+            <div data-role="content">
+                <p>8. Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual</p>
+            </div>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
+            <a href="#page21" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page21">
+            <div data-role="content">
+                <p>9. Thoughts that you would be better off dead or of hurting yourself in some way</p>
+            </div>
+            <ul class="phqOption">
+                <li id="1" class="absolute-center">Not at all
+                <li id="2" class="absolute-center">Several days 
+                <li id="3" class="absolute-center">More than half the days
+                <li id="4" class="absolute-center">Nearly every day
+            </ul>
+            <a href="#page22A" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next22"> </a>
+        </div>
+
+        <div data-role="page" id="page22A"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next22").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this)
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw22A").typed({
+                                strings: ["^200 Not a lot- Great! There's much more to come. Keep going through the stages."],
+                                typeSpeed: 200,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw22A"> </div>
+                <a href="#page23" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next23"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page22B"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next22").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this)
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw22B").typed({
+                                strings: ["^200 Quite a bit- Keep going. Throughout the stages you will learn ideas and gain some tools aimed to help you lower your score."],
+                                typeSpeed: 200,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw22B"> </div>
+                <a href="#page23" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next23"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page22C"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next22").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this)
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw22C").typed({
+                                strings: ["^200 A lot- Keep going. Throughout the stages you will learn ideas and gain some tools aimed to help you lower your score. You may want some extra support from the SPS whilst completing the stages. You can get in touch via EMAIL ADDRESS"],
+                                typeSpeed: 200,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw22C"> </div>
+                <a href="#page23" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next23"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page22D"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next22").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this)
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw22D").typed({
+                                strings: ["^200 Very much- It seems that things are difficult for you and you are in need of some support. Register with the SPS. You can get in touch via EMAIL ADDRESS"],
+                                typeSpeed: 200,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw22D"> </div>
+                <a href="#page23" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next23"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page23"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#next23").bind("click", function(event, ui) {
+                        $(function() {
+                            $(".didyouknow").delay(5000)
+                                            .queue(function() {
+                                                $(this)
+                                                    .dequeue();
+                                            });
+                            $(".typewriter#tw23").typed({
+                                strings: ["^200 <b>Tip: </b>Do some of your favourite things while taking your study break like eating food, enjoying a walk, listening to music, stroking your pet..."],
+                                typeSpeed: 200,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                        });
+                    });
+                </script>            
+                <div class="typewriter" id="tw23"> </div>
+                <a href="#page24" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page24">
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <p class="textWithMascot">OK <span></span>, tomorrow you will be sent an emotions task to encourage you to think about your emotional experiences during the day. Once that's done you'll have opened Step 3- Body. </p>
+                <div class="setReminder">
+                    <p>SET REMINDER TIME</p>
+                </div>
+            </div>
+            <a href="../menu.html#menu1" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <script>
+            $('.didyouknow').html("<img src='../" + localStorage.mascot + "' alt='mascot'>");
+
+            $("#page24 a").click(function() {
+                localStorage.progress = 3;
+            });
+        </script>
+    </body>
+</html>

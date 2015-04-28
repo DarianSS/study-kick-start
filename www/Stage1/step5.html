@@ -14,8 +14,9 @@
         <script src="../lib/jquery-2.1.1.min.js"></script>
         <script src="../lib/jquery.mobile-1.4.5.js"></script>        
         <script src="../assets/typed/js/typed.js"></script>
+        <script src="../lib/jquery.foggy.min.js"></script>
+        <script src="../lib/jquery.appear.js"></script>
         <script src="../js/scripts.js"></script>
-        <script src="../js/jquery.foggy.min.js"></script>
     </head>
 
     <body>
@@ -80,6 +81,7 @@
                         <td><img src="../img/headstuff.png"></td>
                         <td><img src="../img/heartstuff.png"></td> 
                         <td><img src="../img/bodystuff.png"></td> 
+                        <td><img src="../img/doingstuff.png"></td> 
                     </tr>
                 </table>
             </div>
@@ -96,7 +98,7 @@
             <a href="#page6" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
-        <div data-role="page" id="page6">
+        <div data-role="page" id="page6" class="road">
             <div data-role="content">
                 <h1>Head Stuff Road</h1>
                 <p>
@@ -141,11 +143,15 @@
                 <div class="didyouknow"> </div>
                 <p class="textWithMascot">OK <span></span>, you've made it to the end of stage 1 of your journey and have unlocked stage 2!</p>
             </div>
-            <a href="../menu.html" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+            <a href="../menu.html#menu2" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
         <script>
             $('.didyouknow').html("<img src='../" + localStorage.mascot + "' alt='mascot'>");
+
+            $("#page10").click(function() {
+                localStorage.progress = 6;
+            });
         </script>
     </body>
 </html>

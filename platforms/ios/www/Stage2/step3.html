@@ -6,34 +6,219 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        
-        <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet" />
-        <link href="assets/ratchet/css/ratchet.css" rel="stylesheet" />
-        <!--<link href="assets/css/styles.css" rel="stylesheet" />-->
-        <link href="css/index.css" rel="stylesheet" type="text/css" />
+                                                                                            
+        <link href="../css/jquery.mobile-1.4.5.css" rel="stylesheet" />
+        <link href="../assets/ratchet/css/ratchet.css" rel="stylesheet" />
+        <link href="../css/index.css" rel="stylesheet" type="text/css" />
 
-        <script src="lib/jquery-2.1.1.min.js"></script>
-        <script src="lib/jquery.mobile-1.4.5.js"></script>        
-        <script src="assets/typed/js/typed.js"></script>
-        <!--<script src="cordova.js"></script>
-        <script src="lib/fastclick.js"></script>
-        <script src="lib/handlebars.js"></script>-->
+        <script src="../lib/jquery-2.1.1.min.js"></script>
+        <script src="../lib/jquery.mobile-1.4.5.js"></script>        
+        <script src="../assets/typed/js/typed.js"></script>
+        <script src="../lib/jquery.foggy.min.js"></script>
+        <script src="../js/scripts.js"></script>
     </head>
 
     <body>
         <div data-role="header">
             <header class="bar bar-nav" style="background-color:#68b3c1">
-                    <h1 class="title" style="color:white">Study Kick Start</h1>
+                    <h1 class="title" style="color:white">Managing Body Stuff</h1>
             </header>
         </div>
 
         <div data-role="footer">
-            <input type="image" src="img/next-button.png" class="next"> </a>
+            <input type="image" src="../img/next-button.png" class="next"> </a>
         </div>
 
+        <div data-role="page" id="page1">
+            <div data-role="content">
+                <p>
+                    Do you remember Cain the Caveman? Life for him is very much lived in the present - he has to avoid getting eaten for long enough to catch himself something to eat. Even though you're not in danger of being eaten, your body still reacts in the same way as Cain's does.
+                </p>
+            </div>
+            <a href="#page2" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next2"> </a>
+        </div>
 
-        
+        <div data-role="page" id="page2"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page2").appear(function() {
+                            $(".typewriter#tw2").typed({
+                                strings: ["^300 <b>Tip: </b>Exercise can act as a temporary diversion to daily stressors, so maybe add some regular exercise into your life if you don't already do any!"],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>           
+                <div class="typewriter" id="tw2"> </div>
+                <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
 
+        <div data-role="page" id="page3">
+            <div data-role="content">
+                <p>
+                    Maybe this idea alarms you like it did for Daniel when he thought about preparing for his viva. His bodily sensations had him running for the door! In stage one you said that you experience (their choices). These bodily sensations can be with us for a long time and definitely make it harder to work. So what do you do?!
+                </p>
+            </div>
+            <a href="#page4" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next4"> </a>
+        </div>
 
+        <div data-role="page" id="page4"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page4").appear(function() {
+                            $(".typewriter#tw4").typed({
+                                strings: ["^300 Before we find out here is a little something for you to try..."],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>         
+                <div class="typewriter" id="tw4"> </div>
+                <a href="#page5" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page5">
+            <div data-role="content">
+                <p>
+                    Fact: Studies suggest that brain activity prompted by exercise may play a particular role in improving memory and recall.
+                </p>
+            </div>
+            <a href="#page6" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next6"> </a>
+        </div>
+
+        <div data-role="page" id="page6"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page6").appear(function() {
+                            $(".typewriter#tw6").typed({
+                                strings: ["^300 Make sure you are sitting comfortably in a chair. Once you've done that continue to the next part..."],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>           
+                <div class="typewriter" id="tw6"> </div>
+                <a href="#page7" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page7">
+            <div data-role="content">
+                <p>
+                    Now focus on what it feels like to have your bottom touching the chair. Focus on the weight that is resting on this part of your body. Notice the areas that take the most weight and those that don't. Make sure you are aware of what parts touch the chair and what parts don't. Continue this awareness and focus for 15 seconds.
+                </p>
+            </div>
+            <a href="#page8" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a>
+        </div>
+
+        <div data-role="page" id="page8"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page8").appear(function() {
+                            $(".typewriter#tw8").typed({
+                                strings: ["^300 Now you have done that, here are a couple of questions for you"],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>            
+                <div class="typewriter" id="tw8"> </div>
+                <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page9">
+            <div data-role="content">
+                <p>
+                    How aware are you now of the sensation of your bottom on the chair?
+                </p>
+                <div class="slider">
+                    <input type="range" class="slide" data-highlight="true" min="0" max="10" value="5">
+                </div>
+            </div>
+            <a href="#page10" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a>
+        </div>
+
+        <div data-role="page" id="page10">
+            <div data-role="content">
+                <p>
+                    How aware were you of the sensation of your bottom on the chair before any discussion of bottoms on chairs!?
+                </p>
+                <div class="slider">
+                    <input type="range" class="slide" data-highlight="true" min="0" max="10" value="5">
+                </div>
+            </div>
+            <a href="#page11" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a>
+        </div>
+
+        <div data-role="page" id="page11">
+            <div data-role="content">
+                <p>
+                    Most people find that by focusing on their bottom on the chair for 15 seconds they become hyperaware of the feeling of it though they never thought about it before. Once it has been noticed, it is hard to unnotice it!
+                </p>
+            </div>
+            <a href="#page12" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page12">
+            <div data-role="content">
+                <p>
+                    You're probably beginning to notice a pattern that if you try to resist, avoid,  or ignore your thoughts, feelings they get worse, there are unintended consequences, and it creates thoughts about your thoughts and feelings about your feelings. Well, it's the same for sensations.
+                </p>
+            </div>
+            <a href="#page13" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page13">
+            <div data-role="content">
+                <p>
+                    We saw with Daniel that running away from the bodily sensations isn’t helpful but neither is focusing on them. The more focus you give something, the more aware of it you will be. So that question again 'What do you do??'
+                </p>
+            </div>
+            <a href="#page14" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page14">
+            <div data-role="content">
+                <iframe class="sound" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/202999617&amp;color=68b3c1&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+            </div>
+            <a href="#page15" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next15"> </a>
+        </div>
+
+        <div data-role="page" id="page15"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page15").appear(function() {
+                            $(".typewriter#tw15").typed({
+                                strings: ["^300 I'll visit you a few times tomorrow to remind you to practice managing body stuff using this exercise."],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>           
+                <div class="typewriter" id="tw15"> </div>
+                <a href="../menu.html#menu2" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <script>
+            $('.didyouknow').html("<img src='../" + localStorage.mascot + "' alt='mascot'>");
+
+            $("#page10").click(function() {
+                localStorage.progress = 10;
+            });
+        </script>
     </body>
 </html>

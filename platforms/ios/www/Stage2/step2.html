@@ -6,34 +6,171 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        
-        <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet" />
-        <link href="assets/ratchet/css/ratchet.css" rel="stylesheet" />
-        <!--<link href="assets/css/styles.css" rel="stylesheet" />-->
-        <link href="css/index.css" rel="stylesheet" type="text/css" />
+                                                                                            
+        <link href="../css/jquery.mobile-1.4.5.css" rel="stylesheet" />
+        <link href="../assets/ratchet/css/ratchet.css" rel="stylesheet" />
+        <link href="../css/index.css" rel="stylesheet" type="text/css" />
 
-        <script src="lib/jquery-2.1.1.min.js"></script>
-        <script src="lib/jquery.mobile-1.4.5.js"></script>        
-        <script src="assets/typed/js/typed.js"></script>
-        <!--<script src="cordova.js"></script>
-        <script src="lib/fastclick.js"></script>
-        <script src="lib/handlebars.js"></script>-->
+        <script src="../lib/jquery-2.1.1.min.js"></script>
+        <script src="../lib/jquery.mobile-1.4.5.js"></script>        
+        <script src="../assets/typed/js/typed.js"></script>
+        <script src="../lib/jquery.foggy.min.js"></script>
+        <script src="../js/scripts.js"></script>
     </head>
 
     <body>
         <div data-role="header">
             <header class="bar bar-nav" style="background-color:#68b3c1">
-                    <h1 class="title" style="color:white">Study Kick Start</h1>
+                    <h1 class="title" style="color:white">Managing Heart Stuff</h1>
             </header>
         </div>
 
         <div data-role="footer">
-            <input type="image" src="img/next-button.png" class="next"> </a>
+            <input type="image" src="../img/next-button.png" class="next"> </a>
         </div>
 
+        <div data-role="page" id="page1">
+            <div data-role="content">
+                <p>
+                    Emotions, love ‘em or hate ‘em, we’re stuck with ‘em. It probably feels ok when you’re having feelings that you like, like excitement, but if it’s actually the case that you are having to deal with the more difficult emotions of (what students input in stage 1, step 2, page? ) then what does that mean:-- gritting your teeth until it passes?
+                </p>
+            </div>
+            <a href="#page2" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
 
-        
+        <div data-role="page" id="page2">
+            <div data-role="content">
+                <p>
+                    No, it’s rather like the pink elephant exercise, the more you try to escape, avoid, suppress, and ignore your feelings, the longer they stick around, and the worse it feels.</br>Remember Yolanda? She felt anxious about looking at her timetable and so stopped looking at it. This helped her to avoid the initial anxiety but resulted in later feelings of guilt and heightened anxiety.
 
+                </p>
+            </div>
+            <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next3"> </a>
+        </div>
 
+        <div data-role="page" id="page3"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page3").appear(function() {
+                            $(".typewriter#tw3").typed({
+                                strings: ["^300 Managing your emotions is at the heart of procrastination"],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>            
+                <div class="typewriter" id="tw3"> </div>
+                <a href="#page4" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page4">
+            <div data-role="content">
+                <p>
+                    Take a moment to notice the emotions you experience when thinking about the things that you have to do but are putting off. You'll have a minute to identify the emotions. Here's a reminder of the 4 broad categories that our emotions can fall in to.
+                </p>
+            </div>
+            <a href="#page5" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page5">
+            <div data-role="content">
+                <ul class="quizOption">
+                    <li>Anger</li>
+                    <li>Joy</li>
+                    <li>Sadness</li>
+                    <li>Fear</li>
+                </ul>
+            </div>
+            <a href="#page6" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next6"> </a>
+        </div>
+
+        <div data-role="page" id="page6"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page6").appear(function() {
+                            $(".typewriter#tw6").typed({
+                                strings: ["^300 So, what was that like for you? Did you manage to stay with the emotion? Did you find yourself struggling with having the emotion?"],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>           
+                <div class="typewriter" id="tw6"> </div>
+                <a href="#page7" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page7">
+            <div data-role="content">
+                <p>
+                    Whether you manage to sit with the emotion without struggling with it for the full minute or not this step is about building tolerance for whatever emotions turn up for you, whether it is a pleasant (but unhelpful) feeling of disinterest in your work or an unpleasant feeling of panic about all the work you have to do.
+                </p>
+            </div>
+            <a href="#page8" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page8">
+            <div data-role="content">
+                <p>
+                    Tolerance is like going to the gym to develop strength and stamina in your muscles. You can’t lift 50 kilos of weight on your first visit to the gym, you have to work up to it steadily over time. This step also requires willingness to have, or allow yourself, to feel feelings. Willingness doesn’t mean liking or wanting the feeling , but allowing it to be there.
+
+                </p>
+            </div>
+            <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next9"> </a>
+        </div>
+
+        <div data-role="page" id="page9"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page9").appear(function() {
+                            $(".typewriter#tw9").typed({
+                                strings: ["^300 <b>Tip: </b>It can be hard to find motivation if you don't pause to appreciate what you've done. Make sure you stand back from your tasks, work, projects to fully appreciate your achievements."],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>           
+                <div class="typewriter" id="tw9"> </div>
+                <a href="#page10" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page10">
+            <iframe class="sound" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/202999616&amp;color=68b3c1&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+            <a href="#page11" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next11"> </a>
+        </div>
+
+        <div data-role="page" id="page11"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page11").appear(function() {
+                            $(".typewriter#tw11").typed({
+                                strings: ["^300 I'll visit you a few times tomorrow to remind you to practice managing heart stuff with the expansion exercise."],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>         
+                <div class="typewriter" id="tw11"> </div>
+                <a href="../menu.html#menu2" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <script>
+            $('.didyouknow').html("<img src='../" + localStorage.mascot + "' alt='mascot'>");
+
+            $("#page11").click(function() {
+                localStorage.progress = 9;
+            });
+        </script>
     </body>
 </html>

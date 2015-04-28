@@ -6,34 +6,105 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        
-        <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet" />
-        <link href="assets/ratchet/css/ratchet.css" rel="stylesheet" />
-        <!--<link href="assets/css/styles.css" rel="stylesheet" />-->
-        <link href="css/index.css" rel="stylesheet" type="text/css" />
+                                                                                            
+        <link href="../css/jquery.mobile-1.4.5.css" rel="stylesheet" />
+        <link href="../assets/ratchet/css/ratchet.css" rel="stylesheet" />
+        <link href="../css/index.css" rel="stylesheet" type="text/css" />
 
-        <script src="lib/jquery-2.1.1.min.js"></script>
-        <script src="lib/jquery.mobile-1.4.5.js"></script>        
-        <script src="assets/typed/js/typed.js"></script>
-        <!--<script src="cordova.js"></script>
-        <script src="lib/fastclick.js"></script>
-        <script src="lib/handlebars.js"></script>-->
+        <script src="../lib/jquery-2.1.1.min.js"></script>
+        <script src="../lib/jquery.mobile-1.4.5.js"></script>        
+        <script src="../assets/typed/js/typed.js"></script>
+        <script src="../lib/jquery.foggy.min.js"></script>
+        <script src="../lib/jquery.appear.js"></script>
+        <script src="../js/scripts.js"></script>
     </head>
 
     <body>
         <div data-role="header">
             <header class="bar bar-nav" style="background-color:#68b3c1">
-                    <h1 class="title" style="color:white">Study Kick Start</h1>
+                    <h1 class="title" style="color:white">Final Step</h1>
             </header>
         </div>
 
         <div data-role="footer">
-            <input type="image" src="img/next-button.png" class="next"> </a>
+            <input type="image" src="../img/next-button.png" class="next"> </a>
         </div>
 
+        <div data-role="page" id="page1">
+            <div data-role="content">
+                <p>
+                    Now you've learnt ways to mange your head stuff, heart stuff, body stuff and doing stuff it's important to keep this going to make sure you don't end up back on the path of procrastination.
+                </p>
+            </div>
+            <a href="#page2" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next2"> </a>
+        </div>
 
-        
+        <div data-role="page" id="page2"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page2").appear(function() {
+                            $(".typewriter#tw2").typed({
+                                strings: ["^1000 Well done <span></span> for reaching the end of your procrastination and motivation journey! How has this journey been for you?"],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>         
+                <div class="typewriter" id="tw2"> </div>
+                <ul class="how-hard">
+                    <li class="absolute-center">Very hard
+                    <li class="absolute-center">Difficult at times 
+                    <li class="absolute-center">Easy
+                    <li class="absolute-center">Very easy
+                </ul>
+                <a href="#page3A" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
 
+        <div data-role="page" id="page3A">
+            <div data-role="content">
+                <p>
+                    It's great, <span></span>, that you managed to complete the journey. It can be difficult making changes to procrastination. It takes time and effort. Go through this app again and see if it becomes that little bit easier for you on the second time round. You may want to register with the UCL Student Psychological Services for that little bit extra support.
+                </p>
+            </div>
+            <a href="../menu.html#menu2" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next2"> </a>
+        </div>
 
+        <div data-role="page" id="page3B">
+            <div data-role="content">
+                <p>
+                    Well done, <span></span>, for completing the journey. It's not unusual to find the first time of working on procrastination and motivation a little bit challenging. Go through the app again to really become familiar with how to manage those troublesome thoughts, feelings and sensations. You may also find reading more about procrastination helpful. Visit the UCL Student Psychological Services' library.
+                </p>
+            </div>
+            <a href="../menu.html#menu2" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next2"> </a>
+        </div>
+
+        <div data-role="page" id="page3C">
+            <div data-role="content">
+                <p>
+                    That's great, <span></span>. Keep up the effort and procrastination will rarely will be a problem for you.
+                </p>
+            </div>
+            <a href="../menu.html#menu2" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next2"> </a>
+        </div>
+
+        <div data-role="page" id="page3D">
+            <div data-role="content">
+                <p>
+                    That's great, <span></span>, that you found the journey so easy. Keep up the good work with your studies!
+                </p>
+            </div>
+            <a href="../menu.html#menu2" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next2"> </a>
+        </div>
+
+        <script>
+            $('.didyouknow').html("<img src='../" + localStorage.mascot + "' alt='mascot'>");
+
+            $("#pageXX").click(function() {
+                localStorage.progress = 11;
+            });
+        </script>
     </body>
 </html>

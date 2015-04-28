@@ -14,8 +14,9 @@
         <script src="../lib/jquery-2.1.1.min.js"></script>
         <script src="../lib/jquery.mobile-1.4.5.js"></script>        
         <script src="../assets/typed/js/typed.js"></script>
+        <script src="../lib/jquery.foggy.min.js"></script>
+        <script src="../lib/jquery.appear.js"></script>
         <script src="../js/scripts.js"></script>
-        <script src="../js/jquery.foggy.min.js"></script>
     </head>
 
     <body>
@@ -58,9 +59,7 @@
 
         <div data-role="page" id="page4">
             <div data-role="content">
-                <video width="320" height="240" controls>
-                    <source src="../chris.mp4" type="video/mp4">
-                </video>
+                <iframe src="https://www.youtube-nocookie.com/embed/w7hptvWQ84Q?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                 <a href="#page5" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
             </div>
         </div>
@@ -155,11 +154,15 @@
                     <p>SET REMINDER TIME</p>
                 </div>
             </div>
-            <a href="../menu.html" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+            <a href="../menu.html#menu1" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
 
         <script>
             $('.didyouknow').html("<img src='../" + localStorage.mascot + "' alt='mascot'>");
+
+            $("#page11 a").click(function() {
+                localStorage.progress = 5;
+            });
         </script>
     </body>
 </html>

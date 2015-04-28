@@ -6,34 +6,210 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        
-        <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet" />
-        <link href="assets/ratchet/css/ratchet.css" rel="stylesheet" />
-        <!--<link href="assets/css/styles.css" rel="stylesheet" />-->
-        <link href="css/index.css" rel="stylesheet" type="text/css" />
+                                                                                            
+        <link href="../css/jquery.mobile-1.4.5.css" rel="stylesheet" />
+        <link href="../assets/ratchet/css/ratchet.css" rel="stylesheet" />
+        <link href="../css/index.css" rel="stylesheet" type="text/css" />
 
-        <script src="lib/jquery-2.1.1.min.js"></script>
-        <script src="lib/jquery.mobile-1.4.5.js"></script>        
-        <script src="assets/typed/js/typed.js"></script>
-        <!--<script src="cordova.js"></script>
-        <script src="lib/fastclick.js"></script>
-        <script src="lib/handlebars.js"></script>-->
+        <script src="../lib/jquery-2.1.1.min.js"></script>
+        <script src="../lib/jquery.mobile-1.4.5.js"></script>        
+        <script src="../assets/typed/js/typed.js"></script>
+        <script src="../lib/jquery.foggy.min.js"></script>
+        <script src="../lib/jquery.appear.js"></script>
+        <script src="../js/scripts.js"></script>
+        <script src="../js/timer.js"></script>
+        <script src="../lib/TimeCircles.js"></script>
     </head>
 
     <body>
         <div data-role="header">
             <header class="bar bar-nav" style="background-color:#68b3c1">
-                    <h1 class="title" style="color:white">Study Kick Start</h1>
+                    <h1 class="title" style="color:white">Managing Head Stuff</h1>
             </header>
         </div>
 
         <div data-role="footer">
-            <input type="image" src="img/next-button.png" class="next"> </a>
+            <input type="image" src="../img/next-button.png" class="next"> </a>
         </div>
 
+        <div data-role="page" id="page1">
+            <div data-role="content">
+                <p>
+                    So you found out that thoughts such as (students choice of thoughts from stage 1, step 1, page 8 page ) are a big component to why you struggle. But what can you do about them? 
+                </p>
+            </div>
+            <a href="#page2" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
 
-        
+        <div data-role="page" id="page2">
+            <div data-role="content">
+                <p>
+                    Try this exercise: Imagine a cartoon elephant. It’s a pink elephant and has red painted toenails and red polka dot bow on its head. It has a big smile hidden under its trunk and big blue eyes. Can you see it..? Take your time, don't rush. You will have 30 seconds to build a really clear picture of the elephant.
+                </p>
+                <div class="timer" data-timer="900"></div>
+            </div>
+            <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
 
+        <div data-role="page" id="page3">
+            <div data-role="content">
+                <p>
+                    Did it look anything like this? OK, now spend another 30 seconds merging this image with the one you had in your mind.
+                </p>
+                <img src="../img/elephant.png" class="stuff">
+            </div>
+            <a href="#page4" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
 
+        <div data-role="page" id="page4">
+            <div data-role="content">
+                <p style="top:4em;line-height:120%;">
+                    Now you'll have another 30 seconds to complete the task. Time will start as soon as you move onto the next screen where you will also find the instructions of what you need to do. Keeping the elephant in mind, press next when you are ready to move to the final task.
+                </p>
+                <img src="../img/elephant.png" class="stuff">
+            </div>
+            <a href="#page5" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page5">
+            <div data-role="content">
+                <p>
+                    DO NOT THINK ABOUT THE PINK ELEPHANT! 
+                </p>
+            </div>
+            <a href="#page6" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page6">
+            <div data-role="content">
+                <div>
+                    <p style="top:5em">
+                        Chances are that as much as you tried not to let it happen, the pink elephant kept popping back into your mind. Did you manage to get through the whole 30 seconds without thinking about the pink elephant?
+                    </p>
+                </div>
+                <ul class="quizOption" style="top:45vh">
+                    <li>Yes
+                    </li>
+                    <li>No
+                    </li>
+                </ul>
+            </div>
+            <a href="#page7A" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next7"> </a>
+        </div>
+
+        <div data-role="page" id="page7A"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page7A").appear(function() {
+                            $(".typewriter#tw7A").typed({
+                                strings: ["^300 Even thoughts like 'I must not think about the pink elephant' are thoughts about the pink elephant! Did you manage this by finding a replacement focus for your attention, maybe?"],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>       
+                <div class="typewriter" id="tw7A"> </div>
+                <a href="#page8" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page7B"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page7B").appear(function() {
+                            $(".typewriter#tw7B").typed({
+                                strings: ["^300 Not at all? That's not surprising and is in fact expected!"],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>       
+                <div class="typewriter" id="tw7B"> </div>
+                <a href="#page8" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page8"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page8").appear(function() {
+                            $(".typewriter#tw8").typed({
+                                strings: ["^300 Research has shown that actively trying to put a thought out of your head actually makes it come back twice as strong, and this gets worse in times of stress."],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>        
+                <div class="typewriter" id="tw8"> </div>
+                <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page9">
+            <div data-role="content">
+                <p>
+                    When you try to rid yourself of your thoughts about how much work you have to do or your ability to do it by ignoring those thoughts and pushing then away you are actually programming your mind to think about it more. 
+                </p>
+            </div>
+            <a href="#page10" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
+        </div>
+
+        <div data-role="page" id="page10">
+            <div data-role="content">
+                <iframe src="https://www.youtube-nocookie.com/embed/JUAn34kMiJ0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <a href="#page11" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next11"> </a>
+            </div>
+        </div>     
+
+        <div data-role="page" id="page11"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page11").appear(function() {
+                            $(".typewriter#tw11").typed({
+                                strings: ["^300 <b>Tip: </b> Notice the language you use when talking to yourself and replace negative self talk with positive. “I can“ rather than “I should have“"],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>          
+                <div class="typewriter" id="tw11"> </div>
+                <a href="#page12" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next12"> </a> 
+            </div>
+        </div>
+
+        <div data-role="page" id="page12"> 
+            <div data-role="content">
+                <div class="didyouknow"> </div>
+                <script>
+                    $("#page12").appear(function() {
+                            $(".typewriter#tw12").typed({
+                                strings: ["^300 I'll visit you a few times tomorrow to remind you to practice managing head stuff with the floating thoughts exercise."],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
+                    });
+                </script>          
+                <div class="typewriter" id="tw12"> </div>
+                
+                <a href="../menu.html#menu2" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
+            </div>
+        </div>
+
+        <script>
+            $('.didyouknow').html("<img src='../" + localStorage.mascot + "' alt='mascot'>");
+
+            $("#page12").click(function() {
+                localStorage.progress = 8;
+            });
+        </script>
     </body>
 </html>
