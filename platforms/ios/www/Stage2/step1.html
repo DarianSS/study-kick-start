@@ -10,18 +10,22 @@
         <link href="../css/jquery.mobile-1.4.5.css" rel="stylesheet" />
         <link href="../assets/ratchet/css/ratchet.css" rel="stylesheet" />
         <link href="../css/index.css" rel="stylesheet" type="text/css" />
+        <link href="../css/TimeCircles.css" rel="stylesheet">                    
 
         <script src="../lib/jquery-2.1.1.min.js"></script>
         <script src="../lib/jquery.mobile-1.4.5.js"></script>        
         <script src="../assets/typed/js/typed.js"></script>
+        <script src="../lib/jquery.foggy.min.js"></script>
+        <script src="../lib/jquery.appear.js"></script>
         <script src="../js/scripts.js"></script>
-        <script src="../js/jquery.foggy.min.js"></script>
+        <script src="../js/timer.js"></script>
+        <script src="../lib/TimeCircles.js"></script>
     </head>
 
     <body>
         <div data-role="header">
             <header class="bar bar-nav" style="background-color:#68b3c1">
-                    <h1 class="title" style="color:white">Study Kick Start</h1>
+                    <h1 class="title" style="color:white">Managing Head Stuff</h1>
             </header>
         </div>
 
@@ -41,8 +45,9 @@
         <div data-role="page" id="page2">
             <div data-role="content">
                 <p>
-                    Try this exercise: Imagine a cartoon elephant. It’s a pink elephant and has red painted toenails and red polka dot bow on it's head. It has a big smile hidden under it's trunk and big blue eyes. Can you see it..? Take your time, don't rush. You will have 30 seconds to build a really clear picture of the elephant.
-                </p>
+                    Try this exercise: Imagine a cartoon elephant. It’s a pink elephant and has red painted toenails and red polka dot bow on its head. It has a big smile hidden under its trunk and big blue eyes. Can you see it..? Take your time, don't rush. You will have 30 seconds to build a really clear picture of the elephant.
+                </p> 
+                <div class="timer" data-timer="30"></div>
             </div>
             <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
         </div>
@@ -83,14 +88,12 @@
                         Chances are that as much as you tried not to let it happen, the pink elephant kept popping back into your mind. Did you manage to get through the whole 30 seconds without thinking about the pink elephant?
                     </p>
                 </div>
-                <div class="quiz">
-                    <div class="yes">
-                        <p>Yes</p>
-                    </div>
-                    <div class="no">
-                        <p>No</p>
-                    </div>
-                </div>
+                <ul class="quizOption" style="top:45vh">
+                    <li>Yes
+                    </li>
+                    <li>No
+                    </li>
+                </ul>
             </div>
             <a href="#page7A" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next7"> </a>
         </div>
@@ -99,22 +102,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next7").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page7A").appear(function() {
                             $(".typewriter#tw7A").typed({
-                                strings: ["^200 Even thoughts like 'I must not think about the pink elephant' are thoughts about the pink elephant! Did you manage this by finding a replacement focus for your attention, maybe?"],
-                                typeSpeed: 200,
+                                strings: ["^300 Even thoughts like 'I must not think about the pink elephant' are thoughts about the pink elephant! Did you manage this by finding a replacement focus for your attention, maybe?"],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>       
                 <div class="typewriter" id="tw7A"> </div>
                 <a href="#page8" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a> 
             </div>
@@ -124,22 +120,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next7").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page7B").appear(function() {
                             $(".typewriter#tw7B").typed({
-                                strings: ["^200 Not at all? That's not surprising and is in fact expected!"],
-                                typeSpeed: 200,
+                                strings: ["^300 Not at all? That's not surprising and is in fact expected!"],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>       
                 <div class="typewriter" id="tw7B"> </div>
                 <a href="#page8" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a> 
             </div>
@@ -149,22 +138,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next8").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page8").appear(function() {
                             $(".typewriter#tw8").typed({
-                                strings: ["^200 Research has shown that actively trying to put a thought out of your head actually makes it come back twice as strong, and this gets worse in times of stress."],
-                                typeSpeed: 200,
+                                strings: ["^300 Research has shown that actively trying to put a thought out of your head actually makes it come back twice as strong, and this gets worse in times of stress."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>        
                 <div class="typewriter" id="tw8"> </div>
                 <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
@@ -181,7 +163,7 @@
 
         <div data-role="page" id="page10">
             <div data-role="content">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JUAn34kMiJ0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/JUAn34kMiJ0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                 <a href="#page11" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next11"> </a>
             </div>
         </div>     
@@ -190,17 +172,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next11").bind("click", function(event, ui) {
-                        $(function() {
+                    $("#page11").appear(function() {
                             $(".typewriter#tw11").typed({
-                                strings: ["^200 <b>Tip: </b> Notice the language you use when talking to yourself and replace negative self talk with positive. “I can“ rather than “I should have“"],
-                                typeSpeed: 200,
+                                strings: ["^300 <b>Tip: </b> Notice the language you use when talking to yourself and replace negative self talk with positive. “I can“ rather than “I should have“"],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>          
                 <div class="typewriter" id="tw11"> </div>
                 <a href="#page12" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next12"> </a> 
             </div>
@@ -210,17 +190,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next12").bind("click", function(event, ui) {
-                        $(function() {
+                    $("#page12").appear(function() {
                             $(".typewriter#tw12").typed({
-                                strings: ["^200 I'll visit you a few times tomorrow to remind you to practice managing head stuff with the floating thoughts exercise."],
-                                typeSpeed: 200,
+                                strings: ["^300 I'll visit you a few times tomorrow to remind you to practice managing head stuff with the floating thoughts exercise."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>          
                 <div class="typewriter" id="tw12"> </div>
                 
                 <a href="../menu.html#menu2" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 

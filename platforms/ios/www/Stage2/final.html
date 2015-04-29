@@ -14,14 +14,15 @@
         <script src="../lib/jquery-2.1.1.min.js"></script>
         <script src="../lib/jquery.mobile-1.4.5.js"></script>        
         <script src="../assets/typed/js/typed.js"></script>
+        <script src="../lib/jquery.foggy.min.js"></script>
+        <script src="../lib/jquery.appear.js"></script>
         <script src="../js/scripts.js"></script>
-        <script src="../js/jquery.foggy.min.js"></script>
     </head>
 
     <body>
         <div data-role="header">
             <header class="bar bar-nav" style="background-color:#68b3c1">
-                    <h1 class="title" style="color:white">Study Kick Start</h1>
+                    <h1 class="title" style="color:white">Final Step</h1>
             </header>
         </div>
 
@@ -42,22 +43,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next2").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page2").appear(function() {
                             $(".typewriter#tw2").typed({
-                                strings: ["^200 Well done <span></span> for reaching the end of your procrastination and motivation journey! How has this journey been for you?"],
-                                typeSpeed: 200,
+                                strings: ["^1000 Well done <span></span> for reaching the end of your procrastination and motivation journey! How has this journey been for you?"],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>           
+                </script>         
                 <div class="typewriter" id="tw2"> </div>
                 <ul class="how-hard">
                     <li class="absolute-center">Very hard

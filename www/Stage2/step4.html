@@ -14,14 +14,15 @@
         <script src="../lib/jquery-2.1.1.min.js"></script>
         <script src="../lib/jquery.mobile-1.4.5.js"></script>        
         <script src="../assets/typed/js/typed.js"></script>
+        <script src="../lib/jquery.foggy.min.js"></script>
+        <script src="../lib/jquery.appear.js"></script>
         <script src="../js/scripts.js"></script>
-        <script src="../js/jquery.foggy.min.js"></script>
     </head>
 
     <body>
         <div data-role="header">
             <header class="bar bar-nav" style="background-color:#68b3c1">
-                    <h1 class="title" style="color:white">Study Kick Start</h1>
+                    <h1 class="title" style="color:white">Managing Doing Stuff</h1>
             </header>
         </div>
 
@@ -40,7 +41,7 @@
 
         <div data-role="page" id="page2">
             <div data-role="content">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/a2aZOBJsBls?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/a2aZOBJsBls?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                 <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
             </div>
         </div>
@@ -80,22 +81,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next6").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page6").appear(function() {
                             $(".typewriter#tw6").typed({
-                                strings: ["^200 It can be difficult to spot your own motivation to get things done so here's a way of thinking about it..."],
-                                typeSpeed: 200,
+                                strings: ["^300 It can be difficult to spot your own motivation to get things done so here's a way of thinking about it..."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>           
                 <div class="typewriter" id="tw6"> </div>
                 <a href="#page7" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a> 
             </div>
@@ -132,20 +126,13 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next10").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page10").appear(function() {
                             $(".typewriter#tw10").typed({
-                                strings: ["^200 Motivation comes from having goals that are in line with your own values"],
-                                typeSpeed: 200,
+                                strings: ["^300 Motivation comes from having goals that are in line with your own values"],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
                 </script>            
                 <div class="typewriter" id="tw10"> </div>
@@ -235,22 +222,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next17").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page17").appear(function() {
                             $(".typewriter#tw17").typed({
-                                strings: ["^200 <b>Tip: </b>Find your personal meaning in the tasks you undertake to keep yourself motivated"],
-                                typeSpeed: 200,
+                                strings: ["^300 <b>Tip: </b>Find your personal meaning in the tasks you undertake to keep yourself motivated."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>        
                 <div class="typewriter" id="tw17"> </div>
                 <a href="#page18" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
@@ -258,10 +238,10 @@
 
         <div data-role="page" id="page18">
             <div data-role="content">
-                <p>
+                <p style="top:4em">
                     Raj gives this a go at his next opportunity and writes down in another column what actually happened:
                 </p>
-                <table class="experiment" style="margin-top:13.5em">
+                <table class="experiment" style="margin-top:30vh">
                     <tr>
                         <td><b>Experiment</b></td>
                         <td><b>What happened</b></td> 
@@ -277,10 +257,10 @@
 
         <div data-role="page" id="page19">
             <div data-role="content">
-                <p>
+                <p style="top:4em">
                     Final column- What have I learnt? 
                 </p>
-                <table class="experiment" style="margin-top:9.5em">
+                <table class="experiment" style="margin-top:20vh">
                     <tr>
                         <td><b>Experiment</b></td>
                         <td><b>What have I learnt?</b></td> 
@@ -299,7 +279,7 @@
                 <p style="top:4em">
                     Now it's your turn to have a go! You described behaving in the following ways---------. Now pick one of them, maybe the easiest, or smallest, to have a go at changing your response with a behavioural experiment
                 </p>
-                <table class="experiment" style="margin-top:17em">
+                <table class="experiment" style="margin-top:50vh">
                     <tr>
                         <td><b>Experiment</b></td>
                         <td><b>What happened</b></td> 

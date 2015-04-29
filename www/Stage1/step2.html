@@ -14,8 +14,8 @@
         <script src="../lib/jquery-2.1.1.min.js"></script>
         <script src="../lib/jquery.mobile-1.4.5.js"></script>        
         <script src="../assets/typed/js/typed.js"></script>
-        <script src="../js/jquery.foggy.min.js"></script>
-        <script src="../js/jquery.appear.js"></script>
+        <script src="../lib/jquery.foggy.min.js"></script>
+        <script src="../lib/jquery.appear.js"></script>
         <script src="../js/scripts.js"></script>
     </head>
 
@@ -42,7 +42,7 @@
         <div data-role="page" id="page2">
             <div data-role="content">
                 <div class="character">
-                    <img src="../img/tunde.png">
+                    <img src="../img/yolanda.jpg">
                 </div>
                 <div class="characterIntro">
                     <p>
@@ -65,18 +65,16 @@
         <div data-role="page" id="page3">
             <div data-role="content">
                 <div>
-                    <p style="top:5em;line-height:120%">
+                    <p style="top:15vh;line-height:120%">
                         Now, imagine for a moment that no-body feels emotions anymore. No more guilt, frustration, or anxiety. Would Yolanda start revising if she didn't have any emotions to get in her way?
                     </p>
                 </div>
-                <div class="quiz">
-                    <div class="quizOption1" style="top:13em;height:5em" id="wrong">
-                        <p>Yes - she would be able to start her revision as the feelings wouldn't be distracting her anymore</p>
-                    </div>
-                    <div class="quizOption2" style="top:19em;height:5em" id="right">
-                        <p>No - she wouldn't be able to tell what is or isn't important in her life anymore.</p>
-                    </div>
-                </div>
+                <ul class="quizOption" style="top:27vh">
+                    <li id="wrong">Yes - she would be able to start her revision as the feelings wouldn't be distracting her anymore
+                    </li>
+                    <li id="right">No - she wouldn't be able to tell what is or isn't important in her life anymore.
+                    </li>
+                </ul>
             </div>
             <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next3"> </a>
         </div>
@@ -85,22 +83,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next3").appear(function() {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page3right").appear(function() {
                             $(".typewriter#tw3A").typed({
-                                strings: ["^200 Yes, you're absolutely right. Emotions motivate us to get things done, such as starting revision."],
-                                typeSpeed: 200,
+                                strings: ["^300 Yes, you're absolutely right. Emotions motivate us to get things done, such as starting revision."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>
                 <div class="typewriter" id="tw3A"> </div>
                 <a href="#page4" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
@@ -110,22 +101,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next3").appear(function() {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page3wrong").appear(function() {
                             $(".typewriter#tw3B").typed({
-                                strings: ["^200 Well, actually without emotions we're no longer able to accurately assess for threat and danger anymore. So, the result would be Yolanda who doesn't care as much about anything anymore- she'd be less motivated to get things done."],
-                                typeSpeed: 200,
+                                strings: ["^300 Well, actually without emotions we're no longer able to accurately assess for threat and danger anymore. So, the result would be Yolanda who doesn't care as much about anything anymore- she'd be less motivated to get things done."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>         
                 <div class="typewriter" id="tw3B"> </div>
                 <a href="#page4" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
@@ -144,15 +128,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next5").appear(function() {
+                    $("#page5").appear(function() {
                             $(".typewriter#tw5").typed({
-                                strings: ["^1000 Emotion is the driving force behind motivation. So, it's important to know what we're feeling and to learn how to manage what we're feeling."],
+                                strings: ["^300 Emotion is the driving force behind motivation. So, it's important to know what we're feeling and to learn how to manage what we're feeling."],
                                 typeSpeed: 60,
-                                contentType: 'text',
+                                contentType: 'html',
                                 showCursor: false
                             });
                     });
-                </script>            
+                </script>          
                 <div class="typewriter" id="tw5"> </div>
                 <a href="#page6" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
@@ -217,22 +201,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next8").appear(function() {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page8right").appear(function() {
                             $(".typewriter#tw8A").typed({
-                                strings: ["^200 Well done, that was easy right! You'll find a goodie in your bonus bag!"],
-                                typeSpeed: 200,
+                                strings: ["^300 Well done, that was easy right! You'll find a goodie in your bonus bag!"],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>        
                 <div class="typewriter" id="tw8A"> </div>
                 <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next8"> </a> 
             </div>
@@ -242,22 +219,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next8").appear(function() {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page8again").appear(function() {
                             $(".typewriter#tw8B").typed({
-                                strings: ["^200 I'm afraid not. Don't worry though, try again to get something in your bonus bag. Press the button to play again!"],
-                                typeSpeed: 200,
+                                strings: ["^300 I'm afraid not. Don't worry though, try again to get something in your bonus bag. Press the button to play again!"],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>         
                 <div class="typewriter" id="tw8B"> </div>
                 <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
@@ -267,22 +237,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next8").appear(function() {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page8wrong").appear(function() {
                             $(".typewriter#tw8C").typed({
-                                strings: ["^200 I'm afraid not. Don't worry though, there'll be other chances to get something in your bonus bag."],
-                                typeSpeed: 200,
+                                strings: ["^300 I'm afraid not. Don't worry though, there'll be other chances to get something in your bonus bag."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script> 
                 <div class="typewriter" id="tw8C"> </div>
                 <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
@@ -325,20 +288,13 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next11").appear(function() {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page11").appear(function() {
                             $(".typewriter#tw11").typed({
-                                strings: ["^200 The Procrastination Group had 2,700 responders to an online survey where they asked to what extent procrastination had a negative impact on happiness. 46% opted for 'quite a bit' or 'very much' and 18% for extreme negative effect. If you find your procrastination impacts on your happiness you are not alone."],
-                                typeSpeed: 200,
-                                contentType: 'text',
+                                strings: ["^300 The Procrastination Group had 2,700 responders to an online survey where they asked to what extent procrastination had a negative impact on happiness. 46% opted for 'quite a bit' or 'very much' and 18% for extreme negative effect. If you find your procrastination impacts on your happiness you are not alone."],
+                                typeSpeed: 60,
+                                contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
                 </script>            
                 <div class="typewriter" id="tw11"> </div>
@@ -477,13 +433,13 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next22").appear(function() {
-                        $(".typewriter#tw22A").typed({
-                            strings: ["^200 Not a lot- Great! There's much more to come. Keep going through the stages."],
-                            typeSpeed: 60,
-                            contentType: 'html',
-                            showCursor: false
-                        });
+                    $("#page22A").appear(function() {
+                            $(".typewriter#tw22A").typed({
+                                strings: ["^300 Not a lot- Great! There's much more to come. Keep going through the stages."],
+                                typeSpeed: 60,
+                                contentType: 'html',
+                                showCursor: false
+                            });
                     });
                 </script>            
                 <div class="typewriter" id="tw22A"> </div>
@@ -495,9 +451,9 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next22").appear(function() {
+                    $("#page22B").appear(function() {
                             $(".typewriter#tw22B").typed({
-                                strings: ["^200 Quite a bit- Keep going. Throughout the stages you will learn ideas and gain some tools aimed to help you lower your score."],
+                                strings: ["^300 Quite a bit- Keep going. Throughout the stages you will learn ideas and gain some tools aimed to help you lower your score."],
                                 typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
@@ -513,15 +469,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next22").appear(function() {
+                    $("#page22C").appear(function() {
                             $(".typewriter#tw22C").typed({
-                                strings: ["^200 A lot- Keep going. Throughout the stages you will learn ideas and gain some tools aimed to help you lower your score. You may want some extra support from the SPS whilst completing the stages. You can get in touch via EMAIL ADDRESS"],
+                                strings: ["^300 A lot- Keep going. Throughout the stages you will learn ideas and gain some tools aimed to help you lower your score. You may want some extra support from the SPS whilst completing the stages. You can get in touch via EMAIL ADDRESS"],
                                 typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
                     });
-                </script>            
+                </script>           
                 <div class="typewriter" id="tw22C"> </div>
                 <a href="#page23" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next23C"> </a> 
             </div>
@@ -531,15 +487,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next22").appear(function() {
+                    $("#page22D").appear(function() {
                             $(".typewriter#tw22D").typed({
-                                strings: ["^200 Very much- It seems that things are difficult for you and you are in need of some support. Register with the SPS. You can get in touch via EMAIL ADDRESS"],
+                                strings: ["^300 Very much- It seems that things are difficult for you and you are in need of some support. Register with the SPS. You can get in touch via EMAIL ADDRESS"],
                                 typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
                     });
-                </script>            
+                </script>           
                 <div class="typewriter" id="tw22D"> </div>
                 <a href="#page23" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next23D"> </a> 
             </div>
@@ -549,15 +505,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("input").appear(function() {
+                    $("#page23").appear(function() {
                             $(".typewriter#tw23").typed({
-                                strings: ["^200 <b>Tip: </b>Do some of your favourite things while taking your study break like eating food, enjoying a walk, listening to music, stroking your pet..."],
+                                strings: ["^300 <b>Tip: </b>Do some of your favourite things while taking your study break like eating food, enjoying a walk, listening to music, stroking your pet..."],
                                 typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
                     });
-                </script>            
+                </script>       
                 <div class="typewriter" id="tw23"> </div>
                 <a href="#page24" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>

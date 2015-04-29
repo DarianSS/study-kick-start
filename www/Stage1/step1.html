@@ -14,8 +14,8 @@
         <script src="../lib/jquery-2.1.1.min.js"></script>
         <script src="../lib/jquery.mobile-1.4.5.js"></script>        
         <script src="../assets/typed/js/typed.js"></script>
-        <script src="../js/jquery.foggy.min.js"></script>
-        <script src="../js/jquery.appear.js"></script>
+        <script src="../lib/jquery.foggy.min.js"></script>
+        <script src="../lib/jquery.appear.js"></script>
         <script src="../js/scripts.js"></script>
     </head>
 
@@ -46,7 +46,7 @@
 
         <div data-role="page" id="page2">
             <div data-role="content">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9m5dRAu-6LA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/9m5dRAu-6LA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                 <a href="#page3" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
             </div>
         </div>
@@ -79,7 +79,7 @@
                 <script>
                     $("#page3right").appear(function() {
                             $(".typewriter#tw3A").typed({
-                                strings: ["^1000 Well done, that was easy, right? Get to the end of this section and you'll find a goodie in your bonus bag!"],
+                                strings: ["^300 Well done, that was easy, right? Get to the end of this section and you'll find a goodie in your bonus bag!"],
                                 typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
@@ -97,7 +97,7 @@
                 <script>
                     $("#page3wrong").appear(function() {
                             $(".typewriter#tw3B").typed({
-                                strings: ["^1000 I'm afraid not. Don't worry though, you'll have another chance to get something in your bonus bag."],
+                                strings: ["^300 I'm afraid not. Don't worry though, you'll have another chance to get something in your bonus bag."],
                                 typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
@@ -121,15 +121,15 @@
                 <p style="top:4em"><b>The thoughts that started Tunde spiralling out of control were:</b></p>
                 <div class="thought1">
                     <img src="../img/thought.png" class="thought">
-                    <p class="thoughtText absolute-center" id="thoughtText">I've got ages to start that</p>
+                    <img src="../img/thought1.png" class="thought">
                 </div>
                 <div class="thought2">
                     <img src="../img/thought.png" class="thought">
-                    <p class="thoughtText absolute-center" id="thoughtText">It's just a couple of hours, I've still got time to do this</p>
+                    <img src="../img/thought2.png" class="thought">
                 </div>
                 <div class="thought3">
                     <img src="../img/thought.png" class="thought">
-                    <p class="thoughtText absolute-center" id="thoughtText">YOLO!!!</p>
+                    <img src="../img/thought3.png" class="thought">
                 </div>
             </div>
             <a href="#page6" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
@@ -177,18 +177,16 @@
                     <div class="popquizimg">
                         <img src="../img/popquiz.png">
                     </div>
-                    <div class="quizOption1" id="wrong">
-                        <p>It was Tunde's friends that began the journey to her demise</p>
-                    </div>
-                    <div class="quizOption2" id="wrong">
-                        <p>It was Tunde's workload that began the journey to her demise</p>
-                    </div>
-                    <div class="quizOption3" id="right">
-                        <p>It was Tunde's thoughts that began the journey to her demise</p>
-                    </div>
-                    <div class="quizOption4" id="wrong">
-                        <p>It was Tunde's love of chocolate that began the journey to her demise</p>
-                    </div>
+                    <ul class="quizOption">
+                        <li id="wrong">It was Tunde's friends that began the journey to her demise
+                        </li>
+                        <li id="wrong">It was Tunde's workload that began the journey to her demise
+                        </li>
+                        <li id="right">It was Tunde's thoughts that began the journey to her demise
+                        </li>
+                        <li id="wrong">It was Tunde's love of chocolate that began the journey to her demise
+                        </li>
+                    </ul>
                 </div>
             </div>
 

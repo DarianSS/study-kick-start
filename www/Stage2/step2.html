@@ -14,14 +14,15 @@
         <script src="../lib/jquery-2.1.1.min.js"></script>
         <script src="../lib/jquery.mobile-1.4.5.js"></script>        
         <script src="../assets/typed/js/typed.js"></script>
+        <script src="../lib/jquery.foggy.min.js"></script>
+        <script src="../lib/jquery.appear.js"></script>
         <script src="../js/scripts.js"></script>
-        <script src="../js/jquery.foggy.min.js"></script>
     </head>
 
     <body>
         <div data-role="header">
             <header class="bar bar-nav" style="background-color:#68b3c1">
-                    <h1 class="title" style="color:white">Study Kick Start</h1>
+                    <h1 class="title" style="color:white">Managing Heart Stuff</h1>
             </header>
         </div>
 
@@ -52,15 +53,13 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next3").bind("click", function(event, ui) {
-                        $(function() {
+                    $("#page3").appear(function() {
                             $(".typewriter#tw3").typed({
-                                strings: ["^200 Managing your emotions is at the heart of procrastination"],
-                                typeSpeed: 200,
+                                strings: ["^300 Managing your emotions is at the heart of procrastination"],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
                 </script>            
                 <div class="typewriter" id="tw3"> </div>
@@ -79,16 +78,12 @@
 
         <div data-role="page" id="page5">
             <div data-role="content">
-                <table class="categories">
-                    <tr>
-                        <td>Anger</td>
-                        <td>Joy</td> 
-                    </tr>
-                    <tr>
-                        <td>Sadness</td>
-                        <td>Fear</td>
-                    </tr>
-                </table>
+                <ul class="quizOption">
+                    <li>Anger</li>
+                    <li>Joy</li>
+                    <li>Sadness</li>
+                    <li>Fear</li>
+                </ul>
             </div>
             <a href="#page6" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next6"> </a>
         </div>
@@ -97,17 +92,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next6").bind("click", function(event, ui) {
-                        $(function() {
+                    $("#page6").appear(function() {
                             $(".typewriter#tw6").typed({
-                                strings: ["^200 So, what was that like for you? Did you manage to stay with the emotion? Did you find yourself struggling with having the emotion?"],
-                                typeSpeed: 200,
+                                strings: ["^300 So, what was that like for you? Did you manage to stay with the emotion? Did you find yourself struggling with having the emotion?"],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>           
                 <div class="typewriter" id="tw6"> </div>
                 <a href="#page7" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
@@ -136,28 +129,22 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next9").bind("click", function(event, ui) {
-                        $(function() {
+                    $("#page9").appear(function() {
                             $(".typewriter#tw9").typed({
-                                strings: ["^200 <b>Tip: </b>It can be hard to find motivation if you don't pause to appreciate what you've done. Make sure you stand back from your tasks, work, projects to fully appreciate your achievements."],
-                                typeSpeed: 200,
+                                strings: ["^300 <b>Tip: </b>It can be hard to find motivation if you don't pause to appreciate what you've done. Make sure you stand back from your tasks, work, projects to fully appreciate your achievements."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>           
                 <div class="typewriter" id="tw9"> </div>
                 <a href="#page10" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
         </div>
 
         <div data-role="page" id="page10">
-            <div data-role="content">
-                <audio controls>
-                    <source src="media/expansion.mp3" type="audio/mpeg">
-                </audio>
-            </div>
+            <iframe class="sound" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/202999616&amp;color=68b3c1&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
             <a href="#page11" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next11"> </a>
         </div>
 
@@ -165,17 +152,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next11").bind("click", function(event, ui) {
-                        $(function() {
+                    $("#page11").appear(function() {
                             $(".typewriter#tw11").typed({
-                                strings: ["^200 I'll visit you a few times tomorrow to remind you to practice managing heart stuff with the expansion exercise."],
-                                typeSpeed: 200,
+                                strings: ["^300 I'll visit you a few times tomorrow to remind you to practice managing heart stuff with the expansion exercise."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>         
                 <div class="typewriter" id="tw11"> </div>
                 <a href="../menu.html#menu2" rel="external" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>

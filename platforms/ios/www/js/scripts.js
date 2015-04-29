@@ -55,7 +55,6 @@ $(document).ready(function() {
                                     opacity: 0.8,  
                                     cssFilterSupport: true
                                 })
-                                //.fadeIn("slow")
                                 .dequeue();
                                 $(".characterIntro").delay(2300).fadeIn("slow")
                             });
@@ -63,11 +62,10 @@ $(document).ready(function() {
     });
 
     ////////////////////////////   Quizes   //////////////////////////// 
-    $(".quiz #wrong, #right").click(function() {
+    $(".quiz #wrong, #right").click(function() {    
         $(".quiz *").css('background-color', 'transparent');        
         $(this).css('background-color', 'rgba(104, 179, 193, 1)'); 
         quizAnswer = $(this).attr("id");
-        alert(quizAnswer);
         parent = $(this).parents("[data-role='page']");
         address = "#" + parent.attr("id") + quizAnswer; 
         child = $(parent).children("a"); 
@@ -113,36 +111,6 @@ $(document).ready(function() {
     $(".thought").click(function() {
         $(this).next().fadeIn("slow");
     });   
-
-    ////////////////////////////   Timer   //////////////////////////// 
-    /* $(".timer").TimeCircles({
-        "bg_width": 0.2,
-        "fg_width": 0.03,
-        "count_past_zero": false,
-        "circle_bg_color": "#091a37",
-        "time": {
-            "Days": {
-                "text": "Days",
-                "color": "#FFCC66",
-                "show": false
-            },
-            "Hours": {
-                "text": "Hours",
-                "color": "#99CCFF",
-                "show": false
-            },
-            "Minutes": {
-                "text": "Minutes",
-                "color": "#BBFFBB",
-                "show": false
-            },
-            "Seconds": {
-                "text": "Seconds",
-                "color": "#68b3c1",
-                "show": true
-            }
-        }    
-    }); */     //call me maybe when you want to implement this in the html
 }); 
 
 

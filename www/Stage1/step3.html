@@ -14,8 +14,8 @@
         <script src="../lib/jquery-2.1.1.min.js"></script>
         <script src="../lib/jquery.mobile-1.4.5.js"></script>        
         <script src="../assets/typed/js/typed.js"></script>
-        <script src="../js/jquery.foggy.min.js"></script>
-        <script src="../js/jquery.appear.js"></script>
+        <script src="../lib/jquery.foggy.min.js"></script>
+        <script src="../lib/jquery.appear.js"></script>
         <script src="../js/scripts.js"></script>
     </head>
 
@@ -87,7 +87,7 @@
 
         <div data-role="page" id="page4">
             <div data-role="content">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rlAvQiWTJRU?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/rlAvQiWTJRU?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                 <a href="#page5" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a>
             </div>
         </div>
@@ -121,7 +121,7 @@
 
         <div data-role="page" id="page8">
             <div data-role="content">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CJNobdBwkVc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/CJNobdBwkVc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                 <a href="#page9" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next" id="next9"> </a>
             </div>
         </div>
@@ -130,22 +130,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next9").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page9").appear(function() {
                             $(".typewriter#tw9").typed({
-                                strings: ["^200 Emotions consist of physiological and psychologi cal changes and so it's quite normal for bodily sensations to be emotions, and for emotions to contain bodily sensations."],
-                                typeSpeed: 200,
+                                strings: ["^300 Emotions consist of physiological and psychologi cal changes and so it's quite normal for bodily sensations to be emotions, and for emotions to contain bodily sensations."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script>  
                 <div class="typewriter" id="tw9"> </div>
                 <a href="#page10" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
@@ -170,22 +163,15 @@
             <div data-role="content">
                 <div class="didyouknow"> </div>
                 <script>
-                    $("#next11").bind("click", function(event, ui) {
-                        $(function() {
-                            $(".didyouknow").delay(5000)
-                                            .queue(function() {
-                                                $(this)
-                                                    .dequeue();
-                                            });
+                    $("#page11").appear(function() {
                             $(".typewriter#tw11").typed({
-                                strings: ["^200 <b>Tip: </b>Exercise is one way to make use of the extra energy in your body so that you're free to study."],
-                                typeSpeed: 200,
+                                strings: ["^300 <b>Tip: </b>Exercise is one way to make use of the extra energy in your body so that you're free to study."],
+                                typeSpeed: 60,
                                 contentType: 'html',
                                 showCursor: false
                             });
-                        });
                     });
-                </script>            
+                </script> 
                 <div class="typewriter" id="tw11"> </div>
                 <a href="#page12" data-transition="slidefade"><input type="image" src="../img/next-button-transparent.png" class="next"> </a> 
             </div>
